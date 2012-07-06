@@ -1,0 +1,66 @@
+.tabbed_content {
+	background-color: #FFFFFF;
+	width: 960px;	
+}
+
+.tabs {
+	height: 62px;
+	position: relative;
+}
+
+.tabs .moving_bg {
+	padding: 15px;
+	background-color:#F0F0FF;
+	border: 1px solid #37414F;
+
+	-webkit-border-radius: 7px; 
+	-moz-border-radius: 7px; /* Firefox 3.6 and earlier */
+	border-radius: 7px;
+
+	/*background-image:url(../images/arrow_down_green.gif);*/
+	position: absolute;
+	width: 125px;
+	z-index: 190;
+	left: 0;
+	margin-bottom: 29px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.tabs .tab_item {
+	display: block;
+	float: left;
+	padding: 15px;
+	width: 125px;
+	color: #000000;
+	text-align: center;
+	z-index: 200;
+	position: relative;
+	cursor: pointer;
+}
+
+.tabbed_content .slide_content {
+	overflow: hidden;
+	background-color: #FFFFFF;
+	padding: 20px 20px 20px 20px;
+	position: relative;
+	width: 960px;
+}
+
+.tabslider {
+	width: 5000px;
+}
+
+.tabslider ul {
+	float: left;
+	width: 960px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 40px;
+}
+
+.tabslider ul {
+	color: #000000;
+	text-decoration: none;
+}
+
