@@ -251,3 +251,76 @@ ls
 cd website/
 ls
 exit
+ls
+git
+ls
+git init
+ls
+ls -a
+cat .ssh
+cd .ssh
+ls
+cat known_hosts 
+q
+ls
+cd ../
+ls
+cd public_html/
+ls
+mkdir _jefftest
+ls
+cd _jefftest
+ls
+cat index.php
+git init
+add README.txt
+ls
+cat README.txt
+ls
+cd ../
+ls
+cd ../
+ls
+add .
+git add .
+git commit -a -m "init"
+ls
+ls -a
+exit
+ls
+ls -la
+cd .ssh
+ls
+vim known_hosts 
+clear
+ls
+cd
+ls
+vim public_html/
+cd public_html/
+ls
+ls -la
+vim index.php 
+mkdir _jaketest
+cd _jaketest/
+vim index.php
+cd
+ls -la
+cd .git
+clear
+git status
+ls
+cd
+ls
+git status
+git stauts
+git status
+cd public_html/_jaketest/
+cat index.php 
+ls
+cd public_html/
+ls
+cd _jefftest/
+ls
+cd ../
+exit
