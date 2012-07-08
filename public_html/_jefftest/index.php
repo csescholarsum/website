@@ -35,17 +35,82 @@ PURPOSE: website main page
 				message_popup("Welcome to CSE Scholars.com", "Click here to view helpful programming resources.", 1, "");
 			}
 
+
+			$( "img.loader").load(function() {
+				ajax_load('content/blog.php', this);
+			});
+
 		});
 
+		//Load Pages via AJAX
+		function ajax_load( url, obj) {
+
+			$.ajax({
+				type: "POST",
+				url: url,
+				success: function(text) {
+
+					$(obj).parent().html(text);
+				}
+			});
+
+		}
+
+		//Code used from:
+		//http://www.aaronpeters.nl/blog/iframe-loading-techniques-performance?%3E#onload
+/*
+		//doesn't block the load event
+		function createIframe(){
+			var i = document.createElement("iframe");
+			i.src = "http://csescholars.blogspot.com/";
+			i.scrolling = "auto";
+			i.frameborder = "0";
+			i.width = "920px";
+			i.height = "650px";
+			document.getElementById("blog_tab_content").appendChild(i);
+		};
+	
+		// Check for browser support of event handling capability
+		if (window.addEventListener)
+			window.addEventListener("load", createIframe, false);
+		else if (window.attachEvent)
+			window.attachEvent("onload", createIframe);
+		else
+			window.onload = createIframe;
+*/
 	</script>
 
 	<link href='css/tabbedContent.css' rel='stylesheet' type='text/css' />
     <script src="js/tabbedContent.js" type="text/javascript"></script>
+
+    <title>
+    	CSE Scholars
+    </title>
 </head>
 
 <div class='container'>
 
+<div class='header'>
+
+	<div class='title'>
+		<h1>
+			CSE Scholars
+		</h1>
+		<h4>
+			University of Michigan
+		</h4>
+		<h5>
+			Organization for computer science and electrical engineering.
+		</h5>
+	</div>
+	<div class='image'>
+		<img src="images/header.jpg">
+	</div>
+</div>
+
 <div class='tabbed_content'>
+
+	<!--menu-->
     <div class='tabs'>
         <div class='moving_bg'>
             &nbsp;
@@ -63,7 +128,10 @@ PURPOSE: website main page
         	Resources
         </span>
     </div>
- 
+    <br />
+    <!--<hr style='width: 960px' />-->
+
+	<!--page contents--> 
     <div class='slide_content'>
         <div class='tabslider'>
  
@@ -73,9 +141,10 @@ PURPOSE: website main page
 					include('content/home.php');
 ?>			    
 			</ul>
-			<ul>
+			<ul id='blog_tab_content'>
+				<img src="images/ajax-loader.gif" class='loader'>
 <?php
-					include('content/blog.php');
+					//include('content/blog.php');
 ?>		
 			</ul>
 			<ul>
@@ -92,12 +161,14 @@ PURPOSE: website main page
         </div>
     </div>
 </div>
+
+<!-- sample things
 	<div class='shell'>
 		<h3>shell</h3>
 		<p>content will go here. in nice format.</p>
 	</div>
 	<button class='button'>A button element</button>
-	
+-->
 	<br />
 <?php
 	include('bottom.php');

@@ -540,7 +540,7 @@
 			"file": "public_html/_jefftest/css/style.css",
 			"settings":
 			{
-				"buffer_size": 1055,
+				"buffer_size": 1054,
 				"line_ending": "Windows"
 			}
 		},
@@ -969,8 +969,8 @@
 						"selection":
 						[
 							[
-								56,
-								56
+								314,
+								314
 							]
 						],
 						"settings":
@@ -979,7 +979,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 418.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -989,15 +989,15 @@
 					"file": "public_html/_jefftest/css/style.css",
 					"settings":
 					{
-						"buffer_size": 1055,
+						"buffer_size": 1054,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								645,
+								645
 							]
 						],
 						"settings":
@@ -1006,7 +1006,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 665.0,
+						"translation.y": 323.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

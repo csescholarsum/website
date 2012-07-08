@@ -1,10 +1,10 @@
 .tabbed_content {
 	background-color: #FFFFFF;
-	width: 960px;	
+	width: 920px;	
 }
 
 .tabs {
-	height: 62px;
+	height: 25px;
 	position: relative;
 }
 
@@ -12,17 +12,22 @@
 	padding: 15px;
 	background-color:#F0F0FF;
 	border: 1px solid #37414F;
+	border-top: 0px;
 
-	-webkit-border-radius: 7px; 
-	-moz-border-radius: 7px; /* Firefox 3.6 and earlier */
-	border-radius: 7px;
+	margin-top: -1px;
+
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 
 	/*background-image:url(../images/arrow_down_green.gif);*/
 	position: absolute;
 	width: 125px;
 	z-index: 190;
 	left: 0;
-	margin-bottom: 29px;
 	background-position: bottom left;
 	background-repeat: no-repeat;
 }
@@ -42,7 +47,7 @@
 .tabbed_content .slide_content {
 	overflow: hidden;
 	background-color: #FFFFFF;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 0px 20px 20px;
 	position: relative;
 	width: 960px;
 }
@@ -53,11 +58,12 @@
 
 .tabslider ul {
 	float: left;
-	width: 960px;
+	width: 920px;
 	margin: 0px;
 	padding: 0px;
 	margin-right: 40px;
-}
+	height: 650px;
+	overflow: auto;
 
 .tabslider ul {
 	color: #000000;
