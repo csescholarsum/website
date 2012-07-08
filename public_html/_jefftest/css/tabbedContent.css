@@ -25,7 +25,7 @@
 
 	/*background-image:url(../images/arrow_down_green.gif);*/
 	position: absolute;
-	width: 125px;
+	width: 80px;
 	z-index: 190;
 	left: 0;
 	background-position: bottom left;
@@ -36,7 +36,7 @@
 	display: block;
 	float: left;
 	padding: 15px;
-	width: 125px;
+	width: 80px;
 	color: #000000;
 	text-align: center;
 	z-index: 200;
@@ -53,7 +53,7 @@
 }
 
 .tabslider {
-	width: 5000px;
+	width: 9000px;
 }
 
 .tabslider ul {

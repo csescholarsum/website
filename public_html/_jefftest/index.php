@@ -19,7 +19,7 @@ PURPOSE: website main page
 
 
 			//Message Enum
-			var type_message = {"members":1, "calendar":2, "resources":3};
+			/*var type_message = {"members":1, "calendar":2, "resources":3};
 			Object.freeze(type_message);
 
 			//Randomly generate welcome message
@@ -34,6 +34,7 @@ PURPOSE: website main page
 			else if (random_message == type_message.resources) {
 				message_popup("Welcome to CSE Scholars.com", "Click here to view helpful programming resources.", 1, "");
 			}
+			*/
 
 
 			$( "img.loader").load(function() {
@@ -56,28 +57,6 @@ PURPOSE: website main page
 
 		}
 
-		//Code used from:
-		//http://www.aaronpeters.nl/blog/iframe-loading-techniques-performance?%3E#onload
-/*
-		//doesn't block the load event
-		function createIframe(){
-			var i = document.createElement("iframe");
-			i.src = "http://csescholars.blogspot.com/";
-			i.scrolling = "auto";
-			i.frameborder = "0";
-			i.width = "920px";
-			i.height = "650px";
-			document.getElementById("blog_tab_content").appendChild(i);
-		};
-	
-		// Check for browser support of event handling capability
-		if (window.addEventListener)
-			window.addEventListener("load", createIframe, false);
-		else if (window.attachEvent)
-			window.attachEvent("onload", createIframe);
-		else
-			window.onload = createIframe;
-*/
 	</script>
 
 	<link href='css/tabbedContent.css' rel='stylesheet' type='text/css' />
@@ -125,7 +104,16 @@ PURPOSE: website main page
         	Calendar
         </span>
         <span class='tab_item'>
+        	Members
+        </span>
+                <span class='tab_item'>
+        	Tutoring
+        </span>
+                <span class='tab_item'>
         	Resources
+        </span>
+                <span class='tab_item'>
+        	Contact Us
         </span>
     </div>
     <br />
@@ -142,7 +130,8 @@ PURPOSE: website main page
 ?>			    
 			</ul>
 			<ul id='blog_tab_content'>
-				<img src="images/ajax-loader.gif" class='loader'>
+				<br />
+				<img src="images/ajax-loader.gif" class='loader'> Loading...
 <?php
 					//include('content/blog.php');
 ?>		
@@ -152,9 +141,26 @@ PURPOSE: website main page
 					include('content/calendar.php');
 ?>	
 			</ul>
+			<ul id='members'>
+<?php
+					include('content/members.php');
+?>	
+			</ul>
 			<ul>
 <?php
+					echo "Coming soon...";
+
+?>
+			</ul>
+			<ul>
+<?php
+
 					include('content/resources.php');
+?>	
+			</ul>
+			<ul>
+<?php
+					include('content/contact.php');
 ?>	
 			</ul>
  

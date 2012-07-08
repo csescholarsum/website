@@ -1,7 +1,57 @@
-<?php
-$curPage="contact";
-include("top.php"); 
-?>
+<style type="text/css">
+
+.officer .name{
+  float: left;
+  margin-right: 30px;
+}
+
+.officer .position
+{
+  margin: 0;
+  padding: 20px 20px 0 20px;
+  
+  border-bottom: 1px solid #37414F;
+  font-size: large;
+}
+
+.officer .email {
+
+  text-align: right;
+}
+
+.officer .email a:hover
+{
+  text-align: right;
+  text-decoration: none;
+}
+
+.officer .description
+{
+  margin-top: 10;
+  padding: 0 20px;
+  
+}
+
+.officer .meta
+{
+  height: 25px;
+  margin: 15px 0 20px 0;
+  padding: 10px 0 0 20px;
+  background: #4E9FC8 url(images/img07.gif) no-repeat;
+  line-height: normal;
+}
+
+#officers_table {
+
+  width: 550px;
+  margin: 0px auto;
+}
+
+</style>
+
+<p>To email all officers, please use: <a href="mailto:cseschol-officers@umich.edu">cseschol-officers@umich.edu</a>
+</p>
+<br />
 
 <div id="officers_table">
 	<div class="officer">
@@ -81,9 +131,4 @@ include("top.php");
 
 </div>
 <br /><br />
-<p>To email all officers, please use: <a href="mailto:cseschol-officers@umich.edu">cseschol-officers@umich.edu</a>
-</p>
-<?php
-include ("side.php");
-include("bottom.php");
-?>
+
