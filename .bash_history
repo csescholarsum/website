@@ -324,3 +324,21 @@ cd _jefftest/
 ls
 cd ../
 exit
+git status
+git commit -a -m "ap scholars web modified"
+git status
+git clear -f -d
+git clean -f -d
+git add public_html/_jefftest/
+exit
+git branch
+git branch test
+git branch
+git checkout test
+exit
+git checkout master
+git checkout test
+git status
+git branch
+git checkout master
+exit
