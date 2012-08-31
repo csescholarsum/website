@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+@font-face{
+  font-family:'MuseoSans500';
+  src: url('fonts/MuseoSans_500-webfont.eot'); /* here you go, IE */
+}
+@font-face{
+  font-family:'MuseoSans500';
+  src: url('fonts/MuseoSans_500.otf'); /* everyone else take this */
+}
+@font-face{
+  font-family:'Florin_Sans_DEMO';
+  src: url('fonts/Florin_Sans_DEMO.otf'); /* everyone else take this */
+}
+
+body {
+	font-family: "Liberation Sans", Arial, Helvetica, sans-serif;
+	background: url(images/backslice.png) repeat-x #333230;
+	height: 100%;
+}
+
+p {
+	font-weight: 100;
+}
+
+div#nonfooter{
+	position: relative;
+	min-height: 100%;
+}
+
+* html #nonfooter{
+	height: 100%;
+}
+
+div#page-wrap {
+	width: 1020px;
+	margin: 0 auto;
+	
+}
+
+div#header {
+	background: url(images/header.png) no-repeat;
+	margin-top: 37px;
+	height: 231px;
+}
+
+ul#nav {
+	height: 48px;
+	width: 800px;
+	margin: -17px 0px 0px 15px;
+	list-style:none;
+	
+}
+
+ul#nav li {
+	display:inline;
+}
+
+
+ul#nav li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	height: 31px;
+	width: 140px;
+	margin: 0px 3px 0px 3px;
+	overflow: hidden;
+	background: url(images/navsprite.png);
+	text-indent: -9999px;
+}
+
+ul#nav li#aboutus a { background-position: 0px 0px; }
+ul#nav li#ourteam a { background-position: 0px 93px; }
+ul#nav li#ourservices a { background-position: 0px 62px; }
+ul#nav li#contactus a {	background-position: 0px 31px; }
+
+ul#nav li#aboutus a:hover { background-position: 140px 0px; }
+ul#nav li#ourteam a:hover { background-position: 140px 93px; }
+ul#nav li#ourservices a:hover { background-position: 140px 62px; }
+ul#nav li#contactus a:hover { background-position: 140px 31px; }
+
+ul#nav li#aboutus.current a { background-position: 140px 0px;  }
+ul#nav li#ourteam.current a { background-position: 140px 93px; }
+ul#nav li#ourservices.current a { background-position: 140px 62px; }
+ul#nav li#contactus.current a { background-position: 140px 31px; }
+
+
+div#content{
+	margin: 50px 400px 0px 15px;
+	padding-bottom: 9em;
+
+}
+
+div#content {
+	color: white;
+}
+
+div#appoint {
+	color: white;
+	width: 500px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+form#appoint {
+	color: white;
+}
+
+
+div#footer {
+	background: #97B250;
+	color: white;
+	height: 25px;
+	position: relative;
+	margin-top: -1em;
+	
+}
+
+div#footer p{
+	text-align: center;
+	vertical-align: center;
+}
+
+div#john {
+	border: 3px white solid;
+}
+
+div#donna {
+	border: 3px white solid;
+	margin-top: 15px;
+}
+
+ul#insurance {
+	margin: 5px 0px 0px 15px;
+	list-style: none;
+}
+

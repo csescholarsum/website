@@ -1,0 +1,6 @@
+<?php
+
+$uniquename = "sadpr";
+include("template.php");
+
+?>

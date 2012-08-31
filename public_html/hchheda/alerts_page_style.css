@@ -1,0 +1,65 @@
+#main
+{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#blueHeader
+{
+	background-color: #000066;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+}
+
+#nav
+{
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+#alertTable
+{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#alertTable table
+{
+	
+}
+
+#createAlert
+{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footer
+{
+	text-align: center;
+	padding: 10px;
+}
+
+#blueButton
+{
+	position: relative;
+	background-color: #000066;
+	color: white;
+	text-align: center;
+}
+
+#blueButton:hover
+{
+	cursor: pointer;
+}
+
+#errorDiv
+{
+	color: red;
+	padding-bottom: 10px;
+	display: none;
+}

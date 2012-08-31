@@ -1,0 +1,1101 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"select_html"
+			],
+			[
+				"my",
+				"my_vote"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_row"
+			],
+			[
+				"poll",
+				"poll_id"
+			],
+			[
+				"prin",
+				"print_poll_results"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"po",
+				"poll_popup"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"vi",
+				"view_poll_row"
+			],
+			[
+				"g",
+				"gpa"
+			],
+			[
+				"gr",
+				"gradYear"
+			],
+			[
+				"show",
+				"showResume"
+			],
+			[
+				"mem",
+				"member_name"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"loca",
+				"localhost"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"em",
+				"submit_email_text"
+			],
+			[
+				"del",
+				"deleted"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"rc",
+				"rcpath"
+			],
+			[
+				"slid",
+				"slide_content"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"ui",
+				"ui-widget-content"
+			],
+			[
+				"me",
+				"message_popup"
+			],
+			[
+				"r",
+				"random_message"
+			],
+			[
+				"da",
+				"datepicker"
+			],
+			[
+				"con",
+				"concat"
+			],
+			[
+				"tx",
+				"tx_user_id"
+			],
+			[
+				"G",
+				"GROUP_CONCAT"
+			],
+			[
+				"us",
+				"user_id_multi"
+			],
+			[
+				"attention_content_",
+				"attention_content_client"
+			],
+			[
+				"amount_",
+				"amount_client"
+			],
+			[
+				"dialog_",
+				"dialog_client"
+			],
+			[
+				"dis",
+				"display_message"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"mute",
+				"mute_button"
+			],
+			[
+				"mu",
+				"mute_button"
+			],
+			[
+				"ui-ico",
+				"ui-icon-volume-on"
+			],
+			[
+				"jq",
+				"jQuery"
+			],
+			[
+				"temp",
+				"temp_process"
+			],
+			[
+				"te",
+				"temp_process"
+			],
+			[
+				"html",
+				"html_tag"
+			],
+			[
+				"Connect",
+				"connection"
+			],
+			[
+				"AMo",
+				"AModelBase"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"at",
+				"attentions_sent"
+			],
+			[
+				"mes",
+				"message_popup"
+			],
+			[
+				"proc",
+				"process"
+			],
+			[
+				"case",
+				"case_id"
+			],
+			[
+				"acti",
+				"action_by"
+			],
+			[
+				"to",
+				"to_java_table"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"bac",
+				"background	background-color: hex"
+			],
+			[
+				"messa",
+				"message_popup"
+			],
+			[
+				"pop",
+				"popup_link"
+			],
+			[
+				"aj",
+				"ajax_get_new_attention"
+			],
+			[
+				"receiver",
+				"receiver_new"
+			],
+			[
+				"time",
+				"time_on"
+			],
+			[
+				"m",
+				"message_popup_remove"
+			],
+			[
+				"ef",
+				"effect_close"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ti",
+				"time_on"
+			],
+			[
+				"sna",
+				"snapshot_row"
+			],
+			[
+				"re",
+				"received_sent"
+			],
+			[
+				"received_s",
+				"received_sent"
+			],
+			[
+				"received_a",
+				"received_action"
+			],
+			[
+				"rec",
+				"received_checked"
+			],
+			[
+				"admin",
+				"admin"
+			],
+			[
+				"of",
+				"offsetParent"
+			],
+			[
+				"rem",
+				"remove_message"
+			],
+			[
+				"cl",
+				"closedc"
+			],
+			[
+				"clo",
+				"closedCases"
+			],
+			[
+				"tem",
+				"temp_atten"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ui-d",
+				"ui-dialog-titlebar"
+			],
+			[
+				"che",
+				"checkbox_function"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"a",
+				"attention"
+			],
+			[
+				"act",
+				"action_edit_attention"
+			],
+			[
+				"sel",
+				"selected_attention_id"
+			],
+			[
+				"sen",
+				"sent_data"
+			],
+			[
+				"post",
+				"post_data"
+			],
+			[
+				"fo",
+				"form_sent"
+			],
+			[
+				"form",
+				"form_received"
+			],
+			[
+				"user",
+				"userlogin"
+			],
+			[
+				"sent",
+				"sent_prior"
+			],
+			[
+				"com",
+				"company_name"
+			],
+			[
+				"sent_",
+				"sent_name"
+			],
+			[
+				"ac",
+				"action_by"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"rece",
+				"received_data"
+			],
+			[
+				"t",
+				"tbody	Tag"
+			],
+			[
+				"is",
+				"is_sent"
+			],
+			[
+				"att",
+				"attention_list"
+			],
+			[
+				"print_",
+				"print_admin_attentions_received"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"u",
+				"user_ids"
+			],
+			[
+				"nu",
+				"number_of_rows"
+			],
+			[
+				"ad",
+				"admin_attention"
+			],
+			[
+				"user_",
+				"user_id"
+			],
+			[
+				"pri",
+				"priority"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"reci",
+				"reciever_new"
+			],
+			[
+				"link",
+				"linked_id"
+			],
+			[
+				"last_r",
+				"last_research_mail"
+			],
+			[
+				"inclu",
+				"include_once"
+			],
+			[
+				"old",
+				"old_snapshot"
+			],
+			[
+				"ha",
+				"handle_process_id"
+			],
+			[
+				"reso",
+				"res_owner_time"
+			],
+			[
+				"la",
+				"last_research_owner"
+			],
+			[
+				"res",
+				"res_ledger"
+			],
+			[
+				"resear",
+				"last_research_owner"
+			],
+			[
+				"res_",
+				"res_owner"
+			],
+			[
+				"ol",
+				"old_snapshot"
+			],
+			[
+				"old_",
+				"old_snapshotS"
+			],
+			[
+				"A",
+				"Account"
+			],
+			[
+				"PRO",
+				"PROCCESS_UNASSIGNED"
+			],
+			[
+				"change",
+				"change_edit"
+			],
+			[
+				"mog",
+				"mortgage_date"
+			],
+			[
+				"mor",
+				"mortgage_date"
+			],
+			[
+				"R",
+				"Resident"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public_html/_jefftest/content/my_admin_profile.php",
+			"settings":
+			{
+				"buffer_size": 873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/ajax/profile.php",
+			"settings":
+			{
+				"buffer_size": 1262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/ajax/polls.php",
+			"settings":
+			{
+				"buffer_size": 2412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/tools/functions.php",
+			"settings":
+			{
+				"buffer_size": 2636,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/print_poll_result.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/save_vote.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/view_poll.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/save_email_of_visitor.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/home.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/init.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/admin.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/member.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/not_logged_in.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/functions.php",
+		"/C/wamp/www/cse_scholars_test/public_html/members/viewpoll.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_search_notes.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_get_all_notes.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_search_cases.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/my_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/login/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/login.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/login/.htaccess",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/.htaccess",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/config.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/linked-cases.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action_save_email_of_visitor.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/alumni.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/.htaccess",
+		"/C/wamp/www/cse_scholars_test/public_html/robot.txt",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/config.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_email_association_foreclosure_invoice.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_email_association_eviction_invoice.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/prospective_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/current_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/dbConnect.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/connections/connection.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/members/viewpoll.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/admin.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/uploadResume.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/db_init.php",
+		"/C/wamp/www/AssociationDues/onyx/model/AModelBase.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/resources.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/about_us.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/Event Logger/_READ_ME.txt",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/resume_book.php",
+		"/C/wamp/www/AssociationDues/onyx/lawsuit-detail.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/db_init.php",
+		"/C/wamp/www/cse_scholars_test/public_html/resumes/jsallans.pdf",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/resume_book.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/prospective.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog_old.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/js/tabbedContent.js",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/style.css",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/tabbedContent.css",
+		"/C/wamp/www/cse_scholars_test/public_html/resume_book/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/members.php",
+		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_jquery.progressbar.2.01.zip/jquery.progressbar/demo.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/bottom.php",
+		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
+		"/C/wamp/www/cse_scholars_test/public_html/top.php",
+		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
+		"/C/wamp/www/cse_scholars_test/public_html/index.php",
+		"/C/wamp/www/AssociationDues/onyx/auth.php",
+		"/C/wamp/www/AssociationDues/onyx/config_jquery.php",
+		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/js/tabbedContent.js",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php",
+		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css",
+		"/C/wamp/www/AssociationDues/onyx/style.css",
+		"/C/wamp/www/AssociationDues/onyx/homeowners-association-detail.php",
+		"/C/wamp/www/AssociationDues/onyx/admin-detail.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_reassign_client_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/model/Admin.php",
+		"/C/wamp/www/AssociationDues/onyx/model/AdminAttention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/property_manager_detail_table_sort.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax_calc_payment.php",
+		"/C/wamp/www/AssociationDues/onyx/homeowners-association_detail_table_sort.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/To Add- Luke/admin-detail.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/To Add- Luke/Admin.php",
+		"/C/wamp/www/AssociationDues/onyx/action_mute.php",
+		"/C/wamp/www/AssociationDues/onyx/action_check_judgment.php",
+		"/C/wamp/www/AssociationDues/onyx/admin_index.php",
+		"/C/wamp/www/AssociationDues/onyx/admin_attention/insert_popup.php",
+		"/C/wamp/www/AssociationDues/onyx/message_popup.php",
+		"/C/wamp/www/AssociationDues/onyx/model/User.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot/snapshot_func.php",
+		"/C/wamp/www/AssociationDues/onyx/model/Account.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-association-edit.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-next-legal-action.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail-display.js",
+		"/C/wamp/www/AssociationDues/onyx/case-detail.php",
+		"/C/wamp/www/onyx backup (6-25-12)/ajax/action_remove_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/action-update-case.php",
+		"/C/wamp/www/AssociationDues/onyx/action_update_case.php",
+		"/C/wamp/www/AssociationDues/onyx/action_add_case.php",
+		"/C/wamp/www/AssociationDues/onyx/maintain_attorney.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail_old (2).php",
+		"/C/wamp/www/AssociationDues/onyx/techadmin.php",
+		"/C/wamp/www/AssociationDues/onyx/summary_report.php",
+		"/C/wamp/www/AssociationDues/onyx/maintain_lien.php",
+		"/C/wamp/www/AssociationDues/onyx/cash_rpt.php",
+		"/C/wamp/www/AssociationDues/onyx/case_activity_rpt.php",
+		"/C/wamp/www/AssociationDues/onyx/case-new_dues_button_patch.php",
+		"/C/wamp/www/AssociationDues/onyx/case-new.php",
+		"/C/wamp/www/AssociationDues/onyx/admin_attention/attention_popup.php",
+		"/C/wamp/www/AssociationDues/onyx/index.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-next-action.php",
+		"/C/wamp/www/AssociationDues/onyx/new-judgment.php",
+		"/C/wamp/www/AssociationDues/onyx/judgment-detail.php",
+		"/C/wamp/www/AssociationDues/onyx/additional_assessment.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/homeowners-association_detail_table_sort.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_remove_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_get_new_attention.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/process cases 6_25_12/cases.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/process cases 6_25_12/cases_table_func_js.js",
+		"/C/wamp/www/AssociationDues/onyx/cases.php",
+		"/C/wamp/www/AssociationDues/onyx/sorting.js",
+		"/C/wamp/www/AssociationDues/onyx/model/ModelHelper.php",
+		"/C/wamp/www/AssociationDues/onyx/cases_table_func_js.js",
+		"/C/wamp/www/AssociationDues/onyx/model/CaseProcessHistory.php",
+		"/C/wamp/www/AssociationDues/onyx/search_table.php",
+		"/C/wamp/www/AssociationDues/onyx/sort_search_logic.php",
+		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_complete_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_in-progress_attention.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/Account.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/cases.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\cse_scholars_test\\public_html",
+			"C:\\wamp\\www\\AssociationDues\\onyx",
+			"C:\\wamp\\www\\AssociationDues",
+			"<open folders>,<open files>",
+			"<open folders>",
+			"<open folders>,<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"writein",
+			"PrintPollResults",
+			"tab_item",
+			"000000",
+			"date_",
+			"dialog",
+			"datepicker",
+			"dialog",
+			"action_complete_attention",
+			"mute_function",
+			"save_changes",
+			"update_admin",
+			"jsa",
+			"textarea",
+			"80px",
+			"snapshot",
+			"-",
+			"textarea",
+			"pword",
+			"role",
+			"select",
+			"\\<a href='javascript:cal",
+			"\\<a href\\=\\'javascript\\:cal",
+			"cal",
+			"select_attentions",
+			"message_popup",
+			"message",
+			"message_popup",
+			"alert",
+			"changeArrows",
+			"');",
+			"processSort",
+			"statusSort",
+			"aProcessHelper",
+			"var_dump",
+			"var_dumpk",
+			"var_dump",
+			"getCaseList",
+			"next_action",
+			"select_search",
+			"getProcess",
+			"die",
+			"select\\(",
+			"select",
+			"die\\(",
+			"die\\(\\'test",
+			"die\\(\\\"test",
+			"die\\(\"test",
+			"die\\(",
+			"die",
+			"getProcess",
+			"select_sear",
+			"next_action",
+			"getStatus",
+			"effect",
+			".dialog",
+			"in-progress",
+			".\");",
+			"received",
+			"move_side_menu",
+			"fillme",
+			"alert",
+			"amount",
+			"slider_edit",
+			"my_form",
+			"dialog",
+			"print_admin_attentions_sent",
+			"//This re-assigns",
+			"cHeckbox_function\\(\\);",
+			"cHeckbox_function();",
+			"jQuery\\(\":checkbox\"\\).click\\(checkbox_function\\);",
+			"jQuery(\":checkbox\").click(checkbox_function);",
+			"sort_table",
+			"\\$",
+			"test",
+			"\\$",
+			"\\$\\(",
+			"jQuery(",
+			"\\$\\(",
+			"\\$(",
+			"\\$",
+			"$",
+			"getid",
+			"received_action",
+			"sent",
+			"tabs",
+			"reciever",
+			"reciever_new",
+			"reciever_remove",
+			"getelementbyid",
+			"document.forms\\[0\\].elements\\[",
+			"document.forms[0].elements[",
+			"calendar2",
+			"button ",
+			"button",
+			"\"",
+			"attention::",
+			"::",
+			" = \\?",
+			" = ?",
+			"jsallans",
+			"select",
+			"dialog_link",
+			"link",
+			"dialog",
+			"dialog_link",
+			"attention_temp",
+			"button",
+			"\\)\\);",
+			"));",
+			"date\\(\"m/d/Y\", strtotime\\(",
+			"date(\"m/d/Y\", strtotime(",
+			"new",
+			"int",
+			"payment",
+			"snapshot_func.php",
+			"snapshot.php",
+			"snapshot.css",
+			"report->",
+			"$report->",
+			"run_php",
+			"searchcase",
+			"search",
+			"onload_home_function",
+			"php",
+			"search",
+			"setNextStatus",
+			"Send Initial Condo FDCPA Letter "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"FFFFFF",
+			"",
+			"message_popup",
+			"sent",
+			"checkbox_function();",
+			"jQuery",
+			"jQuery(",
+			"received",
+			"receiver_new",
+			"receiver_remove",
+			"getElementById",
+			"document.getElementById(",
+			"'",
+			"",
+			"this",
+			"",
+			"date",
+			"account",
+			"home_page->report->",
+			"$home_page->report->",
+			"process",
+			"empty_house_condo",
+			"process",
+			"-",
+			",",
+			"date(\"m/d/Y\", strtotime($snapshot->",
+			"rob",
+			"john",
+			"christy",
+			"lucy",
+			"greg",
+			"andy",
+			"chris",
+			"rob",
+			"john",
+			"christy",
+			"lucy",
+			"mike",
+			"greg",
+			"andy",
+			"chris",
+			"b",
+			"$home_page->",
+			"assoc_block",
+			"owner_edit_block",
+			"include('case-detail/",
+			"update_search_table()",
+			"update_table()",
+			"pink",
+			"GREY",
+			"grey",
+			"FROZEN",
+			"frozen",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public_html/_jefftest/content/my_admin_profile.php",
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public_html/_jefftest/ajax/profile.php",
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1252,
+								1252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public_html/_jefftest/ajax/polls.php",
+					"settings":
+					{
+						"buffer_size": 2412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 702.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public_html/_jefftest/tools/functions.php",
+					"settings":
+					{
+						"buffer_size": 2636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1527,
+								1543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
