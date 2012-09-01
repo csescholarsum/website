@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"res",
+				"resumeFile"
+			],
+			[
+				"ed",
+				"edit_profile_button"
+			],
+			[
+				"pa",
+				"passed_files"
+			],
+			[
+				"uniq",
+				"uniqname"
+			],
+			[
 				"s",
 				"select_html"
 			],
@@ -62,10 +82,6 @@
 			[
 				"loca",
 				"localhost"
-			],
-			[
-				"_",
-				"_SESSION"
 			],
 			[
 				"em",
@@ -472,10 +488,6 @@
 				"last_research_owner"
 			],
 			[
-				"res",
-				"res_ledger"
-			],
-			[
 				"resear",
 				"last_research_owner"
 			],
@@ -502,18 +514,6 @@
 			[
 				"change",
 				"change_edit"
-			],
-			[
-				"mog",
-				"mortgage_date"
-			],
-			[
-				"mor",
-				"mortgage_date"
-			],
-			[
-				"R",
-				"Resident"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "public_html/_jefftest/content/my_admin_profile.php",
 			"settings":
 			{
-				"buffer_size": 873,
+				"buffer_size": 777,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,15 +531,24 @@
 			"file": "public_html/_jefftest/ajax/profile.php",
 			"settings":
 			{
-				"buffer_size": 1262,
+				"buffer_size": 3388,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/ajax/action/save_profile.php",
+			"settings":
+			{
+				"buffer_size": 1057,
+				"line_ending": "Windows",
+				"name": "<?php"
 			}
 		},
 		{
 			"file": "public_html/_jefftest/ajax/polls.php",
 			"settings":
 			{
-				"buffer_size": 2412,
+				"buffer_size": 2751,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,7 +556,23 @@
 			"file": "public_html/_jefftest/tools/functions.php",
 			"settings":
 			{
-				"buffer_size": 2636,
+				"buffer_size": 3374,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/ajax/view_poll.php",
+			"settings":
+			{
+				"buffer_size": 3085,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/ajax/edit_profile.php",
+			"settings":
+			{
+				"buffer_size": 3219,
 				"line_ending": "Windows"
 			}
 		}
@@ -576,6 +601,11 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_resume.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/includes/uploadResume.php",
+		"/C/wamp/www/cse_scholars_test/public_html/members/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/print_poll_result.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/save_vote.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/view_poll.php",
@@ -586,7 +616,6 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/admin.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/member.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/not_logged_in.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/functions.php",
 		"/C/wamp/www/cse_scholars_test/public_html/members/viewpoll.php",
 		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_search_notes.php",
@@ -699,11 +728,7 @@
 		"/C/wamp/www/AssociationDues/onyx/model/CaseProcessHistory.php",
 		"/C/wamp/www/AssociationDues/onyx/search_table.php",
 		"/C/wamp/www/AssociationDues/onyx/sort_search_logic.php",
-		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_complete_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_in-progress_attention.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/Account.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/cases.php"
+		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php"
 	],
 	"find":
 	{
@@ -934,15 +959,15 @@
 					"file": "public_html/_jefftest/content/my_admin_profile.php",
 					"settings":
 					{
-						"buffer_size": 873,
+						"buffer_size": 777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								535,
+								535
 							]
 						],
 						"settings":
@@ -951,7 +976,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -961,15 +986,15 @@
 					"file": "public_html/_jefftest/ajax/profile.php",
 					"settings":
 					{
-						"buffer_size": 1262,
+						"buffer_size": 3388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1252,
-								1252
+								2512,
+								2512
 							]
 						],
 						"settings":
@@ -978,52 +1003,52 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1458.0,
+						"translation.y": 3420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public_html/_jefftest/ajax/polls.php",
+					"file": "public_html/_jefftest/ajax/action/save_profile.php",
 					"settings":
 					{
-						"buffer_size": 2412,
+						"buffer_size": 1057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1051,
-								1051
+								535,
+								535
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "public_html/_jefftest/tools/functions.php",
+					"file": "public_html/_jefftest/ajax/polls.php",
 					"settings":
 					{
-						"buffer_size": 2636,
+						"buffer_size": 2751,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1527,
-								1543
+								888,
+								2302
 							]
 						],
 						"settings":
@@ -1032,7 +1057,86 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 1800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public_html/_jefftest/tools/functions.php",
+					"settings":
+					{
+						"buffer_size": 3374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1609,
+								1609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public_html/_jefftest/ajax/view_poll.php",
+					"settings":
+					{
+						"buffer_size": 3085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public_html/_jefftest/ajax/edit_profile.php",
+					"settings":
+					{
+						"buffer_size": 3219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2409,
+								2409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 160.0,
+						"translation.y": 590.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
