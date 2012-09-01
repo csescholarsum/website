@@ -9,6 +9,7 @@
 		if (isset($_FILES['resumeFile']))
 		{
 			$target_path = $_SESSION['path'] . "resumes/".$uniqname.".pdf"; 
+
 			
 			if ($_FILES['resumeFile']['tmp_name'] != "")
 			{
@@ -19,6 +20,7 @@
 					{
 						mysql_query("UPDATE members SET hasResume = '1' WHERE uniquename = '$uniqname'");
 						$hasResume = 1;
+
 					}
 					else
 					{

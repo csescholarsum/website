@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 function connect_to_db() {
 	####################################
 	# Database connection information   #
@@ -76,6 +77,8 @@ function AddResume($temp_files, $uniqname) {
 
 //______________Before Jeff_________________________
 
+=======
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 function FormatGradDate($gradMonth, $gradYear)
 {
 	if (($gradMonth < 1)||($gradMonth > 12))
@@ -92,6 +95,7 @@ function FormatGradDate($gradMonth, $gradYear)
 
 function DeleteResume($uniqname)
 {
+<<<<<<< HEAD
 	$path = $_SESSION['path'] . "resumes/".$uniqname.".pdf";
 	if (file_exists($path))
 		unlink($path); //remove
@@ -99,12 +103,21 @@ function DeleteResume($uniqname)
 	//Unmark resume exists
 	connect_to_db();
 	mysql_query("UPDATE members SET hasResume = '0' WHERE uniqname = '$uniqname' AND deleted=0");
+=======
+	$path = "../resumes/".$uniqname.".pdf";
+	if (file_exists($path))
+		unlink($path); //remove cover
+	$path = "../".$path;
+	if (file_exists($path))
+		unlink($path); //remove real
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 }
 
 function PrintPollResults($pid)
 {
 	//print votes in decending order here
 	$totalVotes = 0;
+<<<<<<< HEAD
 	$html = "<table>\n";
 	$query = mysql_query("SELECT vote, count(vote) as Frequency from votes WHERE uniqname != '' AND poll_id = '$pid' GROUP BY vote ORDER BY Frequency DESC");
 	while ($voteData = mysql_fetch_row($query))
@@ -119,6 +132,20 @@ function PrintPollResults($pid)
 	$html .= "</table>\n\n";
 
 	return $html;
+=======
+	echo "<table>\n";
+	$query = mysql_query("SELECT vote, count(vote) as Frequency from votes WHERE uniquename != '' AND poll_id = '$pid' GROUP BY vote ORDER BY Frequency DESC");
+	while ($voteData = mysql_fetch_row($query))
+	{
+			echo "\t<tr><td>".stripslashes(stripslashes($voteData[0])).": </td><td>&nbsp;";
+			$numVotes = $voteData[1];
+			$totalVotes += $numVotes;
+			echo $numVotes."</td></tr>\n";
+	}
+	echo "\t<tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n";
+	echo "\t<tr><td>Total Votes: </td><td>&nbsp;$totalVotes</td></tr>\n";
+	echo "</table>\n\n";
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 }
 
 //returns full name of member

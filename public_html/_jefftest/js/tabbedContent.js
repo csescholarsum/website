@@ -34,6 +34,7 @@ var TabbedContent = {
 			duration: 200
 		});
 
+
 		$(obj).parent().parent().find(".tabslider").stop().animate({
 			marginLeft: margin + "px"
 		}, {

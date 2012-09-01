@@ -4,6 +4,7 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"_",
 				"_SESSION"
 			],
@@ -104,6 +105,8 @@
 				"slide_content"
 			],
 			[
+=======
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"mess",
 				"message"
 			],
@@ -392,6 +395,13 @@
 				"action_by"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"_",
+				"_SESSION"
+			],
+			[
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"las",
 				"last_name"
 			],
@@ -400,6 +410,13 @@
 				"order"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"co",
+				"column"
+			],
+			[
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"rece",
 				"received_data"
 			],
@@ -432,6 +449,13 @@
 				"user_ids"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"g",
+				"group_link_id"
+			],
+			[
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"nu",
 				"number_of_rows"
 			],
@@ -488,6 +512,13 @@
 				"last_research_owner"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"res",
+				"res_ledger"
+			],
+			[
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"resear",
 				"last_research_owner"
 			],
@@ -514,12 +545,100 @@
 			[
 				"change",
 				"change_edit"
+<<<<<<< HEAD
+=======
+			],
+			[
+				"mog",
+				"mortgage_date"
+			],
+			[
+				"mor",
+				"mortgage_date"
+			],
+			[
+				"R",
+				"Resident"
+			],
+			[
+				"vac",
+				"Vacant"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"lasr",
+				"last_research_land"
+			],
+			[
+				"last",
+				"last_contact_owner"
+			],
+			[
+				"last-c",
+				"last-contact-assoc-edit"
+			],
+			[
+				"snap",
+				"snapshot_temp"
+			],
+			[
+				"case_",
+				"case_process_history"
+			],
+			[
+				"upda",
+				"update"
+			],
+			[
+				"ca",
+				"case_process_history"
+			],
+			[
+				"p",
+				"process"
+			],
+			[
+				"pr",
+				"process_id"
+			],
+			[
+				"proce",
+				"process_num_to_string"
+			],
+			[
+				"nJ-f",
+				"nJ-ForSuit"
+			],
+			[
+				"last-b",
+				"last-research-balance-edit"
+			],
+			[
+				"last-contact",
+				"last-contact-bank-edit"
+			],
+			[
+				"empty",
+				"empty_house_condo"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"last_re",
+				"last_research_owner"
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+<<<<<<< HEAD
 			"file": "public_html/_jefftest/content/my_admin_profile.php",
 			"settings":
 			{
@@ -540,27 +659,48 @@
 			"settings":
 			{
 				"buffer_size": 1057,
+=======
+			"file": "public_html/_jefftest/index.php",
+			"settings":
+			{
+				"buffer_size": 2072,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "public_html/_jefftest/ajax/polls.php",
 			"settings":
 			{
 				"buffer_size": 2751,
+=======
+			"file": "public_html/_jefftest/css/tabbedContent.css",
+			"settings":
+			{
+				"buffer_size": 1037,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "public_html/_jefftest/tools/functions.php",
 			"settings":
 			{
 				"buffer_size": 3374,
+=======
+			"file": "public_html/_jefftest/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1054,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows"
 			}
 		},
 		{
+<<<<<<< HEAD
 			"file": "public_html/_jefftest/ajax/view_poll.php",
 			"settings":
 			{
@@ -573,6 +713,12 @@
 			"settings":
 			{
 				"buffer_size": 3219,
+=======
+			"file": "public_html/_jefftest/content/blog.php",
+			"settings":
+			{
+				"buffer_size": 191,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows"
 			}
 		}
@@ -601,6 +747,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_resume.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/includes/uploadResume.php",
@@ -669,10 +816,27 @@
 		"/C/wamp/www/cse_scholars_test/public_html/top.php",
 		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
 		"/C/wamp/www/cse_scholars_test/public_html/index.php",
+=======
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/js/tabbedContent.js",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/resources.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/bottom.php",
+		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog.php",
+		"/C/wamp/www/cse_scholars_test/public_html/top.php",
+		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/home.php",
+		"/C/wamp/www/cse_scholars_test/public_html/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/init.php",
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 		"/C/wamp/www/AssociationDues/onyx/auth.php",
 		"/C/wamp/www/AssociationDues/onyx/config_jquery.php",
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/js/tabbedContent.js",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php",
+<<<<<<< HEAD
+=======
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/style.css",
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css",
 		"/C/wamp/www/AssociationDues/onyx/style.css",
 		"/C/wamp/www/AssociationDues/onyx/homeowners-association-detail.php",
@@ -728,7 +892,67 @@
 		"/C/wamp/www/AssociationDues/onyx/model/CaseProcessHistory.php",
 		"/C/wamp/www/AssociationDues/onyx/search_table.php",
 		"/C/wamp/www/AssociationDues/onyx/sort_search_logic.php",
+<<<<<<< HEAD
 		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php"
+=======
+		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_complete_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_in-progress_attention.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/Account.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/cases.php",
+		"/C/wamp/www/AssociationDues/onyx/model/CaseStatus.php",
+		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/js/jquery-ui-1.8.21.custom.min.js",
+		"/C/wamp/www/AssociationDues/onyx/config.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_reassign_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_edit_attention.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/admin_detail_table_sort.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot/snapshot.php",
+		"/C/wamp/www/AssociationDues/onyx/move_side_menu.js",
+		"/C/wamp/www/AssociationDues/onyx/admin_attention/form_insert.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/action_get_snapshot.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot/README.txt",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/case_filter_js.php",
+		"/C/wamp/www/AssociationDues/onyx/case_filter_block.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-notification.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/To Add- Jeff/ajax/ajax_home_page.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-unit-number-edit.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/get_var.php",
+		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/index.html",
+		"/C/wamp/www/AssociationDues/onyx/cases_ie.php",
+		"/C/Users/Jeff Sallans/Dropbox/ADAC/_6_19_12/case-detail.php",
+		"/C/wamp/www/AssociationDues/onyx/calendar2.js",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-dues-assigned.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-new-dues-assigned.php",
+		"/C/wamp/www/AssociationDues/onyx/view_all_notes.php",
+		"/C/wamp/www/AssociationDues/onyx/model/Attention.php",
+		"/C/wamp/www/AssociationDues/onyx/Attention.php",
+		"/C/wamp/www/AssociationDues/onyx/Admin.php",
+		"/C/wamp/www/AssociationDues/onyx/menu.php",
+		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/css/blitzer/jquery-ui-1.8.21.custom.css",
+		"/C/wamp/www/AssociationDues/onyx/action-process-notification-action.php",
+		"/C/wamp/www/AssociationDues/onyx/batch/batch_controller.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/ajax_home_page.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot_func.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax_home_page.php",
+		"/C/wamp/www/AssociationDues/onyx/action_search_case.php",
+		"/C/wamp/www/AssociationDues/onyx/case_filter_js.php",
+		"/C/wamp/www/AssociationDues/onyx/model/AModelBase.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax/search_disp.php",
+		"/C/wamp/www/AssociationDues/onyx/action-add-payment.php",
+		"/C/wamp/www/AssociationDues/onyx/ajax_autocomplete.js",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-owner-edit.php",
+		"/C/wamp/www/_repos/test/home.php",
+		"/C/Users/Jeff Sallans/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-owner-info.php",
+		"/C/wamp/www/git test/mysql practice/home.php",
+		"/C/wamp/www/AssociationDues/onyx/model/Letter.php",
+		"/C/wamp/www/AssociationDues/onyx/snapshot.css",
+		"/C/wamp/www/AssociationDues/onyx/case-detail/unset_var.php",
+		"/C/wamp/www/AssociationDues/onyx/case-detail_js.php",
+		"/C/wamp/www/CSE Scholars Website/F12 CSE Scholars/public_html/resume_book/prospective.php",
+		"/C/wamp/www/CSE Scholars Website/F12 CSE Scholars/public_html/resume_book/db_init.php"
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 	],
 	"find":
 	{
@@ -739,7 +963,10 @@
 		"height": 0.0,
 		"where_history":
 		[
+<<<<<<< HEAD
 			"C:\\wamp\\www\\cse_scholars_test\\public_html",
+=======
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			"C:\\wamp\\www\\AssociationDues\\onyx",
 			"C:\\wamp\\www\\AssociationDues",
 			"<open folders>,<open files>",
@@ -752,9 +979,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"writein",
 			"PrintPollResults",
 			"tab_item",
+=======
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			"000000",
 			"date_",
 			"dialog",
@@ -879,7 +1109,14 @@
 			"php",
 			"search",
 			"setNextStatus",
+<<<<<<< HEAD
 			"Send Initial Condo FDCPA Letter "
+=======
+			"Send Initial Condo FDCPA Letter ",
+			"notification",
+			"notifications",
+			"setfro"
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -951,81 +1188,138 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 2,
+=======
+			"selected": 1,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			"sheets":
 			[
 				{
 					"buffer": 0,
+<<<<<<< HEAD
 					"file": "public_html/_jefftest/content/my_admin_profile.php",
 					"settings":
 					{
 						"buffer_size": 777,
+=======
+					"file": "public_html/_jefftest/index.php",
+					"settings":
+					{
+						"buffer_size": 2072,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								535,
 								535
+=======
+								1092,
+								1092
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
+=======
+							"auto_name": "<?php",
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 540.0,
+=======
+						"translation.y": 570.0,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+<<<<<<< HEAD
 					"file": "public_html/_jefftest/ajax/profile.php",
 					"settings":
 					{
 						"buffer_size": 3388,
+=======
+					"file": "public_html/_jefftest/css/tabbedContent.css",
+					"settings":
+					{
+						"buffer_size": 1037,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								2512,
 								2512
+=======
+								314,
+								314
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 3420.0,
+=======
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+<<<<<<< HEAD
 					"file": "public_html/_jefftest/ajax/action/save_profile.php",
 					"settings":
 					{
 						"buffer_size": 1057,
+=======
+					"file": "public_html/_jefftest/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1054,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								535,
 								535
+=======
+								645,
+								645
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"auto_name": "<?php",
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
@@ -1085,35 +1379,60 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 360.0,
+=======
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 323.0,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 5,
 					"file": "public_html/_jefftest/ajax/view_poll.php",
 					"settings":
 					{
 						"buffer_size": 3085,
+=======
+					"buffer": 3,
+					"file": "public_html/_jefftest/content/blog.php",
+					"settings":
+					{
+						"buffer_size": 191,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								187,
 								219
+=======
+								68,
+								68
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
+<<<<<<< HEAD
 						"translation.x": 0.0,
+=======
+						"translation.x": 117.0,
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
+<<<<<<< HEAD
 				},
 				{
 					"buffer": 6,
@@ -1140,6 +1459,8 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+=======
+>>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				}
 			]
 		}

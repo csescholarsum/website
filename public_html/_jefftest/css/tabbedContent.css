@@ -11,6 +11,7 @@
 .tabs .moving_bg {
 	padding: 15px;
 	background-color:#CCDDEE;
+
 	border: 1px solid #37414F;
 	border-top: 0px;
 
@@ -65,6 +66,7 @@
 	/*height: 650px;*/
 	overflow: auto;
 }
+
 
 .tabslider ul {
 	color: #000000;
