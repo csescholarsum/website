@@ -1,0 +1,9 @@
+# only allows post (ajax) to access files
+<Limit POST>
+order allow,deny
+allow from all
+</Limit>
+<Limit GET PUT>
+order allow,deny
+deny from all
+</Limit>
