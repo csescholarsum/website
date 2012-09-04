@@ -6,9 +6,9 @@
 
 <h3>CSE Scholars Fall 2012 prospective member</h3>
 
-<a href="./members.php?page=resume_book">Resume Book</a>
+<a href="./index.php?page=resume_book">Resume Book</a>
 <br /><br />
-<a href="./members.php">Active Member List</a>
+<a href="./index.php">Active Member List</a>
 
 <table cellspacing="4">
     <th>Name</th>
@@ -42,10 +42,10 @@ else
     if ($uniqname != $old_uniqname) {
     
         #Check if the unique name has 1 or more rows and that it is not a member
-        if ( 1 > mysql_num_rows(mysql_query("SELECT * FROM members WHERE uniquename='". $uniqname ."'"))  && 1 <= mysql_num_rows( mysql_query("SELECT * FROM attendies WHERE Uniqname='". $uniqname ."'")) ) {
+        if ( 1 > mysql_num_rows(mysql_query("SELECT * FROM members WHERE uniqname='". $uniqname ."'"))  && 1 <= mysql_num_rows( mysql_query("SELECT * FROM attendies WHERE Uniqname='". $uniqname ."'")) ) {
         
 		        #this grabs the event table and updates events and service hours
-		        $attend_tb = mysql_query("SELECT * FROM attendies WHERE Uniqname='".$uniqname."'" );
+		        $attend_tb = mysql_query("SELECT * FROM attendies WHERE uniqname='".$uniqname."'" );
 		        if(mysql_num_rows($attend_tb) != 0) {
         		
 			        #get event number

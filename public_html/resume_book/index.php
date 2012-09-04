@@ -1,15 +1,15 @@
 <?php 
 
-#include("./db_init.php");
+//include("./db_init.php");
 
 ?>
 
 <h3>CSE Scholars Fall 2011</h3>
 
-<a href="./members.php?page=resume_book">Resume Book</a>
+<a href="./index.php?page=resume_book">Resume Book</a>
 <br />
 <br />
-<a href="./members.php?page=prospective">Prospective Members List</a>
+<a href="./index.php?page=prospective">Prospective Members List</a>
 <br />
 <br />
 
@@ -22,7 +22,7 @@
 		<th>Events Attended</th>
 		<th>Service Hours</th>
 <?php
-$query = mysql_query("SELECT * FROM members ORDER BY name");
+$query = mysql_query("SELECT * FROM members ORDER BY member_name");
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)

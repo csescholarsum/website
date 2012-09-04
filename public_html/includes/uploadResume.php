@@ -8,7 +8,8 @@
 		$uploadFailed = false;
 		if (isset($_FILES['resumeFile']))
 		{
-			$target_path = "../../resumes/".$uniqname.".pdf"; 
+			$target_path = $_SESSION['path'] . "resumes/".$uniqname.".pdf"; 
+
 			
 			if ($_FILES['resumeFile']['tmp_name'] != "")
 			{
@@ -19,11 +20,7 @@
 					{
 						mysql_query("UPDATE members SET hasResume = '1' WHERE uniquename = '$uniqname'");
 						$hasResume = 1;
-						//create cover file
-						$content = "<?php \$uniquename = \"".$uniqname."\"; include(\"template.php\"); ?>";
-						$fp = fopen("../resumes/".$uniqname.".pdf", 'w');
-						fwrite($fp, $content);
-						fclose($fp);
+
 					}
 					else
 					{

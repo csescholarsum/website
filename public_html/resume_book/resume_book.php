@@ -1,7 +1,7 @@
   <h3>CSE Scholars Fall 2011</h3>
 
-	<a href="./members.php">Active Member List</a><br /><br />
-  <a href="./members.php?page=prospective">Prospective Member List</a>
+	<a href="./index.php">Active Member List</a><br /><br />
+  <a href="./index.php?page=prospective">Prospective Member List</a>
   <br />
   <br />
   

@@ -4,7 +4,6 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
 				"_",
 				"_SESSION"
 			],
@@ -105,8 +104,6 @@
 				"slide_content"
 			],
 			[
-=======
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"mess",
 				"message"
 			],
@@ -395,13 +392,6 @@
 				"action_by"
 			],
 			[
-<<<<<<< HEAD
-=======
-				"_",
-				"_SESSION"
-			],
-			[
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"las",
 				"last_name"
 			],
@@ -410,13 +400,6 @@
 				"order"
 			],
 			[
-<<<<<<< HEAD
-=======
-				"co",
-				"column"
-			],
-			[
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"rece",
 				"received_data"
 			],
@@ -449,13 +432,6 @@
 				"user_ids"
 			],
 			[
-<<<<<<< HEAD
-=======
-				"g",
-				"group_link_id"
-			],
-			[
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"nu",
 				"number_of_rows"
 			],
@@ -512,13 +488,6 @@
 				"last_research_owner"
 			],
 			[
-<<<<<<< HEAD
-=======
-				"res",
-				"res_ledger"
-			],
-			[
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"resear",
 				"last_research_owner"
 			],
@@ -545,100 +514,12 @@
 			[
 				"change",
 				"change_edit"
-<<<<<<< HEAD
-=======
-			],
-			[
-				"mog",
-				"mortgage_date"
-			],
-			[
-				"mor",
-				"mortgage_date"
-			],
-			[
-				"R",
-				"Resident"
-			],
-			[
-				"vac",
-				"Vacant"
-			],
-			[
-				"is_nu",
-				"is_numeric"
-			],
-			[
-				"lasr",
-				"last_research_land"
-			],
-			[
-				"last",
-				"last_contact_owner"
-			],
-			[
-				"last-c",
-				"last-contact-assoc-edit"
-			],
-			[
-				"snap",
-				"snapshot_temp"
-			],
-			[
-				"case_",
-				"case_process_history"
-			],
-			[
-				"upda",
-				"update"
-			],
-			[
-				"ca",
-				"case_process_history"
-			],
-			[
-				"p",
-				"process"
-			],
-			[
-				"pr",
-				"process_id"
-			],
-			[
-				"proce",
-				"process_num_to_string"
-			],
-			[
-				"nJ-f",
-				"nJ-ForSuit"
-			],
-			[
-				"last-b",
-				"last-research-balance-edit"
-			],
-			[
-				"last-contact",
-				"last-contact-bank-edit"
-			],
-			[
-				"empty",
-				"empty_house_condo"
-			],
-			[
-				"var",
-				"var_dump"
-			],
-			[
-				"last_re",
-				"last_research_owner"
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-<<<<<<< HEAD
 			"file": "public_html/_jefftest/content/my_admin_profile.php",
 			"settings":
 			{
@@ -659,48 +540,27 @@
 			"settings":
 			{
 				"buffer_size": 1057,
-=======
-			"file": "public_html/_jefftest/index.php",
-			"settings":
-			{
-				"buffer_size": 2072,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows",
 				"name": "<?php"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "public_html/_jefftest/ajax/polls.php",
 			"settings":
 			{
 				"buffer_size": 2751,
-=======
-			"file": "public_html/_jefftest/css/tabbedContent.css",
-			"settings":
-			{
-				"buffer_size": 1037,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 				"line_ending": "Windows"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "public_html/_jefftest/tools/functions.php",
 			"settings":
 			{
-				"buffer_size": 3374,
-=======
-			"file": "public_html/_jefftest/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1054,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+				"buffer_size": 3377,
 				"line_ending": "Windows"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "public_html/_jefftest/ajax/view_poll.php",
 			"settings":
 			{
@@ -713,12 +573,40 @@
 			"settings":
 			{
 				"buffer_size": 3219,
-=======
-			"file": "public_html/_jefftest/content/blog.php",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/bottom.php",
 			"settings":
 			{
-				"buffer_size": 191,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/_jefftest/init.php",
+			"settings":
+			{
+				"buffer_size": 964,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 2606 files for \"<<<<\" (regex)\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\content\\blog.php:\n    7  getFeed($feed);\n    8  \n    9: <<<<<<< HEAD\n   10  //FUNCTIONS_________________________________________\n   11  \n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\content\\home.php:\n    1: <<<<<<< HEAD\n    2  \n    3  <div class=\"home\">\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\content\\members.php:\n    1  <?php\n    2: <<<<<<< HEAD\n    3  \n    4  \n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\content\\resources.php:\n    1: <<<<<<< HEAD\n    2  =======\n    3  <h3>Resources for CSE Scholars</h3>\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\css\\style.css:\n   10  Colors according to Kulor test\n   11  http://kuler.adobe.com/#themeID/1968810\n   12: <<<<<<< HEAD\n   13  Light Slate Gray\n   14  #CCDDEE\n   ..\n   26  /* CSS Document */\n   27  body {\n   28: <<<<<<< HEAD\n   29  	/*\n   30  	background: url(\"../images/blue_uniform_spotlight_background.jpg\") no-repeat fixed center top #000000;\n   ..\n   94  	padding-bottom: 10px;\n   95  \n   96: <<<<<<< HEAD\n   97  	background-color: #CCDDEE;\n   98  =======\n   ..\n  113  	overflow: hidden;\n  114  \n  115: <<<<<<< HEAD\n  116  	float: right;\n  117  	margin: 10px;\n  ...\n  128  .header img {\n  129  \n  130: <<<<<<< HEAD\n  131  =======\n  132  	margin-top: -50px;\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\css\\tabbedContent.css:\n   11  .tabs .moving_bg {\n   12  	padding: 15px;\n   13: <<<<<<< HEAD\n   14  	background-color:#CCDDEE;\n   15  =======\n   ..\n   67  	padding: 0px;\n   68  	margin-right: 40px;\n   69: <<<<<<< HEAD\n   70  	/*height: 650px;*/\n   71  	overflow: auto;\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\includes\\config.php:\n   11  \n   12  $rcwwwpath = '/net/www/u/c/cseschol/public_html/';\n   13: <<<<<<< HEAD\n   14  $startdate = 'August 31st, 2012';\n   15  \n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\includes\\uploadResume.php:\n    9  		if (isset($_FILES['resumeFile']))\n   10  		{\n   11: <<<<<<< HEAD\n   12  			$target_path = $_SESSION['path'] . \"resumes/\".$uniqname.\".pdf\"; \n   13  =======\n   ..\n   24  						mysql_query(\"UPDATE members SET hasResume = '1' WHERE uniquename = '$uniqname'\");\n   25  						$hasResume = 1;\n   26: <<<<<<< HEAD\n   27  =======\n   28  						//create cover file\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\js\\tabbedContent.js:\n   10  				left: $(this).position()['left']\n   11  			}, {\n   12: <<<<<<< HEAD\n   13  				duration: 500\n   14  =======\n   ..\n   27  		margin = margin * ($(obj).prevAll().size() - 1);\n   28  		margin = margin * -1;\n   29: <<<<<<< HEAD\n   30  \n   31  		//Select content class of tab id\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\_jefftest\\tools\\dbConnect.php:\n    1  <?php\n    2  \n    3: <<<<<<< HEAD\n    4  include (\"includes/config.php\");\n    5  \n    .\n   16  	exit;\n   17  }\n   18: <<<<<<< HEAD\n   19  mysql_select_db($database, $db);\n   20  =======\n\n18 matches across 10 files\n",
+			"settings":
+			{
+				"buffer_size": 2972,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "public_html/_jefftest/login/.htaccess",
+			"settings":
+			{
+				"buffer_size": 174,
 				"line_ending": "Windows"
 			}
 		}
@@ -747,19 +635,26 @@
 	},
 	"file_history":
 	[
-<<<<<<< HEAD
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/dbConnect.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/js/tabbedContent.js",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/uploadResume.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/config.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/tabbedContent.css",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/style.css",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/resources.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/home.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog.php",
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_resume.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/delete_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/includes/uploadResume.php",
 		"/C/wamp/www/cse_scholars_test/public_html/members/index.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/print_poll_result.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/save_vote.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/view_poll.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/action/save_email_of_visitor.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/home.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/init.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/admin.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/member.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tabbed_content/not_logged_in.php",
@@ -780,19 +675,15 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/alumni.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/.htaccess",
 		"/C/wamp/www/cse_scholars_test/public_html/robot.txt",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/config.php",
 		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_email_association_foreclosure_invoice.php",
 		"/C/wamp/www/AssociationDues/onyx/ajax/case-detail/action_email_association_eviction_invoice.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/prospective_members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/current_members.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/dbConnect.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/connections/connection.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/members/viewpoll.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/admin.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/uploadResume.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/db_init.php",
 		"/C/wamp/www/AssociationDues/onyx/model/AModelBase.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/resources.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/about_us.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/Event Logger/_READ_ME.txt",
@@ -803,11 +694,7 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/resume_book.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/prospective.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog_old.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/js/tabbedContent.js",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/style.css",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/index.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/tabbedContent.css",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/members.php",
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_jquery.progressbar.2.01.zip/jquery.progressbar/demo.php",
@@ -816,27 +703,10 @@
 		"/C/wamp/www/cse_scholars_test/public_html/top.php",
 		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
 		"/C/wamp/www/cse_scholars_test/public_html/index.php",
-=======
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/js/tabbedContent.js",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/resources.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/bottom.php",
-		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog.php",
-		"/C/wamp/www/cse_scholars_test/public_html/top.php",
-		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/home.php",
-		"/C/wamp/www/cse_scholars_test/public_html/index.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/init.php",
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 		"/C/wamp/www/AssociationDues/onyx/auth.php",
 		"/C/wamp/www/AssociationDues/onyx/config_jquery.php",
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/js/tabbedContent.js",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php",
-<<<<<<< HEAD
-=======
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/css/style.css",
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css",
 		"/C/wamp/www/AssociationDues/onyx/style.css",
 		"/C/wamp/www/AssociationDues/onyx/homeowners-association-detail.php",
@@ -892,67 +762,7 @@
 		"/C/wamp/www/AssociationDues/onyx/model/CaseProcessHistory.php",
 		"/C/wamp/www/AssociationDues/onyx/search_table.php",
 		"/C/wamp/www/AssociationDues/onyx/sort_search_logic.php",
-<<<<<<< HEAD
 		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php"
-=======
-		"/C/wamp/www/AssociationDues/onyx/model/CaseStatusHistory.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_complete_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_in-progress_attention.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/Account.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/cases.php",
-		"/C/wamp/www/AssociationDues/onyx/model/CaseStatus.php",
-		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/js/jquery-ui-1.8.21.custom.min.js",
-		"/C/wamp/www/AssociationDues/onyx/config.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_reassign_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_edit_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/admin_detail_table_sort.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot/snapshot.php",
-		"/C/wamp/www/AssociationDues/onyx/move_side_menu.js",
-		"/C/wamp/www/AssociationDues/onyx/admin_attention/form_insert.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_get_snapshot.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot/README.txt",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/rob/case_filter_js.php",
-		"/C/wamp/www/AssociationDues/onyx/case_filter_block.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-notification.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/To Add- Jeff/ajax/ajax_home_page.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-unit-number-edit.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/get_var.php",
-		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/index.html",
-		"/C/wamp/www/AssociationDues/onyx/cases_ie.php",
-		"/C/Users/Jeff Sallans/Dropbox/ADAC/_6_19_12/case-detail.php",
-		"/C/wamp/www/AssociationDues/onyx/calendar2.js",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-dues-assigned.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-new-dues-assigned.php",
-		"/C/wamp/www/AssociationDues/onyx/view_all_notes.php",
-		"/C/wamp/www/AssociationDues/onyx/model/Attention.php",
-		"/C/wamp/www/AssociationDues/onyx/Attention.php",
-		"/C/wamp/www/AssociationDues/onyx/Admin.php",
-		"/C/wamp/www/AssociationDues/onyx/menu.php",
-		"/C/wamp/www/AssociationDues/onyx/jquery-ui-1.8.20.custom/css/blitzer/jquery-ui-1.8.21.custom.css",
-		"/C/wamp/www/AssociationDues/onyx/action-process-notification-action.php",
-		"/C/wamp/www/AssociationDues/onyx/batch/batch_controller.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/ajax_home_page.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot_func.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax_home_page.php",
-		"/C/wamp/www/AssociationDues/onyx/action_search_case.php",
-		"/C/wamp/www/AssociationDues/onyx/case_filter_js.php",
-		"/C/wamp/www/AssociationDues/onyx/model/AModelBase.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/search_disp.php",
-		"/C/wamp/www/AssociationDues/onyx/action-add-payment.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax_autocomplete.js",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-owner-edit.php",
-		"/C/wamp/www/_repos/test/home.php",
-		"/C/Users/Jeff Sallans/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-owner-info.php",
-		"/C/wamp/www/git test/mysql practice/home.php",
-		"/C/wamp/www/AssociationDues/onyx/model/Letter.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot.css",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/unset_var.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail_js.php",
-		"/C/wamp/www/CSE Scholars Website/F12 CSE Scholars/public_html/resume_book/prospective.php",
-		"/C/wamp/www/CSE Scholars Website/F12 CSE Scholars/public_html/resume_book/db_init.php"
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 	],
 	"find":
 	{
@@ -963,10 +773,7 @@
 		"height": 0.0,
 		"where_history":
 		[
-<<<<<<< HEAD
 			"C:\\wamp\\www\\cse_scholars_test\\public_html",
-=======
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			"C:\\wamp\\www\\AssociationDues\\onyx",
 			"C:\\wamp\\www\\AssociationDues",
 			"<open folders>,<open files>",
@@ -979,12 +786,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
+			"<<<<",
 			"writein",
 			"PrintPollResults",
 			"tab_item",
-=======
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 			"000000",
 			"date_",
 			"dialog",
@@ -1108,15 +913,7 @@
 			"onload_home_function",
 			"php",
 			"search",
-			"setNextStatus",
-<<<<<<< HEAD
-			"Send Initial Condo FDCPA Letter "
-=======
-			"Send Initial Condo FDCPA Letter ",
-			"notification",
-			"notifications",
-			"setfro"
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+			"setNextStatus"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1188,143 +985,87 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-			"selected": 2,
-=======
-			"selected": 1,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+			"selected": 10,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-<<<<<<< HEAD
 					"file": "public_html/_jefftest/content/my_admin_profile.php",
 					"settings":
 					{
 						"buffer_size": 777,
-=======
-					"file": "public_html/_jefftest/index.php",
-					"settings":
-					{
-						"buffer_size": 2072,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								535,
 								535
-=======
-								1092,
-								1092
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
-=======
-							"auto_name": "<?php",
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
 						"translation.y": 540.0,
-=======
-						"translation.y": 570.0,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-<<<<<<< HEAD
 					"file": "public_html/_jefftest/ajax/profile.php",
 					"settings":
 					{
 						"buffer_size": 3388,
-=======
-					"file": "public_html/_jefftest/css/tabbedContent.css",
-					"settings":
-					{
-						"buffer_size": 1037,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								2512,
 								2512
-=======
-								314,
-								314
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3420.0,
-=======
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-<<<<<<< HEAD
 					"file": "public_html/_jefftest/ajax/action/save_profile.php",
 					"settings":
 					{
 						"buffer_size": 1057,
-=======
-					"file": "public_html/_jefftest/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1054,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								535,
 								535
-=======
-								645,
-								645
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
-<<<<<<< HEAD
 							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1351,7 +1092,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1361,15 +1102,15 @@
 					"file": "public_html/_jefftest/tools/functions.php",
 					"settings":
 					{
-						"buffer_size": 3374,
+						"buffer_size": 3377,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1609,
-								1609
+								2934,
+								2934
 							]
 						],
 						"settings":
@@ -1378,61 +1119,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
-=======
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 323.0,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+						"translation.y": 2340.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-<<<<<<< HEAD
 					"buffer": 5,
 					"file": "public_html/_jefftest/ajax/view_poll.php",
 					"settings":
 					{
 						"buffer_size": 3085,
-=======
-					"buffer": 3,
-					"file": "public_html/_jefftest/content/blog.php",
-					"settings":
-					{
-						"buffer_size": 191,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								187,
 								219
-=======
-								68,
-								68
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-<<<<<<< HEAD
 						"translation.x": 0.0,
-=======
-						"translation.x": 117.0,
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-<<<<<<< HEAD
 				},
 				{
 					"buffer": 6,
@@ -1452,15 +1168,206 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 160.0,
 						"translation.y": 590.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-=======
->>>>>>> bcb0674294fb6a8a260e60ce8c155f18a086f99f
+				},
+				{
+					"buffer": 7,
+					"file": "public_html/_jefftest/bottom.php",
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public_html/_jefftest/init.php",
+					"settings":
+					{
+						"buffer_size": 964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 2972,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										149,
+										153
+									],
+									[
+										308,
+										312
+									],
+									[
+										449,
+										453
+									],
+									[
+										561,
+										565
+									],
+									[
+										792,
+										796
+									],
+									[
+										897,
+										901
+									],
+									[
+										1083,
+										1087
+									],
+									[
+										1193,
+										1197
+									],
+									[
+										1292,
+										1296
+									],
+									[
+										1479,
+										1483
+									],
+									[
+										1604,
+										1608
+									],
+									[
+										1815,
+										1819
+									],
+									[
+										2018,
+										2022
+									],
+									[
+										2258,
+										2262
+									],
+									[
+										2459,
+										2463
+									],
+									[
+										2614,
+										2618
+									],
+									[
+										2779,
+										2783
+									],
+									[
+										2876,
+										2880
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2782,
+								2782
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public_html/_jefftest/login/.htaccess",
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}

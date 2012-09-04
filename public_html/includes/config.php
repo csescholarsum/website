@@ -10,21 +10,34 @@
 $cmsver = "v0.1";
 
 $rcwwwpath = '/net/www/u/c/cseschol/public_html/';
-$startdate = 'October 19th, 2007';
+$startdate = 'August 31st, 2012';
 
-$rcpath = $_SERVER['DOCUMENT_ROOT'] . $rcwwwpath;
-$filepath = '/var/www/html/';
+//Set a global path of the server
+if (!isset($_SESSION['path'])) {
 
-$pagetitle = "CSE Scholars";
-$sqluser = "cseschol";
-$sqlpass = "JAwNuTrJ";
-$sqldb = "csescholars";
-$siteurl = "http://www.eecs.umich.edu/~cseschol";
+	if (file_exists($_SERVER['DOCUMENT_ROOT'] . $rcwwwpath . "index.php")) {
 
-$ulpath = "resume";
+		$rcpath = $_SERVER['DOCUMENT_ROOT'] . $rcwwwpath;
+		$_SESSION['base_url'] = "http://web.eecs.umich.edu/~cseschol/_jefftest/";
+	}
+	else if ( file_exists($_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/_jefftest/index.php") ) {
 
-$topfile = "top.php";
-$botfile = "bottom.php";
-$sidefile = "sidebar.php";
+		$rcpath = $_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/_jefftest/";
+		$_SESSION['base_url'] = "http://localhost/cse_scholars_test/public_html/_jefftest/";
+	}
+
+	$_SESSION['path'] = $rcpath;
+}
+
+
+####################################
+# Database connection information   #
+#####################################
+
+$hostname = "localhost";
+$database = "csescholars";
+$username = "cseschol";
+$password = "JAwNuTrJ";
+
 
 ?>

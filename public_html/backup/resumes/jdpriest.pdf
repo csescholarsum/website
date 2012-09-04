@@ -1,6 +1,0 @@
-<?php
-
-$uniquename = "jdpriest";
-include("template.php");
-
-?>
