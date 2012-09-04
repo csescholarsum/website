@@ -8,12 +8,15 @@
 session_start();
 
 include('../includes/config.php');
-include( $_SESSION['path'] . 'tools/functions.php');
+include('../tools/functions.php');
+//include( $_SESSION['path'] . 'tools/functions.php');
 
 //$_SERVER['REMOTE_USER'] is the users uniqname returned from cosign with .htaccess
 
 $user = $_SERVER['REMOTE_USER'];
 $_SESSION['USER_UNIQ'] = $user;
+
+die(var_dump($_SERVER) . "\n" . var_dump($user));
 
 //MYSQLI database call
 $connection = connect_to_db_with_sqli();
