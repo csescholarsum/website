@@ -353,3 +353,13 @@ git checkout test
 git checkout master
 git checkout test
 git checkout master
+ls
+cd public_html/
+ls
+git checkout master
+git commit -a -m "bash_history"
+git checkout master
+ls
+cd _jefftest/login
+ls
+ls -a
