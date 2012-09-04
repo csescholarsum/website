@@ -102,7 +102,7 @@ PURPOSE: website main page
 			Organization for computer science and computer engineering.
 		</h5>
 		<h5>
-			<a href="<?php echo $_SESSION['base_url']; ?>login/index.php">
+			<a href="members/index.php">
 				Login
 			</a>
 		</h5>
