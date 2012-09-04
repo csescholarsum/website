@@ -18,12 +18,12 @@ if (!isset($_SESSION['path'])) {
 	if (file_exists($_SERVER['DOCUMENT_ROOT'] . $rcwwwpath . "index.php")) {
 
 		$rcpath = $_SERVER['DOCUMENT_ROOT'] . $rcwwwpath;
-		$_SESSION['base_url'] = "http://web.eecs.umich.edu/~cseschol/_jefftest/";
+		$_SESSION['base_url'] = "http://web.eecs.umich.edu/~cseschol/";
 	}
-	else if ( file_exists($_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/_jefftest/index.php") ) {
+	else if ( file_exists($_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/index.php") ) {
 
-		$rcpath = $_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/_jefftest/";
-		$_SESSION['base_url'] = "http://localhost/cse_scholars_test/public_html/_jefftest/";
+		$rcpath = $_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/";
+		$_SESSION['base_url'] = "http://localhost/cse_scholars_test/public_html/";
 	}
 
 	$_SESSION['path'] = $rcpath;
