@@ -342,3 +342,14 @@ git status
 git branch
 git checkout master
 exit
+git status
+git branch
+git checkout test
+git branch
+git reset --hard
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+git checkout test
+git checkout master
