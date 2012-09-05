@@ -363,3 +363,50 @@ ls
 cd _jefftest/login
 ls
 ls -a
+git status
+git checkout test
+git commit -a -m "bash_history"
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+mysql
+phpmyadmin
+git checkout test
+ls
+ls -a
+git checkout master
+ls -a
+git checkout test
+git checkout master
+git checkout test
+git checkout master
+cd public_html/
+ls
+git checkout master
+ls
+git checkout test
+ls
+ls -a
+cd ../
+ls
+git checkout master
+ls
+cd public_html/
+ls
+pwd
+cd ../
+ls
+cd public_html/
+ls
+vim index.php
+git status
+git add .
+git status
+git commit -a -m "moved files to server with scp because git push wouldn't move new files"

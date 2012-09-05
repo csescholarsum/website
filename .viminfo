@@ -145,18 +145,19 @@ $
 	i
 
 # File marks:
-'0  1  0  ~/public_html/index.php
-'1  5  0  ~/public_html/_jaketest/index.php
-'2  7  0  ~/public_html/images
-'3  3  0  ~/.ssh/known_hosts
-'4  18  2  ~/public_html/admin/Event Logger/get_attend.php
-'5  10  14  ~/public_html/jdpriest/get_info.php
-'6  13  0  ~/public_html/jdpriest/get_info.php
-'7  10  51  ~/public_html/jdpriest/get_info.php
-'8  11  52  ~/public_html/jdpriest/get_info.php
-'9  18  0  ~/public_html/jdpriest/statHelper.php
+'0  157  0  ~/public_html/index.php
+'1  1  0  ~/public_html/index.php
+'2  5  0  ~/public_html/_jaketest/index.php
+'3  7  0  ~/public_html/images
+'4  3  0  ~/.ssh/known_hosts
+'5  18  2  ~/public_html/admin/Event Logger/get_attend.php
+'6  10  14  ~/public_html/jdpriest/get_info.php
+'7  13  0  ~/public_html/jdpriest/get_info.php
+'8  10  51  ~/public_html/jdpriest/get_info.php
+'9  11  52  ~/public_html/jdpriest/get_info.php
 
 # Jumplist (newest first):
+-'  157  0  ~/public_html/index.php
 -'  1  0  ~/public_html/index.php
 -'  5  0  ~/public_html/_jaketest/index.php
 -'  1  0  ~/public_html/_jaketest/index.php
@@ -258,7 +259,7 @@ $
 # History of marks within files (newest to oldest):
 
 > ~/public_html/index.php
-	"	1	0
+	"	157	0
 
 > ~/public_html/_jaketest/index.php
 	"	5	0
