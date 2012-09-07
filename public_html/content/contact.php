@@ -47,11 +47,21 @@
   margin: 0px auto;
 }
 
+.officer_pic {
+
+  width: 70%;
+
+}
+
 </style>
 
 <p>To email all officers, please use: <a href="mailto:cseschol-officers@umich.edu">cseschol-officers@umich.edu</a>
 </p>
 <br />
+
+<div align="center">
+  <img src="images/CSE scholars Officers.jpg" class="officer_pic" />
+</div>
 
 <div id="officers_table">
 	<div class="officer">
