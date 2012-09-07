@@ -55,7 +55,7 @@ else
 			        while($attend_data = mysql_fetch_row($attend_tb)) {
         			
 				        #extract data from event table
-				        list($name, $uniqname, $eventID) = $attend_data;
+				        list($participant, $uniqname, $eventID) = $attend_data;
         				
 				        #query with event ID
 				        $event_tb = mysql_query("SELECT * FROM events WHERE eventID='".$eventID."' AND deleted=0" );

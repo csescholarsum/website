@@ -38,7 +38,7 @@ else
 	
 	while ($userData = mysql_fetch_row($query))
 	{
-		list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $gpa, $type) = $userData;
+		list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa, $type) = $userData;
 		if ($name == "")
 			$name = "No Name";
 		$member_email = $uniqname."@umich.edu";
@@ -66,7 +66,7 @@ else
 			while($attend_data = mysql_fetch_row($attend_tb)) {
 			
 				#extract data from event table
-				list($name, $uniqname, $eventID) = $attend_data;
+				list($participant, $uniqname, $eventID) = $attend_data;
 				
 				#query with event ID
 				$event_tb = mysql_query("SELECT * FROM events WHERE eventID='".$eventID."' AND deleted=0" );

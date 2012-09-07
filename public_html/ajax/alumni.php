@@ -33,7 +33,7 @@ else
 	
 	while ($userData = mysql_fetch_row($query))
 	{
-		list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $gpa, $type) = $userData;
+		list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa, $type) = $userData;
 		if ($name == "")
 			$name = "No Name";
 		$member_email = $uniqname."@umich.edu";

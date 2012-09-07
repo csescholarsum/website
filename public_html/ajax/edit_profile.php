@@ -10,7 +10,7 @@ $query = mysql_query("SELECT * FROM members WHERE uniqname = '$user' AND deleted
 
 $userData = mysql_fetch_row($query);
 
-list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $gpa, $type) = $userData;
+list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa, $type) = $userData;
 
 ?>
 
