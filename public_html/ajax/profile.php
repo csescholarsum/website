@@ -8,14 +8,14 @@
 
 	$conn = connect_to_db_with_sqli();
 
-	$query = "SELECT uid, member_name, uniqname, gradMonth, gradYear, showResume, hasResume, major, gpa, type FROM members WHERE uniqname=? AND deleted=0 Limit 1";
+	$query = "SELECT uid, name, uniqname, gradMonth, gradYear, showResume, hasResume, major, gpa, type FROM members WHERE uniqname=? AND deleted=0 Limit 1";
 
 	$stmt = $conn->prepare($query) or die("Unable to retrieve profile data.");
 
 	$stmt->bind_param('s', $_SESSION['USER_UNIQ']);
 	$stmt->execute();
 	$stmt->bind_result($uid, 
-		$member_name, 
+		$name, 
 		$uniqname, 
 		$gradMonth, 
 		$gradYear, 
@@ -40,7 +40,7 @@
 		</td>
 		<td>
 <?php
-		echo $member_name;
+		echo $name;
 ?>
 		</td>
 	</tr>

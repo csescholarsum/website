@@ -28,8 +28,7 @@ PURPOSE: to validate an email and save it into the database
 		return;
 	}
 
-	$query = "INSERT INTO `member list views`(`email`) VALUES (?)";
-	//$query = "INSERT INTO 'member list views' (email) VALUES (?)";
+	$query = "INSERT INTO member_list_views (`email`) VALUES (?)";
 
 	$statement = $conn->prepare($query) or die("Failed to submit email to database.");
 	$statement->bind_param('s', $email);

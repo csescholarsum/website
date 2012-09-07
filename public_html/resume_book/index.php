@@ -22,7 +22,7 @@
 		<th>Events Attended</th>
 		<th>Service Hours</th>
 <?php
-$query = mysql_query("SELECT * FROM members ORDER BY member_name");
+$query = mysql_query("SELECT * FROM members ORDER BY name");
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
@@ -45,9 +45,9 @@ else
 	
 	while ($userData = mysql_fetch_row($query))
 	{
-		list($uid, $member_name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa) = $userData;
-		if ($member_name == "")
-			$member_name = "No Name";
+		list($uid, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa) = $userData;
+		if ($name == "")
+			$name = "No Name";
 		$member_email = $uniqname."@umich.edu";
 		if ($hasResume && $showResume)
 		{
@@ -104,7 +104,7 @@ else
 		
 		#printing info into table
 		echo "\t<tr>\n";
-		echo "\t\t<td>$member_name</td>\n";
+		echo "\t\t<td>$name</td>\n";
 		echo "\t\t<td>".$member_email."</td>\n";
 		echo "\t\t<td>".$major."</td>\n";
 		if (($gradMonth < 1)||($gradMonth > 12))

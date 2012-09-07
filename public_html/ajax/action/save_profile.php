@@ -22,7 +22,7 @@ if (isset($_POST['name']))
 		$showResume = 1;
 	else
 		$showResume = 0;
-	mysql_query("UPDATE members SET member_name = '$name', gradMonth = '$gradMonth', gradYear = '$gradYear', showResume = '$showResume', major = '$major', type = '$type', gpa = '$gpa'
+	mysql_query("UPDATE members SET name = '$name', gradMonth = '$gradMonth', gradYear = '$gradYear', showResume = '$showResume', major = '$major', type = '$type', gpa = '$gpa'
 		WHERE uniqname = '$uniqname' AND deleted=0");
 
 	echo "Profile Updated.";

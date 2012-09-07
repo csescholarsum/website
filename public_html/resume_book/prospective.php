@@ -37,7 +37,7 @@ else
 	$old_uniqname = "";
 	while ($userData = mysql_fetch_row($query))
 	{
-    list($member_name, $uniqname, $eventID) = $userData;
+    list($name, $uniqname, $eventID) = $userData;
 		
     if ($uniqname != $old_uniqname) {
     
@@ -90,7 +90,7 @@ else
         		
 		        #printing info into table
 		        echo "\t<tr>\n";
-		        echo "\t\t<td>$member_name</td>\n";
+		        echo "\t\t<td>$name</td>\n";
             echo "\t\t<td>$uniqname</td>\n";
 		        echo "\t\t<td style=\"text-align:center;\">".$numEvents."</td>\n";
 		        echo "\t\t<td style=\"text-align:center;\">".$numService."</td>\n";
