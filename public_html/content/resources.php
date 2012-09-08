@@ -1,3 +1,9 @@
+<p>
+	Our New Constitution (Sept 8th):
+	<br />
+  	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/a/umich.edu/file/d/0B9fVa_kuwgSYdGpFNEdiUWZTd00/preview">View Our Constitution</a><br />
+</p>
+
 
 <p>
   Relay For Life Sign Up Sheet (Febuary 20th):<br />
