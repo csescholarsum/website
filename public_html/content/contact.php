@@ -60,7 +60,7 @@
 <br />
 
 <div align="center">
-  <img src="images/CSE scholars Officers.jpg" class="officer_pic" />
+  <img src="images/CSE scholars officers.jpg" class="officer_pic" />
 </div>
 
 <div id="officers_table">
