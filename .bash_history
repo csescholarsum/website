@@ -410,3 +410,29 @@ git status
 git add .
 git status
 git commit -a -m "moved files to server with scp because git push wouldn't move new files"
+git commit -a -m "bash_history"
+git checkout master
+git checkout old_website
+git checkout master
+git checkout old_website
+git checkout master
+git checkout old_website
+git checkout master
+git checkout -b new_website
+git checkout master
+git checkout -b new_website
+git checkout new_website
+git checkout -b new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+cd public_html/images/
+ls
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
