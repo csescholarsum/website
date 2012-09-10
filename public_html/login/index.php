@@ -16,8 +16,6 @@ include('../tools/functions.php');
 $user = $_SERVER['REMOTE_USER'];
 $_SESSION['USER_UNIQ'] = $user;
 
-die(var_dump($_SERVER) . "\n" . var_dump($user));
-
 //MYSQLI database call
 $connection = connect_to_db_with_sqli();
 
