@@ -102,7 +102,7 @@ PURPOSE: website main page
 			Organization for computer science and computer engineering.
 		</h5>
 		<h5>
-			<a href="https://web.eecs.umich.edu/login/index.php">
+			<a href="https://web.eecs.umich.edu/~cseschol/login/index.php">
 				Login
 			</a>
 		</h5>
