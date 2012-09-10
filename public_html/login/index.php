@@ -5,8 +5,6 @@
 //CHANGE: new
 //PURPOSE: the logged in user will give us the account type and uniqname
 
-die(var_dump($_SERVER));
-
 session_start();
 
 include('../includes/config.php');

@@ -563,7 +563,7 @@
 			"file": "public_html/content/resources.php",
 			"settings":
 			{
-				"buffer_size": 1277,
+				"buffer_size": 1507,
 				"line_ending": "Windows"
 			}
 		},
@@ -990,7 +990,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1129,15 +1129,15 @@
 					"file": "public_html/content/resources.php",
 					"settings":
 					{
-						"buffer_size": 1277,
+						"buffer_size": 1507,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								476,
+								476
 							]
 						],
 						"settings":

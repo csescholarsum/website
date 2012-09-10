@@ -33,7 +33,7 @@
 				Looking for polls?
 			</h3>
 			<p>
-				<a href='login/index.php'>Login here</a> to vote/view polls from My Profile.
+				<a href='https://web.eecs.umich.edu/login/index.php'>Login here</a> to vote/view polls from My Profile.
 			</p>
 		</div>
 		<div class='shell'>
