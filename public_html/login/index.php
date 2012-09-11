@@ -36,8 +36,6 @@ if ($statement->fetch()) {
 
 $statement->close();
 
-die(var_dump($_SESSION['type']));
-
 //user is not authorized; redirect to main page
 header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 exit();
