@@ -436,3 +436,17 @@ git checkout new_website
 git checkout master
 git checkout new_website
 git checkout master
+git checkout new_website
+git commit -a -m ".htaccess change from Laura"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
