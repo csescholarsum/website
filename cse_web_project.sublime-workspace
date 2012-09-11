@@ -5,7 +5,7 @@
 		[
 			[
 				"_",
-				"_SERVER"
+				"_SESSION"
 			],
 			[
 				"mar",
@@ -523,7 +523,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 2966,
+				"buffer_size": 3003,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +587,15 @@
 			"file": "public_html/login/index.php",
 			"settings":
 			{
-				"buffer_size": 1681,
+				"buffer_size": 1571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/content/home.php",
+			"settings":
+			{
+				"buffer_size": 1227,
 				"line_ending": "Windows"
 			}
 		}
@@ -990,7 +998,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -998,15 +1006,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 2966,
+						"buffer_size": 3003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2101,
-								2101
+								2588,
+								2588
 							]
 						],
 						"settings":
@@ -1015,7 +1023,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1378.0,
+						"translation.y": 1922.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1110,8 +1118,8 @@
 						"selection":
 						[
 							[
-								267,
-								267
+								641,
+								641
 							]
 						],
 						"settings":
@@ -1119,7 +1127,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1209,15 +1217,15 @@
 					"file": "public_html/login/index.php",
 					"settings":
 					{
-						"buffer_size": 1681,
+						"buffer_size": 1571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								158
+								629,
+								629
 							]
 						],
 						"settings":
@@ -1225,7 +1233,34 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public_html/content/home.php",
+					"settings":
+					{
+						"buffer_size": 1227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

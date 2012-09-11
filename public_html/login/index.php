@@ -24,6 +24,8 @@ $connection = connect_to_db_with_sqli();
 
 $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Admin'";
 
+die($query);
+
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
 $statement->execute();
