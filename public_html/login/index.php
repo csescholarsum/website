@@ -16,15 +16,13 @@ include('../tools/functions.php');
 $user = $_SERVER['REMOTE_USER'];
 $_SESSION['USER_UNIQ'] = $user;
 
-$user = "jsallans";
-
 //MYSQLI database call
 $connection = connect_to_db_with_sqli();
 
 
 //_______________CHECK IF ADMIN________________________
 
-$query = "SELECT type FROM members WHERE uniqname = '$user' AND type = 'Admin'";
+$query = "SELECT type FROM members WHERE uniqname = '$user' AND deleted=0";
 
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
