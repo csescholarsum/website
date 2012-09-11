@@ -29,7 +29,7 @@ $statement->bind_result($type);
 
 if ($statement->fetch()) {
 
-	$_SESSION['account_type'] = $type;
+	$_SESSION['type'] = $type;
 }
 
 $statement->close();

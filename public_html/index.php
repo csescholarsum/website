@@ -105,7 +105,7 @@ PURPOSE: website main page
 
 <?php
 
-	if (isset($_SESSION['account_type'])) {
+	if (isset($_SESSION['type'])) {
 		
 		echo "Welcome, " . $_SESSION['USER_UNIQ'] . "\n";
 	}
@@ -131,15 +131,15 @@ PURPOSE: website main page
 <?php 
 
 //________________NOT LOGGED IN_________________
-if (!isset($_SESSION['account_type']))
+if (!isset($_SESSION['type']))
 { 
 	include("tabbed_content/not_logged_in.php");
 }
-else if ($_SESSION['account_type'] == "Member")
+else if ($_SESSION['type'] == "Member")
 {
 	include("tabbed_content/member.php");
 }
-else if ($_SESSION['account_type'] == "Admin")
+else if ($_SESSION['type'] == "Admin")
 {
 	include("tabbed_content/admin.php");
 }
