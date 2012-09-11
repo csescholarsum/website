@@ -24,8 +24,6 @@ $connection = connect_to_db_with_sqli();
 
 $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Admin'";
 
-die($query);
-
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
 $statement->execute();
@@ -35,8 +33,8 @@ if ($statement->num_rows != 0)
 {
 	//user is an admin; redirect to main page
 	$_SESSION['type'] = "Admin";
-	//header("Location: ../index.php");
-	//exit();
+	header("Location: https:/~cseschol/index.php");
+	exit();
 }
 
 $statement->close();
@@ -55,14 +53,14 @@ if ($statement->num_rows != 0)
 {
 	//user is a member; redirect to main page
 	$_SESSION['type'] = "Member";
-	//header("Location: ../index.php");
-	//exit();
+	header("Location: https:/~cseschol/index.php");
+	exit();
 }
 
 $statement->close();
 
 die(var_dump($_SESSION['type']));
 //user is not authorized; redirect to main page
-//header("Location: ../index.php");
-//exit();
+header("Location: https:/~cseschol/index.php");
+exit();
 ?>
