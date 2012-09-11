@@ -6,6 +6,9 @@
 <script type="text/javascript">
 
 	$(function() {
+
+		$( ".submit_email_button").button();
+
 		$( "#tabs" ).tabs({
 			disabled: [1, 2, 3, 4],
 			ajaxOptions: {
@@ -24,7 +27,7 @@
 			}
 		});
 
-		$(".submit_email_button").click(function() {
+		$(".submit_email_form").submit(function() {
 
 			$.ajax({
 				type: "POST",
@@ -48,6 +51,8 @@
 					}
 				}
 			});
+			//The form will not reload the page
+			return false;
 		});
 
 	});
@@ -75,15 +80,20 @@
 
 	<div id="submit_email">
 		<br />
-		<p>
-			Please provide your email to view our members database and resume book.  
-			<br />
-			Your email address will never be shared with a third party.
-		</p>
-		Email: <input type='text' class='submit_email_text' />
-		<button class='submit_email_button'>
-			Submit
-		</button>
+		<form class='submit_email_form'>
+
+			<p>
+				Please provide your email to view our members database and resume book.  
+				<br />
+				Your email address will never be shared with a third party.
+			</p>
+<?php
+			echo "Email: <input type='text' class='submit_email_text' value='" . $_COOKIE['email'] . "' />";
+?>
+			<button type='submit' class='submit_email_button'>
+				Submit
+			</button>
+		</form>
 	</div>
 </div>
 

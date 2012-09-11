@@ -37,4 +37,7 @@ PURPOSE: to validate an email and save it into the database
 
 	echo "Email successfully submitted.";
 
+	//Save email for future uses
+	setcookie("email", $email, time()+3600*24*30, '/');  /* expire in 1 month */
+
 ?>
