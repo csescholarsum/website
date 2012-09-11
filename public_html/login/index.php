@@ -22,36 +22,16 @@ $connection = connect_to_db_with_sqli();
 
 //_______________CHECK IF ADMIN________________________
 
-$query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Admin'";
+$query = "SELECT type FROM members WHERE uniqname = '$user' AND type = 'Admin'";
 
 $statement = $connection->query($query) or die("<p> Database admin validation failed. </p>");
 
-//Check if there is an admin entry
-if ($statement->fetch_row())
-{
-	//user is an admin; redirect to main page
-	$_SESSION['type'] = "Admin";
-	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
-	exit();
-}
+$statement->execute();
+$statement->bind_result($type);
 
-$statement->close();
+if ($statement->fetch()) {
 
-
-//_______________CHECK IF MEMBER________________________
-
-$query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Member'";
-
-$statement = $connection->query($query) or die("<p> Database admin validation failed. </p>");
-
-//Check if there is a member entry
-if ($statement->fetch_row())
-{
-
-	//user is a member; redirect to main page
-	$_SESSION['type'] = "Member";
-	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
-	exit();
+	$_SESSION['type'] = $type;
 }
 
 $statement->close();
