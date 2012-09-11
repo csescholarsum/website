@@ -8,13 +8,13 @@
 
 	$conn = connect_to_db_with_sqli();
 
-	$query = "SELECT uid, name, uniqname, gradMonth, gradYear, showResume, hasResume, major, gpa, type FROM members WHERE uniqname=? AND deleted=0 Limit 1";
+	$query = "SELECT name, uniqname, gradMonth, gradYear, showResume, hasResume, major, gpa, type FROM members WHERE uniqname=? AND deleted=0 LIMIT 1";
 
-	$stmt = $conn->prepare($query) or die("Unable to retrieve profile data.");
+	$stmt = $conn->prepare($query) or die(mysql_error());
 
 	$stmt->bind_param('s', $_SESSION['USER_UNIQ']);
 	$stmt->execute();
-	$stmt->bind_result($uid, 
+	$stmt->bind_result( 
 		$name, 
 		$uniqname, 
 		$gradMonth, 

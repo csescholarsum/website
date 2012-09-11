@@ -15,7 +15,6 @@ $startdate = 'August 31st, 2012';
 if (!isset($_SESSION))
 {
 	session_start();
-	session_register();
 }
 
 
