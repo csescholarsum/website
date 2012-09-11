@@ -109,7 +109,7 @@ PURPOSE: website main page
 
 		}
 		else {
-			echo "Welcome, " . $_SESSION['type'] . "\n";
+			echo "Welcome, " . $_SESSION['account_type'] . "\n";
 		}
 
 ?>			
@@ -129,15 +129,15 @@ PURPOSE: website main page
 <?php 
 
 //________________NOT LOGGED IN_________________
-if (!isset($_SESSION['type']))
+if (!isset($_SESSION['account_type']))
 { 
 	include("tabbed_content/not_logged_in.php");
 }
-else if ($_SESSION['type'] == "Member")
+else if ($_SESSION['account_type'] == "Member")
 {
 	include("tabbed_content/member.php");
 }
-else if ($_SESSION['type'] == "Admin")
+else if ($_SESSION['account_type'] == "Admin")
 {
 	include("tabbed_content/admin.php");
 }
