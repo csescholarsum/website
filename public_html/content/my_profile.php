@@ -9,6 +9,7 @@
 		$( "#my_profile_tabs" ).tabs({
 			ajaxOptions: {
 				type: "POST",
+				cache: true,
 				success: function() {
 					TabbedContent.slideContent($('#my_profile'));
 				},
@@ -34,13 +35,8 @@
 
 <div id="my_profile_tabs">
 	<ul>
-		<li><a href="#welcome">Welcome</a></li>
-		<li><a href="ajax/current_members.php">Profile</a></li>
-		<li><a href="ajax/prospective_members.php">Polls</a></li>
+		<li><a href="ajax/profile.php?USER_UNIQ=<?php echo $_SESSION['USER_UNIQ'];?>&type=<?php echo $_SESSION['type']; ?>">Profile</a></li>
+		<li><a href="ajax/polls.php?USER_UNIQ=<?php echo $_SESSION['USER_UNIQ'];?>">Polls</a></li>
 	</ul>
 
-	<div id="welcome">
-		<br />
-		<p>Welcome <?php echo $_SESSION['USER_UNIQ']; ?></p>
-	</div>
 </div>

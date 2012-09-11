@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"ev",
+				"event_id"
+			],
+			[
+				"eve",
+				"event_date"
+			],
+			[
+				"event_",
+				"event_title"
+			],
+			[
+				"su",
+				"submit_email_button"
+			],
+			[
 				"_",
-				"_SESSION"
+				"_COOKIE"
+			],
+			[
+				"subm",
+				"submit_email_button"
+			],
+			[
+				"mysql_er",
+				"mysql_error"
+			],
+			[
+				"var",
+				"var_dump"
 			],
 			[
 				"mar",
@@ -54,10 +82,6 @@
 			[
 				"prin",
 				"print_poll_results"
-			],
-			[
-				"su",
-				"success"
 			],
 			[
 				"po",
@@ -490,30 +514,6 @@
 			[
 				"ha",
 				"handle_process_id"
-			],
-			[
-				"reso",
-				"res_owner_time"
-			],
-			[
-				"la",
-				"last_research_owner"
-			],
-			[
-				"resear",
-				"last_research_owner"
-			],
-			[
-				"res_",
-				"res_owner"
-			],
-			[
-				"ol",
-				"old_snapshot"
-			],
-			[
-				"old_",
-				"old_snapshotS"
 			]
 		]
 	},
@@ -523,95 +523,79 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3003,
+				"buffer_size": 3152,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/resume_book/prospective.php",
+			"file": "public_html/tools/functions.php",
 			"settings":
 			{
-				"buffer_size": 3044,
+				"buffer_size": 3373,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/ajax/prospective_members.php",
+			"file": "public_html/content/my_admin_profile.php",
 			"settings":
 			{
-				"buffer_size": 3144,
+				"buffer_size": 837,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/ajax/alumni.php",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/make_event.php",
 			"settings":
 			{
-				"buffer_size": 1216,
+				"buffer_size": 629,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/includes/config.php",
+			"file": "public_html/ajax/make_events.php",
 			"settings":
 			{
-				"buffer_size": 1125,
+				"buffer_size": 589,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/content/resources.php",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/index.php",
 			"settings":
 			{
-				"buffer_size": 1507,
+				"buffer_size": 366,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/content/contact.php",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/db_update_event.php",
 			"settings":
 			{
-				"buffer_size": 3586,
+				"buffer_size": 498,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/login/.htaccess",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 1464,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/login/index.php",
+			"file": "public_html/ajax/get_events.php",
 			"settings":
 			{
-				"buffer_size": 1572,
+				"buffer_size": 3496,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
 			"settings":
 			{
-				"buffer_size": 1815,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/content/home.php",
-			"settings":
-			{
-				"buffer_size": 1227,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/ajax/current_members.php",
-			"settings":
-			{
-				"buffer_size": 2993,
+				"buffer_size": 350,
 				"line_ending": "Windows"
 			}
 		}
@@ -640,19 +624,33 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/event_logger.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/edit_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/member.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/my_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/resume_book/prospective.php",
+		"/C/wamp/www/cse_scholars_test/public_html/includes/config.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/resources.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/contact.php",
+		"/C/wamp/www/cse_scholars_test/public_html/login/.htaccess",
+		"/C/wamp/www/cse_scholars_test/public_html/login/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_email_of_visitor.php",
+		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/admin.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/home.php",
+		"/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/prospective_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/alumni.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/view_poll.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/index.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/includes/uploadResume.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_email_of_visitor.php",
 		"/C/Users/Jeff Sallans/Downloads/member_list_views.sql",
 		"/C/wamp/www/cse_scholars_test/public_html/robots.txt",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
 		"/C/Users/Jeff Sallans/Desktop/older___a good g0ass6i the 26 shows host e06 it he de¶60s",
 		"/C/Users/Jeff Sallans/Desktop/a good g0ass6i the 26 shows host e06 it he de¶60s",
-		"/C/wamp/www/cse_scholars_test/public_html/includes/config.php",
 		"/C/wamp/www/cse_scholars_test/public_html/init.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/members/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/members/index.php",
@@ -753,21 +751,7 @@
 		"/C/wamp/www/AssociationDues/onyx/message_popup.php",
 		"/C/wamp/www/AssociationDues/onyx/model/User.php",
 		"/C/wamp/www/AssociationDues/onyx/snapshot/snapshot_func.php",
-		"/C/wamp/www/AssociationDues/onyx/model/Account.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-association-edit.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail/case-detail-next-legal-action.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail-display.js",
-		"/C/wamp/www/AssociationDues/onyx/case-detail.php",
-		"/C/wamp/www/onyx backup (6-25-12)/ajax/action_remove_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/action-update-case.php",
-		"/C/wamp/www/AssociationDues/onyx/action_update_case.php",
-		"/C/wamp/www/AssociationDues/onyx/action_add_case.php",
-		"/C/wamp/www/AssociationDues/onyx/maintain_attorney.php",
-		"/C/wamp/www/AssociationDues/onyx/case-detail_old (2).php",
-		"/C/wamp/www/AssociationDues/onyx/techadmin.php",
-		"/C/wamp/www/AssociationDues/onyx/summary_report.php",
-		"/C/wamp/www/AssociationDues/onyx/maintain_lien.php",
-		"/C/wamp/www/AssociationDues/onyx/cash_rpt.php"
+		"/C/wamp/www/AssociationDues/onyx/model/Account.php"
 	],
 	"find":
 	{
@@ -791,6 +775,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\$_SESSION['type']",
 			"\\$name",
 			"$name",
 			"list\\(",
@@ -917,8 +902,7 @@
 			"\\$",
 			"$",
 			"getid",
-			"received_action",
-			"sent"
+			"received_action"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1014,7 +998,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1022,15 +1006,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3003,
+						"buffer_size": 3152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2588,
-								2588
+								161,
+								161
 							]
 						],
 						"settings":
@@ -1039,129 +1023,135 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2408.0,
+						"translation.y": 2700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "public_html/resume_book/prospective.php",
+					"file": "public_html/tools/functions.php",
 					"settings":
 					{
-						"buffer_size": 3044,
+						"buffer_size": 3373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								441
+								546,
+								569
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 36.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public_html/ajax/prospective_members.php",
+					"file": "public_html/content/my_admin_profile.php",
 					"settings":
 					{
-						"buffer_size": 3144,
+						"buffer_size": 837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								795,
+								795
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 40.0,
-						"translation.y": 54.0,
+						"translation.x": 64.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "public_html/ajax/alumni.php",
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/make_event.php",
 					"settings":
 					{
-						"buffer_size": 1216,
+						"buffer_size": 629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1184,
-								1184
+								0,
+								629
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 136.0,
-						"translation.y": 34.0,
+						"translation.x": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "public_html/includes/config.php",
+					"file": "public_html/ajax/make_events.php",
 					"settings":
 					{
-						"buffer_size": 1125,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								641,
-								641
+								563,
+								563
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "public_html/content/resources.php",
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/index.php",
 					"settings":
 					{
-						"buffer_size": 1507,
+						"buffer_size": 366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								476,
-								476
+								282,
+								176
 							]
 						],
 						"settings":
@@ -1176,18 +1166,46 @@
 				},
 				{
 					"buffer": 6,
-					"file": "public_html/content/contact.php",
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/db_update_event.php",
 					"settings":
 					{
-						"buffer_size": 3586,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								840,
-								840
+								362,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1392,
+								1392
 							]
 						],
 						"settings":
@@ -1197,17 +1215,45 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 754.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "public_html/login/.htaccess",
+					"buffer": 8,
+					"file": "public_html/ajax/get_events.php",
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 3496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
+					"settings":
+					{
+						"buffer_size": 350,
 						"regions":
 						{
 						},
@@ -1220,115 +1266,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "public_html/login/index.php",
-					"settings":
-					{
-						"buffer_size": 1572,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1420,
-								1420
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 808.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
-					"settings":
-					{
-						"buffer_size": 1815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								391,
-								391
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1386.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "public_html/content/home.php",
-					"settings":
-					{
-						"buffer_size": 1227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								903,
-								903
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "public_html/ajax/current_members.php",
-					"settings":
-					{
-						"buffer_size": 2993,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1355,
-								1411
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 624.0,
-						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

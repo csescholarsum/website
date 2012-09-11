@@ -54,7 +54,7 @@ PURPOSE: to keep different types of users separate
             </ul>
             <ul class='my_profile'>
 <?php
-                    include('content/my_admin_profile.php');
+                    include('content/my_profile.php');
 ?>              
             </ul>
             <ul class='about'>

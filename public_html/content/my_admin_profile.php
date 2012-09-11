@@ -37,6 +37,7 @@
 	<ul>
 		<li><a href="ajax/profile.php?USER_UNIQ=<?php echo $_SESSION['USER_UNIQ'];?>&type=<?php echo $_SESSION['type']; ?>">Profile</a></li>
 		<li><a href="ajax/polls.php?USER_UNIQ=<?php echo $_SESSION['USER_UNIQ'];?>">Polls</a></li>
+		<li><a href="ajax/event_logger.php">Event Logger</a></li>
 	</ul>
 
 </div>
