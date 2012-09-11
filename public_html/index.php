@@ -105,14 +105,19 @@ PURPOSE: website main page
 
 <?php
 
-
-		echo "Welcome, " . $_SESSION['account_type'] . "\n";
-
-
+	if (isset($_SESSION['account_type'])) {
+		
+		echo "Welcome, " . $_SESSION['USER_UNIQ'] . "\n";
+	}
+	else {
 ?>			
 			<a href="https://web.eecs.umich.edu/~cseschol/login/index.php">
 				Login
 			</a>
+<?php
+	}
+?>
+
 		</h5>
 	</div>
 	<div class='image'>
