@@ -102,6 +102,17 @@ PURPOSE: website main page
 			Organization for computer science and computer engineering.
 		</h5>
 		<h5>
+
+<?php
+
+		if (!isset($_SESSION['type'])) {
+
+		}
+		else {
+			echo "Welcome, " . $_SESSION['type'] . "\n";
+		}
+
+?>			
 			<a href="https://web.eecs.umich.edu/~cseschol/login/index.php">
 				Login
 			</a>
