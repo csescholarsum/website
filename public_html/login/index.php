@@ -27,16 +27,13 @@ $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Admin'";
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
 $statement->execute();
-while($row = $statement->fetch_row())
-{
-	//This is in place to increment num_rows
-}
+
 //Check if there is an admin entry
-if ($statement->num_rows != 0)
+if ($statement->fetch_row())
 {
 	//user is an admin; redirect to main page
 	$_SESSION['type'] = "Admin";
-	header("Location: ../index.php");
+	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 	exit();
 }
 
@@ -50,17 +47,13 @@ $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Member'";
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
 $statement->execute();
-while($row = $statement->fetch_row())
-{
-	//This is in place to increment num_rows
-}
 
 //Check if there is a member entry
-if ($statement->num_rows != 0)
+if ($statement->fetch_row())
 {
 	//user is a member; redirect to main page
 	$_SESSION['type'] = "Member";
-	header("Location: ../index.php");
+	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 	exit();
 }
 
@@ -68,6 +61,6 @@ $statement->close();
 
 die(var_dump($_SESSION['type']));
 //user is not authorized; redirect to main page
-header("Location: ../index.php");
+header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 exit();
 ?>

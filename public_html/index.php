@@ -131,8 +131,6 @@ else if ($_SESSION['type'] == "Admin")
 	include("tabbed_content/admin.php");
 }
 
-die($_SESSION['type']);
-
 ?>
 
 </div>
