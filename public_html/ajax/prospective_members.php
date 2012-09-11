@@ -12,7 +12,7 @@
 	<th>Events Attended</th>
 	<th>Service Hours</th>
 <?php
-$query = mysql_query("SELECT * FROM attendies WHERE deleted=0 ORDER BY Uniqname");
+$query = mysql_query("SELECT * FROM attendies a, events b WHERE a.deleted=0 AND b.eventID=a.eventID AND b.deleted=0 ORDER BY uniqname");
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
