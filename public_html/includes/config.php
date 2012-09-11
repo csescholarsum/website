@@ -12,6 +12,13 @@ $cmsver = "v0.1";
 $rcwwwpath = '/net/www/u/c/cseschol/public_html/';
 $startdate = 'August 31st, 2012';
 
+if (!isset($_SESSION))
+{
+	session_start();
+	session_register();
+}
+
+
 //Set a global path of the server
 if (!isset($_SESSION['path'])) {
 
