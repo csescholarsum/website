@@ -5,8 +5,6 @@
 //CHANGE: new
 //PURPOSE: the logged in user will give us the account type and uniqname
 
-session_start();
-
 include('../includes/config.php');
 include('../tools/functions.php');
 //include( $_SESSION['path'] . 'tools/functions.php');
@@ -38,5 +36,4 @@ $statement->close();
 
 //user is not authorized; redirect to main page
 header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
-exit();
 ?>
