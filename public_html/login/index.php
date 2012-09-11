@@ -26,8 +26,6 @@ $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Admin'";
 
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
 
-$statement->execute();
-
 //Check if there is an admin entry
 if ($statement->fetch_row())
 {
@@ -45,8 +43,6 @@ $statement->close();
 $query = "SELECT * FROM members WHERE uniqname = '$user' AND type = 'Member'";
 
 $statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
-
-$statement->execute();
 
 //Check if there is a member entry
 if ($statement->fetch_row())
