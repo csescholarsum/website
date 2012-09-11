@@ -33,8 +33,8 @@ if ($statement->num_rows != 0)
 {
 	//user is an admin; redirect to main page
 	$_SESSION['type'] = "Admin";
-	header("Location: ../index.php");
-	exit();
+	//header("Location: ../index.php");
+	//exit();
 }
 
 $statement->close();
@@ -53,14 +53,14 @@ if ($statement->num_rows != 0)
 {
 	//user is a member; redirect to main page
 	$_SESSION['type'] = "Member";
-	header("Location: ../index.php");
-	exit();
+	//header("Location: ../index.php");
+	//exit();
 }
 
 $statement->close();
 
-
+die(var_dump($_SESSION['type']));
 //user is not authorized; redirect to main page
-header("Location: ../index.php");
-exit();
+//header("Location: ../index.php");
+//exit();
 ?>
