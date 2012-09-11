@@ -52,7 +52,7 @@ else
 		}
 		
 		#this grabs the event table and updates events and service hours
-		$attend_tb = mysql_query("SELECT * FROM attendies WHERE Uniqname='".$uniqname."' AND deleted=0" );
+		$attend_tb = mysql_query("SELECT * FROM attendies a, events b WHERE a.uniqname='".$uniqname."' AND a.deleted=0 AND b.eventID=a.eventID AND b.deleted=0" );
 		if(mysql_num_rows($attend_tb) != 0) {
 		
 			#get event number

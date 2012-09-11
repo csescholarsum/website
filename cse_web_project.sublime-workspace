@@ -579,7 +579,7 @@
 			"file": "public_html/login/.htaccess",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 1,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +587,15 @@
 			"file": "public_html/login/index.php",
 			"settings":
 			{
-				"buffer_size": 1571,
+				"buffer_size": 1572,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
+			"settings":
+			{
+				"buffer_size": 1815,
 				"line_ending": "Windows"
 			}
 		},
@@ -1023,7 +1031,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1922.0,
+						"translation.y": 2408.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1040,8 +1048,8 @@
 						"selection":
 						[
 							[
-								2692,
-								2692
+								427,
+								441
 							]
 						],
 						"settings":
@@ -1049,7 +1057,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1402.0,
+						"translation.y": 36.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1191,15 +1199,15 @@
 					"file": "public_html/login/.htaccess",
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1217,15 +1225,15 @@
 					"file": "public_html/login/index.php",
 					"settings":
 					{
-						"buffer_size": 1571,
+						"buffer_size": 1572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								629,
-								629
+								1446,
+								1446
 							]
 						],
 						"settings":
@@ -1233,13 +1241,39 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 808.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+					"file": "/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
+					"settings":
+					{
+						"buffer_size": 1815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "public_html/content/home.php",
 					"settings":
 					{
