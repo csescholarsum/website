@@ -41,7 +41,7 @@
 						//Change selected and remove disabled tabs
 						$("#tabs").tabs( "option", "disabled", false );
 						$("#tabs").tabs({ selected: 1 });
-						$("#tabs").tabs( "option", "disabled", [0] );
+						$("#tabs").tabs( "option", "disabled", [0 , 4] );
 
 						message_popup("", text, -1, "#");
 					}
