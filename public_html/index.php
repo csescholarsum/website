@@ -6,8 +6,8 @@ Created by jsallans
 PURPOSE: website main page
 */
 
-$_SESSION['USER_UNIQ'] = "jsallans";
-$_SESSION['type'] = "Member";
+//$_SESSION['USER_UNIQ'] = "jsallans";
+//$_SESSION['type'] = "Member";
 
 
 	include('init.php');
