@@ -57,7 +57,7 @@ function AddResume($temp_files, $uniqname) {
 
 			//Mark resume exists
 			connect_to_db();
-			mysql_query("UPDATE members SET hasResume = '1' WHERE uniqname = '$uniqname' AND deleted=0");
+			mysql_query("UPDATE members SET hasResume = 1 WHERE uniqname = '$uniqname' AND deleted=0");
 
 			echo "Resume successfuly uploaded.";
 		}
@@ -99,7 +99,7 @@ function DeleteResume($uniqname)
 
 	//Unmark resume exists
 	connect_to_db();
-	mysql_query("UPDATE members SET hasResume = '0' WHERE uniqname = '$uniqname' AND deleted=0");
+	mysql_query("UPDATE members SET hasResume = 0 WHERE uniqname = '$uniqname' AND deleted=0");
 
 }
 
