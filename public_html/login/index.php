@@ -34,7 +34,7 @@ if ($statement->num_rows != 0)
 {
 	//user is an admin; redirect to main page
 	$_SESSION['type'] = "Admin";
-	header("Location: https:/~cseschol/index.php");
+	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 	exit();
 }
 
@@ -55,7 +55,7 @@ if ($statement->num_rows != 0)
 {
 	//user is a member; redirect to main page
 	$_SESSION['type'] = "Member";
-	header("Location: https:/~cseschol/index.php");
+	header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 	exit();
 }
 
@@ -63,6 +63,6 @@ $statement->close();
 
 die(var_dump($_SESSION['type']));
 //user is not authorized; redirect to main page
-header("Location: https:/~cseschol/index.php");
+header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
 exit();
 ?>
