@@ -7,16 +7,17 @@ PURPOSE: to keep different types of users separate
 */
 ?>
 
-	<!--menu-->
+    <!--menu-->
     <div class='tabs'>
         <div class='moving_bg'>
             &nbsp;
         </div>
+        
+        <span id='home' class='tab_item'>
+            Home
+        </span>
         <span id='my_profile' class='tab_item'>
             My Profile
-        </span>
-		<span id='home' class='tab_item'>
-            Home
         </span>
         <span id='about' class='tab_item'>
             About Us
@@ -25,70 +26,69 @@ PURPOSE: to keep different types of users separate
             Blog
         </span>
         <span id='calendar' class='tab_item'>
-        	Calendar
+            Calendar
         </span>
         <span id='members' class='tab_item'>
-        	Members
+            Members
         </span>
         <span id='resources' class='tab_item'>
-        	Resources
+            Resources
         </span>
         <span id='officers' class='tab_item'>
-        	Officers
+            Officers
         </span>
 
     </div>
     <br />
     <!--<hr style='width: 960px' />-->
 
-	<!--page contents--> 
+    <!--page contents--> 
     <div class='slide_content'>
         <div class='tabslider'>
  
             <!-- content goes here -->
-            <ul class='my_profile'>
-<?php
-                    echo "comming soon...";
-?>              
-            </ul>
             <ul class='home'>
 <?php
-					include('content/home.php');
-?>			    
-			</ul>
-			<ul class='about'>
+                    include('content/home.php');
+?>              
+            </ul>
+            <ul class='my_profile'>
 <?php
-					include('content/about_us.php');
-?>			    
-			</ul>
-			<ul class='blog' id='blog_tab_content'>
-				<br />
-				<img src="images/ajax-loader.gif" class='loader'> Loading...
+                    include('content/my_admin_profile.php');
+?>              
+            </ul>
+            <ul class='about'>
 <?php
-					//include('content/blog.php');
-?>		
-			</ul>
-			<ul class='calendar'>
+                    include('content/about_us.php');
+?>              
+            </ul>
+            <ul class='blog' id='blog_tab_content'>
+                <br />
+                <img src="images/ajax-loader.gif" class='loader'> Loading...
 <?php
-					include('content/calendar.php');
-?>	
-			</ul>
-			<ul class='members' id='members'>
+                    //include('content/blog.php');
+?>      
+            </ul>
+            <ul class='calendar'>
 <?php
-					include('content/members.php');
-?>	
-			</ul>
-			<ul class='resources'>
+                    include('content/calendar.php');
+?>  
+            </ul>
+            <ul class='members' id='members'>
+<?php
+                    include('content/members.php');
+?>  
+            </ul>
+            <ul class='resources'>
 <?php
 
-					include('content/resources.php');
-?>	
-			</ul>
-			<ul class='officers'>
+                    include('content/resources.php');
+?>  
+            </ul>
+            <ul class='officers'>
 <?php
-					include('content/contact.php');
-?>	
-			</ul>
- 
+                    include('content/contact.php');
+?>  
+            </ul>
         </div>
     </div>
