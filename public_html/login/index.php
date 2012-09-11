@@ -16,6 +16,8 @@ include('../tools/functions.php');
 $user = $_SERVER['REMOTE_USER'];
 $_SESSION['USER_UNIQ'] = $user;
 
+$user = "jsallans";
+
 //MYSQLI database call
 $connection = connect_to_db_with_sqli();
 
@@ -35,6 +37,8 @@ if ($statement->fetch()) {
 }
 
 $statement->close();
+
+die(var_dump($_SESSION['type']));
 
 //user is not authorized; redirect to main page
 header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
