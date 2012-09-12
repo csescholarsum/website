@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"serh",
+				"serhours"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"at",
+				"attendance_table"
+			],
+			[
+				"att",
+				"attend_uniqname"
+			],
+			[
 				"ev",
 				"event_id"
 			],
@@ -18,10 +34,6 @@
 			[
 				"su",
 				"submit_email_button"
-			],
-			[
-				"_",
-				"_COOKIE"
 			],
 			[
 				"subm",
@@ -240,10 +252,6 @@
 				"getElementById"
 			],
 			[
-				"at",
-				"attentions_sent"
-			],
-			[
 				"mes",
 				"message_popup"
 			],
@@ -448,10 +456,6 @@
 				"is_sent"
 			],
 			[
-				"att",
-				"attention_list"
-			],
-			[
 				"print_",
 				"print_admin_attentions_received"
 			],
@@ -510,10 +514,6 @@
 			[
 				"old",
 				"old_snapshot"
-			],
-			[
-				"ha",
-				"handle_process_id"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3152,
+				"buffer_size": 3153,
 				"line_ending": "Windows"
 			}
 		},
@@ -576,10 +576,34 @@
 			}
 		},
 		{
-			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_attend.php",
 			"settings":
 			{
-				"buffer_size": 1464,
+				"buffer_size": 1565,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/add_to_attend.php",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/action/delete_event.php",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/action/add_event.php",
+			"settings":
+			{
+				"buffer_size": 295,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,15 +611,7 @@
 			"file": "public_html/ajax/get_events.php",
 			"settings":
 			{
-				"buffer_size": 3494,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
-			"settings":
-			{
-				"buffer_size": 350,
+				"buffer_size": 3416,
 				"line_ending": "Windows"
 			}
 		}
@@ -624,9 +640,13 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/polls.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/print_event_attendance.php",
+		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
+		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/event_logger.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/edit_profile.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/member.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/my_profile.php",
@@ -747,11 +767,7 @@
 		"/C/wamp/www/AssociationDues/onyx/action_mute.php",
 		"/C/wamp/www/AssociationDues/onyx/action_check_judgment.php",
 		"/C/wamp/www/AssociationDues/onyx/admin_index.php",
-		"/C/wamp/www/AssociationDues/onyx/admin_attention/insert_popup.php",
-		"/C/wamp/www/AssociationDues/onyx/message_popup.php",
-		"/C/wamp/www/AssociationDues/onyx/model/User.php",
-		"/C/wamp/www/AssociationDues/onyx/snapshot/snapshot_func.php",
-		"/C/wamp/www/AssociationDues/onyx/model/Account.php"
+		"/C/wamp/www/AssociationDues/onyx/admin_attention/insert_popup.php"
 	],
 	"find":
 	{
@@ -998,7 +1014,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -1006,15 +1022,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3152,
+						"buffer_size": 3153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								2945,
+								2945
 							]
 						],
 						"settings":
@@ -1176,8 +1192,8 @@
 						"selection":
 						[
 							[
-								362,
-								370
+								371,
+								314
 							]
 						],
 						"settings":
@@ -1194,18 +1210,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_attend.php",
 					"settings":
 					{
-						"buffer_size": 1464,
+						"buffer_size": 1565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1392,
-								1392
+								0,
+								1565
 							]
 						],
 						"settings":
@@ -1215,25 +1231,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 754.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "public_html/ajax/get_events.php",
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/add_to_attend.php",
 					"settings":
 					{
-						"buffer_size": 3494,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								844,
-								844
+								740,
+								740
 							]
 						],
 						"settings":
@@ -1250,17 +1266,17 @@
 				},
 				{
 					"buffer": 9,
-					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
+					"file": "public_html/ajax/action/delete_event.php",
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
+								192,
 								0
 							]
 						],
@@ -1270,6 +1286,61 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public_html/ajax/action/add_event.php",
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public_html/ajax/get_events.php",
+					"settings":
+					{
+						"buffer_size": 3416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1804,
+								1804
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1499.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
