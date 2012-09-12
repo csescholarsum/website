@@ -26,6 +26,7 @@ body {
 	*/
 	background-size:100% 100%;
 	background-color: #F0F0FF;
+	/*background-color: #FFFFB1;*/
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
@@ -84,6 +85,8 @@ body {
 	padding-bottom: 10px;
 
 	background-color: #CCDDEE;
+	/*background-color: #444E73;
+	color: #FFF413;*/
 
 	margin: -20px 0px 0px -20px;
 	width: 1000px;
