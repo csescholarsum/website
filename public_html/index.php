@@ -158,6 +158,7 @@ else if ($_SESSION['type'] == "Admin")
 <div class='popup'>
 </div>
 
+
 <!-- sample things
 	<div class='shell'>
 		<h3>shell</h3>

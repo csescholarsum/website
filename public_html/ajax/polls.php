@@ -117,8 +117,6 @@ else
 
 	function print_poll_results( poll_id, selector) {
 
-		alert(poll_id);
-
 		$.ajax({
 			type: "POST",
 			url: "ajax/action/print_poll_result.php",

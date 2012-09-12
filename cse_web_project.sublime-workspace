@@ -587,7 +587,7 @@
 			"file": "public_html/ajax/get_events.php",
 			"settings":
 			{
-				"buffer_size": 3496,
+				"buffer_size": 3494,
 				"line_ending": "Windows"
 			}
 		},
@@ -1225,15 +1225,15 @@
 					"file": "public_html/ajax/get_events.php",
 					"settings":
 					{
-						"buffer_size": 3496,
+						"buffer_size": 3494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								843,
-								843
+								844,
+								844
 							]
 						],
 						"settings":
@@ -1243,7 +1243,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2160.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

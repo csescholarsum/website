@@ -179,7 +179,7 @@
 					$(this).dialog('close');
 				}
 			}
-		})
+		});
 
 		$(".edit_profile_button").click(function() {
 
