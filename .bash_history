@@ -474,3 +474,56 @@ git checkout new_website
 git checkout master
 git checkout new_website
 git checkout master
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git log
+git checkout 39a5ccedc051
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git log
+git checkout 39a5ccedc051cd
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+ls
+git checkout new_website
+git checkout master
+ls
+cd public_html/
+ls
+cd resumes
+ls
+git reset --hard
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
