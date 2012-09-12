@@ -30,6 +30,8 @@
 
   $(function() {
 
+    $(".date").datepicker();
+
     $(".create_event_button").click(function() {
       $.ajax({
         type: "POST",
