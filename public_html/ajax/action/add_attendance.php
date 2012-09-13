@@ -17,7 +17,7 @@ $event_id = mysql_real_escape_string($_REQUEST['eventID']);
 $name = mysql_real_escape_string($_REQUEST['name']);
 $uniqname = mysql_real_escape_string($_REQUEST['uniqname']);
 
-$result = mysql_query("SELECT * FROM attendies WHERE Uniqname='$uniqname' AND deleted=0");
+$result = mysql_query("SELECT * FROM attendies a, event b WHERE a.Uniqname='$uniqname' AND a.deleted=0 AND b.eventID='$event_id' AND b.deleted=0");
 
 if (mysql_num_rows($result) == 0) {
 

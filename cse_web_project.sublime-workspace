@@ -523,7 +523,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3157,
+				"buffer_size": 3153,
 				"line_ending": "Windows"
 			}
 		},
@@ -572,6 +572,22 @@
 			"settings":
 			{
 				"buffer_size": 1239,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/make_events.php",
+			"settings":
+			{
+				"buffer_size": 1317,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/action/add_attendance.php",
+			"settings":
+			{
+				"buffer_size": 833,
 				"line_ending": "Windows"
 			}
 		}
@@ -974,7 +990,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -982,15 +998,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3157,
+						"buffer_size": 3153,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								73
+								135,
+								135
 							]
 						],
 						"settings":
@@ -1133,7 +1149,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": 56.0,
 						"translation.y": 285.0,
 						"zoom_level": 1.0
 					},
@@ -1162,6 +1178,60 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public_html/ajax/make_events.php",
+					"settings":
+					{
+						"buffer_size": 1317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 288.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public_html/ajax/action/add_attendance.php",
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
