@@ -539,3 +539,7 @@ git checkout master
 git checkout old_website
 git checkout master
 exit
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
