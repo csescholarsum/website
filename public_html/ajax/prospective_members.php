@@ -12,7 +12,25 @@
 	<th>Events Attended</th>
 	<th>Service Hours</th>
 <?php
-$query = mysql_query("SELECT * FROM attendies a, events b WHERE a.deleted=0 AND b.eventID=a.eventID AND b.deleted=0 ORDER BY uniqname");
+$query = mysql_query("
+SELECT a.Name, a.Uniqname, COUNT( * ), SUM( e.SerHours)
+FROM attendies a,
+EVENTS e
+WHERE a.deleted =0
+AND e.eventID = a.eventID
+AND e.deleted =0
+AND (
+a.Uniqname
+) NOT
+IN (
+
+SELECT uniqname
+FROM members
+WHERE deleted =0
+)
+GROUP BY a.Uniqname
+ORDER BY a.Uniqname
+");
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
@@ -33,69 +51,26 @@ else
 	$old_uniqname = "";
 	while ($userData = mysql_fetch_row($query))
 	{
-    list($id, $deleted, $name, $uniqname, $eventID) = $userData;
+    list($name, $uniqname, $numEvents, $numService) = $userData;
 		
-    if ($uniqname != $old_uniqname) {
     
-        #Check if the unique name has 1 or more rows and that it is not a member
-        if ( 1 > mysql_num_rows(mysql_query("SELECT * FROM members WHERE uniqname='". $uniqname ."' AND deleted=0"))  && 1 <= mysql_num_rows( mysql_query("SELECT * FROM attendies WHERE Uniqname='". $uniqname ."'")) ) {
-        
-		        #this grabs the event table and updates events and service hours
-		        $attend_tb = mysql_query("SELECT * FROM attendies a, events b WHERE a.uniqname='".$uniqname."' AND a.deleted=0 AND b.eventID=a.eventID AND b.deleted=0" );
-		        if(mysql_num_rows($attend_tb) != 0) {
-        		
-			        #get event number
-			        $numEvents = mysql_num_rows($attend_tb);
-        			
-			        #add up service hours
-				        #init
-				        $numService = 0;
-        				
-				        #add
-			        while($attend_data = mysql_fetch_row($attend_tb)) {
-        			
-				        #extract data from event table
-				        list($participant, $uniqname, $eventID) = $attend_data;
-        				
-				        #query with event ID
-				        $event_tb = mysql_query("SELECT * FROM events WHERE eventID='".$eventID."' AND deleted=0" );
-        				
-				        #
-				        if ($event_data = mysql_fetch_row($event_tb) ) {
-        					
-					        #extract data
-					        list($eventID, $title, $date, $serviceHours) = $event_data;
-        					
-                  #updates service hours and removes 1 event b/c it is counted as service
-					        $numService = $numService + $serviceHours;
-                  if ($serviceHours != 0) {
-                    $numEvents = $numEvents - 1;
-                  }
-                            
-				        }
-			        }
-		        }
-		        else {
-			        $numEvents = "-";
-			        $numService = "-";
-		        }
-            #fix to avoid having 0 service hours
-            if ($numService == 0) {
-              $numService = "-";
-            }
-        		
-		        #printing info into table
-		        echo "\t<tr>\n";
-		        echo "\t\t<td>$name</td>\n";
-            echo "\t\t<td>$uniqname</td>\n";
-		        echo "\t\t<td style=\"text-align:center;\">".$numEvents."</td>\n";
-		        echo "\t\t<td style=\"text-align:center;\">".$numService."</td>\n";
-		        echo "\t</tr>\n";
-	        }
-       }
+        #fix to avoid having 0 service hours
+        if ($numService == 0) {
+          $numService = "-";
+        }
+
+        if ($numEvents == 0) {
+          $numEvents = "-";
+        }
+    		
+        #printing info into table
+        echo "\t<tr>\n";
+        echo "\t\t<td>$name</td>\n";
+    	echo "\t\t<td>$uniqname</td>\n";
+        echo "\t\t<td style=\"text-align:center;\">".$numEvents."</td>\n";
+        echo "\t\t<td style=\"text-align:center;\">".$numService."</td>\n";
+        echo "\t</tr>\n";
        
-       
-       $old_uniqname = $uniqname;
    }
 }
 

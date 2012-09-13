@@ -6,9 +6,9 @@ Created by jsallans
 PURPOSE: website main page
 */
 
-//Use to test on localhost
-//$_SESSION['USER_UNIQ'] = "jsallans";
-//$_SESSION['type'] = "Admin";
+//Uncomment to test login on localhost
+$_SESSION['USER_UNIQ'] = "jsallans";
+$_SESSION['type'] = "Admin";
 
 
 	include('init.php');

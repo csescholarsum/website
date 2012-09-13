@@ -24,7 +24,7 @@
 		<h3>Join CSE Scholars</h3>
 
 		<p>
-			Students who are declared computer science or computer engineering majors can join the society portion of the CSE Scholars at any time. Please check out our calendar for the next scheduled meeting time.
+			Students who are interested in computer science or computer engineering can join CSE Scholars at any time. Please check out our calendar for the next scheduled meeting time.
 			<br /><br />
 			To become an official member of the CSE Scholars and get in our resume book, students are required to attend at least 3 meetings/social events, 6 hours of community service, and the election meeting at the end of the semester.
 			<br /><br />
