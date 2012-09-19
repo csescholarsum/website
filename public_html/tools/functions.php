@@ -62,7 +62,7 @@ function AddResume($temp_files, $uniqname, $save_path) {
 		}
 		else {
 
-			return "" . var_dump($_FILES['resumeFile']);
+			die(var_dump($_FILES['resumeFile']));
 			//return "File didn't upload.";
 		}
 	}
