@@ -37,7 +37,7 @@ PURPOSE: website main page
 			//set page message on load
 			if (isset($_GET['message'])) {
 
-				echo "message_popup('', " . $_GET['message'] . ", 1,'#');";
+				echo "message_popup('', '" . $_GET['message'] . "', 1,'#');";
 			}
 ?>
 

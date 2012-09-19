@@ -38,7 +38,7 @@ if (isset($_FILES['resumeFile']) && $_FILES['resumeFile']['name'] != "") {
 //Print message option
 if ($message != "") {
 
-	header("Location: ../../index.php?slide_page=my_profile&message='" . $message . "'");
+	header("Location: ../../index.php?slide_page=my_profile&message=" . $message . "");
 }
 else {
 

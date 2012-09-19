@@ -50,7 +50,7 @@ function AddResume($temp_files, $uniqname, $save_path) {
 	//check if file ends with ".pdf"
 	if (substr_compare($temp_files['resumeFile']['name'], ".pdf", -4) === 0)
 	{
-		DeleteResume($uniqname);
+		//DeleteResume($uniqname, $save_path);
 
 		if (move_uploaded_file($temp_files['resumeFile']['tmp_name'], $save_path)) {
 
@@ -90,9 +90,8 @@ function FormatGradDate($gradMonth, $gradYear)
 	return date( 'F', mktime(0, 0, 0, $gradMonth)).", ".$gradYear;
 }
 
-function DeleteResume($uniqname)
+function DeleteResume($uniqname, $path)
 {
-	$path = $_SESSION['path'] . "resumes/".$uniqname.".pdf";
 	if (file_exists($path))
 		unlink($path); //remove
 
