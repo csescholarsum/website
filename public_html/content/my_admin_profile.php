@@ -59,6 +59,18 @@
     //Open popup on row click
     $(".view_event_row").live("click", function() {
 
+		$(".popup").dialog("option", {
+	      autoOpen: false,
+	      modal: true,
+	      show: "fade",
+	      hide: "fade",
+	      width: "600px",
+	      buttons: {
+	        "Close" : function() {
+	          $(this).dialog('close');
+	        }
+	      }
+	    });
       $('.popup').dialog('open');
       $('.popup').html("<p> \
     <form class='sign_in_form' method='post'> \
