@@ -125,6 +125,8 @@
       print_event_attendance($(this).children().val(), ".attendance_table");
     });
 
+    $(".sign_in_form").unbind();
+
     $(".sign_in_form").live("submit", function() {
       $.ajax({
         type: "POST",

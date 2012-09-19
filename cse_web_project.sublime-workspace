@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ser",
+				"serviceHours"
+			],
+			[
 				"mysql_n",
 				"mysql_num_rows"
 			],
@@ -510,10 +514,6 @@
 			[
 				"reci",
 				"reciever_new"
-			],
-			[
-				"link",
-				"linked_id"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3157,
+				"buffer_size": 3169,
 				"line_ending": "Windows"
 			}
 		},
@@ -588,6 +588,22 @@
 			"settings":
 			{
 				"buffer_size": 833,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/content/about_us.php",
+			"settings":
+			{
+				"buffer_size": 1413,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/prospective_members.php",
+			"settings":
+			{
+				"buffer_size": 1448,
 				"line_ending": "Windows"
 			}
 		}
@@ -767,6 +783,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ORDER",
 			"success",
 			"mysql_query",
 			"\\$_SESSION['type']",
@@ -893,8 +910,7 @@
 			"jQuery(",
 			"\\$\\(",
 			"\\$(",
-			"\\$",
-			"$"
+			"\\$"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -990,7 +1006,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -998,15 +1014,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3157,
+						"buffer_size": 3169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								151,
+								151
 							]
 						],
 						"settings":
@@ -1015,7 +1031,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1232,6 +1248,61 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public_html/content/about_us.php",
+					"settings":
+					{
+						"buffer_size": 1413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1028,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public_html/ajax/prospective_members.php",
+					"settings":
+					{
+						"buffer_size": 1448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
