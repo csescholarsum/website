@@ -33,6 +33,12 @@ PURPOSE: website main page
 							duration: 300
 						});";
 			}
+
+			//set page message on load
+			if (isset($_GET['message'])) {
+
+				echo "message_popup('', " . $_GET['message'] . ", 1,'#');";
+			}
 ?>
 
 

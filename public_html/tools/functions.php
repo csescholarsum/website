@@ -43,32 +43,31 @@ function connect_to_db_with_sqli() {
 }
 
 //PURPOSE: will check if the file is a PDF then uploads it
-function AddResume($temp_files, $uniqname) {
+function AddResume($temp_files, $uniqname, $save_path) {
 
 	//$temp_files is passed as $_FILES
-
-	DeleteResume($uniqname);
 
 	//check if file ends with ".pdf"
 	if (substr_compare($temp_files['resumeFile']['name'], ".pdf", -4) === 0)
 	{
+		DeleteResume($uniqname);
 
-		if (move_uploaded_file($temp_files['resumeFile']['tmp_name'], $_SESSION['path'] . "resumes/".$uniqname.".pdf")) {
+		if (move_uploaded_file($temp_files['resumeFile']['tmp_name'], $save_path)) {
 
 			//Mark resume exists
 			connect_to_db();
 			mysql_query("UPDATE members SET hasResume = 1 WHERE uniqname = '$uniqname' AND deleted=0");
 
-			echo "Resume successfuly uploaded.";
+			return "Resume successfuly uploaded.";
 		}
 		else {
 
-			echo "File didn't upload.";
+			return "File didn't upload.";
 		}
 	}
 	else
 	{
-		echo "Resume needs to be a .pdf";
+		return "Resume needs to be a .pdf";
 	}
 
 }

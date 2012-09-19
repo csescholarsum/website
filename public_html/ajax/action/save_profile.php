@@ -7,6 +7,8 @@ include("../../tools/functions.php");
 
 connect_to_db();
 
+$message = "";
+
 if (isset($_POST['name']))
 {
 	//profile update; error detection/correction needed
@@ -25,15 +27,22 @@ if (isset($_POST['name']))
 	mysql_query("UPDATE members SET name = '$name', gradMonth = '$gradMonth', gradYear = '$gradYear', showResume = '$showResume', major = '$major', type = '$type', gpa = '$gpa'
 		WHERE uniqname = '$uniqname' AND deleted=0");
 
-	echo "Profile Updated.";
+	//"Profile Updated.";
 }
 
 if (isset($_FILES['resumeFile']) && $_FILES['resumeFile']['name'] != "") {
 
-	echo AddResume($_FILES, $uniqname);
+	$message = AddResume($_FILES, $uniqname, "../../resumes/".$uniqname.".pdf");
 }
 
-header("Location: ../../index.php?slide_page=my_profile");
-	
+//Print message option
+if ($message != "") {
+
+	header("Location: ../../index.php?slide_page=my_profile&message='" . $message . "'");
+}
+else {
+
+	header("Location: ../../index.php?slide_page=my_profile");
+}
 
 ?>
