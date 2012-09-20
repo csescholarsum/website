@@ -590,3 +590,22 @@ cd public_html/resumes
 ls
 git checkout new_website
 git checkout master
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+ls -a
+vim .Xauthority 
+cd public_html/
+ls
+cd resumes
+ls
+ls -a
+cd ../../
+ls
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
