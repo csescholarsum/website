@@ -104,7 +104,7 @@
 	if ($hasResume) {
 
 		//This file is included in public_html/index.php so we don't included ../
-		echo "<a target='_BLANK' href='resumes/$uniqname.pdf'> Resume </a>";
+		echo "<a target='_BLANK' href='resumes/index.php?uniqname=$uniqname'> Resume </a>";
 	}
 	else {
 
