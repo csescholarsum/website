@@ -44,7 +44,7 @@ else
 		$member_email = $uniqname."@umich.edu";
 		if ($hasResume && $showResume)
 		{
-			$resumeLink = "./resumes/".$uniqname.".pdf";
+			$resumeLink = "./resumes/index.php?uniqname=".$uniqname;
 			$resumeLink = "<a target='_BLANK' href=\"".$resumeLink."\">View Resume</a>";
 		}
 		else {
