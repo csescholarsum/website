@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"_",
+				"_FILES"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
 				"su",
 				"submit"
 			],
@@ -22,10 +30,6 @@
 			[
 				"even",
 				"eventID"
-			],
-			[
-				"_",
-				"_REQUEST"
 			],
 			[
 				"event",
@@ -270,10 +274,6 @@
 			[
 				"get",
 				"getElementById"
-			],
-			[
-				"mes",
-				"message_popup"
 			],
 			[
 				"proc",
@@ -523,7 +523,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3169,
+				"buffer_size": 3306,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,79 +531,25 @@
 			"file": "public_html/tools/functions.php",
 			"settings":
 			{
-				"buffer_size": 3373,
+				"buffer_size": 3360,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/content/my_admin_profile.php",
+			"contents": "Searching 2220 files for \"DeleteResume\" (regex)\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\ajax\\action\\delete_resume.php:\n    5  include(\"../../tools/functions.php\");\n    6  \n    7: DeleteResume($uniqname);\n    8  \n    9  ?>\n\nC:\\wamp\\www\\cse_scholars_test\\public_html\\tools\\functions.php:\n   51  	if (substr_compare($temp_files['resumeFile']['name'], \".pdf\", -4) === 0)\n   52  	{\n   53: 		DeleteResume($uniqname);\n   54  \n   55  		if (move_uploaded_file($temp_files['resumeFile']['tmp_name'], $save_path)) {\n   ..\n   91  }\n   92  \n   93: function DeleteResume($uniqname, $path)\n   94  {\n   95  	if (file_exists($path))\n\n3 matches across 2 files\n",
 			"settings":
 			{
-				"buffer_size": 4008,
-				"line_ending": "Windows"
+				"buffer_size": 645,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
-			"file": "public_html/ajax/action/delete_event.php",
+			"file": "public_html/ajax/action/save_profile.php",
 			"settings":
 			{
-				"buffer_size": 186,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/ajax/get_events.php",
-			"settings":
-			{
-				"buffer_size": 1621,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1960,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/css/tabbedContent.css",
-			"settings":
-			{
-				"buffer_size": 1239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/ajax/make_events.php",
-			"settings":
-			{
-				"buffer_size": 1317,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/ajax/action/add_attendance.php",
-			"settings":
-			{
-				"buffer_size": 833,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/content/about_us.php",
-			"settings":
-			{
-				"buffer_size": 1413,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/ajax/prospective_members.php",
-			"settings":
-			{
-				"buffer_size": 1448,
+				"buffer_size": 1246,
 				"line_ending": "Windows"
 			}
 		}
@@ -632,8 +578,17 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/delete_resume.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/edit_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/get_events.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/my_admin_profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/delete_event.php",
+		"/C/wamp/www/cse_scholars_test/public_html/css/style.css",
+		"/C/wamp/www/cse_scholars_test/public_html/css/tabbedContent.css",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/make_events.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_attendance.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/about_us.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/prospective_members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/add_to_attend.php",
@@ -647,7 +602,6 @@
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/event_logger.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/edit_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/member.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/my_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/prospective.php",
@@ -662,7 +616,6 @@
 		"/C/wamp/www/cse_scholars_test/public_html/content/home.php",
 		"/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/prospective_members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/alumni.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/view_poll.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/index.php",
@@ -752,14 +705,7 @@
 		"/C/wamp/www/AssociationDues/onyx/config_jquery.php",
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/js/tabbedContent.js",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php",
-		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css",
-		"/C/wamp/www/AssociationDues/onyx/style.css",
-		"/C/wamp/www/AssociationDues/onyx/homeowners-association-detail.php",
-		"/C/wamp/www/AssociationDues/onyx/admin-detail.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/action_reassign_client_attention.php",
-		"/C/wamp/www/AssociationDues/onyx/model/Admin.php",
-		"/C/wamp/www/AssociationDues/onyx/model/AdminAttention.php",
-		"/C/wamp/www/AssociationDues/onyx/ajax/property_manager_detail_table_sort.php"
+		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css"
 	],
 	"find":
 	{
@@ -783,6 +729,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DeleteResume",
 			"ORDER",
 			"success",
 			"mysql_query",
@@ -909,8 +856,7 @@
 			"\\$\\(",
 			"jQuery(",
 			"\\$\\(",
-			"\\$(",
-			"\\$"
+			"\\$("
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1014,15 +960,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3169,
+						"buffer_size": 3306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								2025,
+								2025
 							]
 						],
 						"settings":
@@ -1031,7 +977,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1041,15 +987,15 @@
 					"file": "public_html/tools/functions.php",
 					"settings":
 					{
-						"buffer_size": 3373,
+						"buffer_size": 3360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								622,
-								622
+								1551,
+								1551
 							]
 						],
 						"settings":
@@ -1058,214 +1004,76 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2239.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public_html/content/my_admin_profile.php",
 					"settings":
 					{
-						"buffer_size": 4008,
+						"buffer_size": 645,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										182,
+										194
+									],
+									[
+										389,
+										401
+									],
+									[
+										547,
+										559
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								704,
-								467
+								190,
+								190
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "public_html/ajax/action/delete_event.php",
+					"file": "public_html/ajax/action/save_profile.php",
 					"settings":
 					{
-						"buffer_size": 186,
+						"buffer_size": 1246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "public_html/ajax/get_events.php",
-					"settings":
-					{
-						"buffer_size": 1621,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1418,
-								1418
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1127.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "public_html/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1960,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								408,
-								408
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 56.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public_html/css/tabbedContent.css",
-					"settings":
-					{
-						"buffer_size": 1239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "public_html/ajax/make_events.php",
-					"settings":
-					{
-						"buffer_size": 1317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								690,
-								690
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 288.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "public_html/ajax/action/add_attendance.php",
-					"settings":
-					{
-						"buffer_size": 833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								829,
-								829
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "public_html/content/about_us.php",
-					"settings":
-					{
-						"buffer_size": 1413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1028,
-								1028
+								1167,
+								1167
 							]
 						],
 						"settings":
@@ -1274,35 +1082,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "public_html/ajax/prospective_members.php",
-					"settings":
-					{
-						"buffer_size": 1448,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
