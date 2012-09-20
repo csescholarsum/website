@@ -520,18 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "public_html/index.php",
-			"settings":
-			{
-				"buffer_size": 3306,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "public_html/tools/functions.php",
 			"settings":
 			{
-				"buffer_size": 3360,
+				"buffer_size": 3317,
 				"line_ending": "Windows"
 			}
 		},
@@ -549,7 +541,23 @@
 			"file": "public_html/ajax/action/save_profile.php",
 			"settings":
 			{
-				"buffer_size": 1246,
+				"buffer_size": 1249,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/resumes/template.php",
+			"settings":
+			{
+				"buffer_size": 567,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/resumes/template.php",
+			"settings":
+			{
+				"buffer_size": 555,
 				"line_ending": "Windows"
 			}
 		}
@@ -578,6 +586,9 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/includes/uploadResume.php",
+		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/members/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/delete_resume.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/edit_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/get_events.php",
@@ -625,7 +636,6 @@
 		"/C/Users/Jeff Sallans/Desktop/older___a good g0ass6i the 26 shows host e06 it he de¶60s",
 		"/C/Users/Jeff Sallans/Desktop/a good g0ass6i the 26 shows host e06 it he de¶60s",
 		"/C/wamp/www/cse_scholars_test/public_html/init.php",
-		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/members/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/members/index.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/includes/config.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/.login",
@@ -700,12 +710,10 @@
 		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
 		"/C/wamp/www/cse_scholars_test/public_html/top.php",
 		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
-		"/C/wamp/www/cse_scholars_test/public_html/index.php",
 		"/C/wamp/www/AssociationDues/onyx/auth.php",
 		"/C/wamp/www/AssociationDues/onyx/config_jquery.php",
 		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/js/tabbedContent.js",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php",
-		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_tabbedContent.zip/css/tabbedContent.css"
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/tools/message_popup.php"
 	],
 	"find":
 	{
@@ -952,23 +960,22 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public_html/index.php",
+					"file": "public_html/tools/functions.php",
 					"settings":
 					{
-						"buffer_size": 3306,
+						"buffer_size": 3317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2025,
-								2025
+								1512,
+								1512
 							]
 						],
 						"settings":
@@ -977,40 +984,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1440.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "public_html/tools/functions.php",
-					"settings":
-					{
-						"buffer_size": 3360,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1551,
-								1551
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"settings":
 					{
 						"buffer_size": 645,
@@ -1061,19 +1041,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "public_html/ajax/action/save_profile.php",
 					"settings":
 					{
-						"buffer_size": 1246,
+						"buffer_size": 1249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1167,
-								1167
+								1005,
+								1005
 							]
 						],
 						"settings":
@@ -1083,6 +1063,60 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public_html/resumes/template.php",
+					"settings":
+					{
+						"buffer_size": 567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp/www/cse_scholars backup (9-4-12)/public_html/resumes/template.php",
+					"settings":
+					{
+						"buffer_size": 555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
