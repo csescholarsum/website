@@ -32,7 +32,7 @@ if (isset($_POST['name']))
 
 if (isset($_FILES['resumeFile']) && $_FILES['resumeFile']['name'] != "") {
 
-	$message = AddResume($_FILES, $uniqname, "../../resumes/".$uniqname.".pdf");
+	$message = AddResume($_FILES, $uniqname, "../../../resumes/".$uniqname.".pdf");
 }
 
 //Print message option
