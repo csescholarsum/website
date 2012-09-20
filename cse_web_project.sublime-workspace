@@ -552,6 +552,30 @@
 				"buffer_size": 2224,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "public_html/resumes/.htaccess",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/resumes/index.php",
+			"settings":
+			{
+				"buffer_size": 565,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/profile.php",
+			"settings":
+			{
+				"buffer_size": 3356,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -578,6 +602,8 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/resumes/index.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/resumes/template.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resumes/template.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/includes/uploadResume.php",
@@ -620,7 +646,6 @@
 		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/admin.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/home.php",
 		"/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/alumni.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/view_poll.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/index.php",
@@ -704,8 +729,7 @@
 		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
 		"/C/wamp/www/cse_scholars_test/public_html/top.php",
 		"/C/wamp/www/cse_scholars_test/public_html/calendar.php",
-		"/C/wamp/www/AssociationDues/onyx/auth.php",
-		"/C/wamp/www/AssociationDues/onyx/config_jquery.php"
+		"/C/wamp/www/AssociationDues/onyx/auth.php"
 	],
 	"find":
 	{
@@ -952,7 +976,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1084,6 +1108,86 @@
 						},
 						"translation.x": 730.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public_html/resumes/.htaccess",
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public_html/resumes/index.php",
+					"settings":
+					{
+						"buffer_size": 565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public_html/ajax/profile.php",
+					"settings":
+					{
+						"buffer_size": 3356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1417,
+								1417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
