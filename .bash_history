@@ -588,3 +588,5 @@ ls
 cd public_html/resume
 cd public_html/resumes
 ls
+git checkout new_website
+git checkout master
