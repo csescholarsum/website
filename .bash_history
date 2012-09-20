@@ -564,3 +564,27 @@ git checkout new_website
 git checkout master
 git checkout new_website
 git checkout master
+git commit -a -m "bash_history
+"
+git checkout new_website
+git checkout master
+ls
+cd public_html/
+ls
+cd resumes
+ls
+cd ../../
+ls
+git commit -a -m "stuff"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+ls
+cd public_html/resume
+cd public_html/resumes
+ls
