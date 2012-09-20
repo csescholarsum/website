@@ -1,4 +1,16 @@
 <p>
+	Tutors Sign Up Here:
+	<br />
+  	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dGotdW9VR0U0eDNaV25xZnVnZkFiLXc6MQ">Sign Up</a><br />
+</p>
+
+<p>
+	Slice of Life (Sept 27th, Oct 3rd, 8th, 25th):
+	<br />
+  	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/spreadsheet/viewform?formkey=dHNmNUR3WElJZDk2aElLZHpsZlMtdkE6MQ#gid=0">Sign Up</a><br />
+</p>
+
+<p>
 	Orbitz Whirleyball Sign Up (Sept 23rd):
 	<br />
   	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dDZFRzlNdWlCaHMtVEJxZ2hHRFdPZmc6MQ">Sign Up</a><br />
