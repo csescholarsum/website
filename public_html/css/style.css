@@ -25,8 +25,8 @@ body {
 	background: url("../images/blue_uniform_spotlight_background.jpg") no-repeat fixed center top #000000;
 	*/
 	background-size:100% 100%;
-	background-color: #F0F0FF;
-	/*background-color: #FFFFB1;*/
+	/*background-color: #F0F0FF;*/
+	background-color: #55A8D6;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 }
@@ -84,10 +84,10 @@ body {
 	border-bottom: 1px solid #37414F;
 	padding-bottom: 10px;
 
-	background-color: #CCDDEE;
-	/*background-color: #444E73;
-	color: #FFF413;*/
-
+	/*background-color: #CCDDEE;*/
+	background-color: #7A9296;
+	/*color: #FFFFFF;*/
+	
 	margin: -20px 0px 0px -20px;
 	width: 1000px;
 	height: 200px;
