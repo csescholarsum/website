@@ -549,7 +549,7 @@
 			"file": "public_html/content/resources.php",
 			"settings":
 			{
-				"buffer_size": 2224,
+				"buffer_size": 2974,
 				"line_ending": "Windows"
 			}
 		},
@@ -574,6 +574,25 @@
 			"settings":
 			{
 				"buffer_size": 3356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1996,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".tabbed_content {\n	background-color: #FFFFFF;\n	width: 920px;	\n}\n\n.tabs {\n	height: 25px;\n	position: relative;\n}\n\n.tabs .moving_bg {\n	padding: 15px;\n	/*background-color:#CCDDEE;*/\n	background-color: #FFFF00;\n\n	border: 1px solid #37414F;\n	border-top: 0px;\n\n	margin-top: -1px;\n\n	-webkit-border-bottom-right-radius: 7px;\n	-webkit-border-bottom-left-radius: 7px;\n	-moz-border-radius-bottomright: 7px;\n	-moz-border-radius-bottomleft: 7px;\n	border-bottom-right-radius: 7px;\n	border-bottom-left-radius: 7px;\n\n	/*background-image:url(../images/arrow_down_green.gif);*/\n	position: absolute;\n	width: 80px;\n	z-index: 190;\n	left: 0;\n	background-position: bottom left;\n	background-repeat: no-repeat;\n}\n\n.tabs .tab_item {\n	display: block;\n	float: left;\n	padding: 15px;\n	width: 80px;\n	color: #000000;\n	text-align: center;\n	z-index: 200;\n	position: relative;\n	cursor: pointer;\n}\n\n.tabbed_content .slide_content {\n	overflow: hidden;\n	background-color: #FFFFFF;\n	padding: 20px 0px 20px 20px;\n	position: relative;\n	width: 960px;\n}\n\n.tabslider {\n	width: 9000px;\n}\n\n.tabslider ul {\n	float: left;\n	width: 920px;\n	margin: 0px;\n	padding: 0px;\n	margin-right: 40px;\n	/*height: 650px;*/\n	overflow: auto;\n}\n\n\n.tabslider ul {\n	color: #000000;\n	text-decoration: none;\n}\n\n",
+			"file": "public_html/css/tabbedContent.css",
+			"file_size": 1315,
+			"file_write_time": 129929013053906404,
+			"settings":
+			{
+				"buffer_size": 1239,
 				"line_ending": "Windows"
 			}
 		}
@@ -976,7 +995,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1089,15 +1108,15 @@
 					"file": "public_html/content/resources.php",
 					"settings":
 					{
-						"buffer_size": 2224,
+						"buffer_size": 2974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								201,
-								201
+								1520,
+								1520
 							]
 						],
 						"settings":
@@ -1106,8 +1125,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 730.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1177,8 +1196,8 @@
 						"selection":
 						[
 							[
-								1417,
-								1417
+								1251,
+								1251
 							]
 						],
 						"settings":
@@ -1187,7 +1206,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public_html/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1471,
+								1471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1418.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public_html/css/tabbedContent.css",
+					"settings":
+					{
+						"buffer_size": 1239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

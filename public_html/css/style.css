@@ -34,11 +34,11 @@ body {
 .container {
 
 	background-color: #FFFFFF;
-	border: 1px solid #37414F;
+	border: 3px solid #37414F;
 
-	-webkit-border-radius: 7px; 
-	-moz-border-radius: 7px; /* Firefox 3.6 and earlier */
-	border-radius: 7px;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; /* Firefox 3.6 and earlier */
+	border-radius: 10px;
 
 	width: 960px;
 	top: 50px;
@@ -85,7 +85,7 @@ body {
 	padding-bottom: 10px;
 
 	/*background-color: #CCDDEE;*/
-	background-color: #7A9296;
+	background-color: #FFFF00;
 	/*color: #FFFFFF;*/
 	
 	margin: -20px 0px 0px -20px;
@@ -95,6 +95,7 @@ body {
 
 .header .image {
 
+	border: 1px solid #37414F;
 	-webkit-border-top-right-radius: 7px;
 	-moz-border-radius-topright: 7px;
 	border-top-right-radius: 7px;
