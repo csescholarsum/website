@@ -25,6 +25,8 @@
 				Not sure what we do?
 			</h3>
 			<p>
+				<img class='home_image' src="images/Intel winners.jpg" />
+				<br />
 				<a href='http://csescholars.blogspot.com/'>Click here</a> to visit our blog which highlights a few of our recent events.
 			</p>
 		</div>

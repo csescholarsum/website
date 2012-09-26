@@ -115,6 +115,14 @@ body {
 	width: 700px;
 }
 
+.home_image {
+
+	height: 200px;
+	display: block;
+	margin-left: auto;   
+	margin-right: auto;
+}
+
 .header .title {
 
 	/*makes the element not effect the image element*/

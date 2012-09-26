@@ -30,7 +30,7 @@ function getFeed($feed_url) {
     
     $x = new SimpleXmlElement($content);
     
-    //die(var_dump($x));
+    //die(var_dump($x[0]));
     
     foreach($x as $entry) {
 
