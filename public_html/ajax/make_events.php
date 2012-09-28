@@ -36,7 +36,7 @@
       $.ajax({
         type: "POST",
         url: "ajax/action/add_event.php",
-        data: { title : $(".event_table .title").val(), date : $(".event_table .date").val(), serhours : $(".event_table .uniqname").val()},
+        data: { title : $(".event_table .title").val(), date : $(".event_table .date").val(), serhours : $(".event_table .serhours").val()},
         success: function(text) {
 
           //Check if the process wasn't sucessful

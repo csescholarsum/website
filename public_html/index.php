@@ -7,8 +7,8 @@ PURPOSE: website main page
 */
 
 //Uncomment to test login on localhost
-//$_SESSION['USER_UNIQ'] = "jsallans";
-//$_SESSION['type'] = "Admin";
+$_SESSION['USER_UNIQ'] = "jsallans";
+$_SESSION['type'] = "Admin";
 
 
 	include('init.php');
