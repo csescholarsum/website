@@ -13,7 +13,28 @@
 	<th>Service Hours</th>
 <?php
 $query = mysql_query("
-SELECT a.Name, a.Uniqname, COUNT( * ), SUM( e.SerHours)
+SELECT a.name, a.uniqname, COUNT( * )
+FROM attendies a,
+EVENTS e
+WHERE a.deleted =0
+AND e.eventID = a.eventID
+AND e.SerHours = 0
+AND e.deleted =0
+AND (
+a.uniqname
+) NOT
+IN (
+
+SELECT uniqname
+FROM members
+WHERE deleted =0
+)
+GROUP BY a.uniqname
+ORDER BY a.uniqname
+");
+
+$serv_query = mysql_query("
+SELECT SUM( e.SerHours )
 FROM attendies a,
 EVENTS e
 WHERE a.deleted =0
@@ -28,8 +49,8 @@ SELECT uniqname
 FROM members
 WHERE deleted =0
 )
-GROUP BY a.Uniqname
-ORDER BY a.Uniqname
+GROUP BY a.uniqname
+ORDER BY a.uniqname
 ");
 
 #checks if db doesn't open
@@ -51,7 +72,9 @@ else
 	$old_uniqname = "";
 	while ($userData = mysql_fetch_row($query))
 	{
-    list($name, $uniqname, $numEvents, $numService) = $userData;
+        $servData = mysql_fetch_row($serv_query);
+        list($name, $uniqname, $numEvents) = $userData;
+        list($numService) = $servData;
 		
     
         #fix to avoid having 0 service hours

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Ser",
+				"SerHours"
+			],
+			[
+				"serv",
+				"servData"
+			],
+			[
+				"nu",
+				"numService"
+			],
+			[
+				"Se",
+				"SerHours"
+			],
+			[
 				"_",
 				"_FILES"
 			],
@@ -488,10 +504,6 @@
 				"user_ids"
 			],
 			[
-				"nu",
-				"number_of_rows"
-			],
-			[
 				"ad",
 				"admin_attention"
 			],
@@ -502,18 +514,6 @@
 			[
 				"pri",
 				"priority"
-			],
-			[
-				"print",
-				"printf"
-			],
-			[
-				"for",
-				"foreach	foreach …"
-			],
-			[
-				"reci",
-				"reciever_new"
 			]
 		]
 	},
@@ -528,58 +528,34 @@
 			}
 		},
 		{
-			"file": "public_html/ajax/action/save_profile.php",
+			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 1249,
+				"buffer_size": 3306,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/content/resources.php",
+			"file": "public_html/ajax/action/add_event.php",
 			"settings":
 			{
-				"buffer_size": 2974,
+				"buffer_size": 547,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/resumes/index.php",
+			"file": "public_html/ajax/make_events.php",
 			"settings":
 			{
-				"buffer_size": 565,
+				"buffer_size": 1317,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public_html/ajax/profile.php",
+			"file": "public_html/ajax/current_members.php",
 			"settings":
 			{
-				"buffer_size": 3356,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/js/tabbedContent.js",
-			"settings":
-			{
-				"buffer_size": 1058,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/content/blog.php",
-			"settings":
-			{
-				"buffer_size": 1200,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/content/home.php",
-			"settings":
-			{
-				"buffer_size": 1300,
+				"buffer_size": 3005,
 				"line_ending": "Windows"
 			}
 		}
@@ -608,11 +584,21 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/_templates/slider (website template)/index.php",
+		"/C/wamp/www/_templates/slider (website template)/js/tabbedContent.js",
+		"/C/wamp/www/_templates/slider (website template)/README.txt",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/prospective_members.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/home.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/blog.php",
+		"/C/wamp/www/cse_scholars_test/public_html/js/tabbedContent.js",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
+		"/C/wamp/www/cse_scholars_test/public_html/resumes/index.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/resources.php",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/css/style.css",
 		"/C/wamp/www/cse_scholars_test/public_html/css/tabbedContent.css",
 		"/C/wamp/www/cse_scholars_test/public_html/resumes/.htaccess",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
-		"/C/wamp/www/cse_scholars_test/public_html/resumes/index.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/resumes/template.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resumes/template.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/includes/uploadResume.php",
@@ -626,16 +612,13 @@
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/make_events.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_attendance.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/about_us.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/prospective_members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_event.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_profile.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/add_to_attend.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_attend.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/make_event.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/index.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/db_update_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/polls.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/print_event_attendance.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/attend.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/get_event.php",
@@ -644,14 +627,12 @@
 		"/C/wamp/www/cse_scholars_test/public_html/content/my_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/prospective.php",
 		"/C/wamp/www/cse_scholars_test/public_html/includes/config.php",
-		"/C/wamp/www/cse_scholars_test/public_html/content/resources.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/contact.php",
 		"/C/wamp/www/cse_scholars_test/public_html/login/.htaccess",
 		"/C/wamp/www/cse_scholars_test/public_html/login/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/members.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/save_email_of_visitor.php",
 		"/C/wamp/www/cse_scholars_test/public_html/tabbed_content/admin.php",
-		"/C/wamp/www/cse_scholars_test/public_html/content/home.php",
 		"/C/Users/Jeff Sallans/Documents/__Jeff/EECS 475/HW1/hw1problem4.txt",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/alumni.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/view_poll.php",
@@ -730,12 +711,7 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/resume_book.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/prospective.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog_old.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/index.php",
-		"/C/wamp/www/cse_scholars_test/public_html/members.php",
-		"/C/Users/Jeff Sallans/AppData/Local/Temp/Temp1_jquery.progressbar.2.01.zip/jquery.progressbar/demo.php",
-		"/C/wamp/www/cse_scholars_test/public_html/bottom.php",
-		"/C/wamp/www/cse_scholars_test/public_html/top.php",
-		"/C/wamp/www/cse_scholars_test/public_html/calendar.php"
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/index.php"
 	],
 	"find":
 	{
@@ -982,7 +958,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1014,18 +990,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "public_html/ajax/action/save_profile.php",
+					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 1249,
+						"buffer_size": 3306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
+								805,
+								670
 							]
 						],
 						"settings":
@@ -1034,32 +1010,30 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "public_html/content/resources.php",
+					"file": "public_html/ajax/action/add_event.php",
 					"settings":
 					{
-						"buffer_size": 2974,
+						"buffer_size": 547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1520,
-								1520
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1069,136 +1043,54 @@
 				},
 				{
 					"buffer": 3,
-					"file": "public_html/resumes/index.php",
+					"file": "public_html/ajax/make_events.php",
 					"settings":
 					{
-						"buffer_size": 565,
+						"buffer_size": 1317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								46
+								950,
+								950
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "public_html/ajax/profile.php",
+					"file": "public_html/ajax/current_members.php",
 					"settings":
 					{
-						"buffer_size": 3356,
+						"buffer_size": 3005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1251,
-								1251
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2700.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "public_html/js/tabbedContent.js",
-					"settings":
-					{
-						"buffer_size": 1058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public_html/content/blog.php",
-					"settings":
-					{
-						"buffer_size": 1200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								688,
-								688
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "public_html/content/home.php",
-					"settings":
-					{
-						"buffer_size": 1300,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								715,
-								715
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

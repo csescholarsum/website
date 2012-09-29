@@ -15,7 +15,59 @@
 		<th>Events Attended</th>
 		<th>Service Hours</th>
 <?php
-$query = mysql_query("SELECT * FROM members WHERE (type='Member' OR type='Admin') AND deleted=0 ORDER BY name");
+
+
+	//gets the number
+	$query = mysql_query("
+		SELECT
+			m.id, 
+			m.name, 
+			m.uniqname, 
+			m.gradMonth, 
+			m.gradYear, 
+			m.showResume, 
+			m.hasResume, 
+			m.major, 
+			m.hidden 
+		FROM 
+			members m
+		WHERE 
+			m.deleted = 0 
+		ORDER BY m.uniqname
+	");
+
+	$event_query = mysql_query("
+		SELECT
+			COUNT( * ) 
+		FROM 
+			attendies a,
+			EVENTS e,
+			members m
+		WHERE 
+			m.deleted = 0 
+			AND a.deleted = 0 
+			AND e.eventID = a.eventID
+			AND e.SerHours = 0
+			AND e.deleted = 0
+			AND a.uniqname = m.uniqname
+		GROUP BY a.uniqname
+		ORDER BY m.uniqname
+	");
+
+	$serv_query = mysql_query("
+		SELECT SUM( e.SerHours )
+		FROM 
+			attendies a,
+			EVENTS e
+		WHERE 
+			m.deleted = 0 
+			AND a.deleted = 0 
+			AND e.eventID = a.eventID
+			AND e.deleted =0
+			AND m.uniqname = a.uniqname
+		GROUP BY a.uniqname
+		ORDER BY m.uniqname
+	");
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
@@ -33,12 +85,13 @@ if (mysql_num_rows($query) == 0)
 }
 else
 {
-	
+
 	#This indexes through the db to print member info
 	
 	while ($userData = mysql_fetch_row($query))
 	{
-		list($id, $deleted, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden, $gpa, $type) = $userData;
+
+		list($id, $name, $uniqname, $gradMonth, $gradYear, $showResume, $hasResume, $major, $hidden) = $userData;
 		if ($name == "")
 			$name = "No Name";
 		$member_email = $uniqname."@umich.edu";
@@ -52,46 +105,18 @@ else
 		}
 		
 		#this grabs the event table and updates events and service hours
-		$attend_tb = mysql_query("SELECT * FROM attendies a, events b WHERE a.uniqname='".$uniqname."' AND a.deleted=0 AND b.eventID=a.eventID AND b.deleted=0" );
-		if(mysql_num_rows($attend_tb) != 0) {
-		
-			#get event number
-			$numEvents = mysql_num_rows($attend_tb);
-			
-			#add up service hours
-				#init
-				$numService = 0;
-				
-				#add
-			while($attend_data = mysql_fetch_row($attend_tb)) {
-			
-				#extract data from event table
-				list($participant, $uniqname, $eventID) = $attend_data;
-				
-				#query with event ID
-				$event_tb = mysql_query("SELECT * FROM events WHERE eventID='".$eventID."' AND deleted=0" );
-				
-				if ($event_data = mysql_fetch_row($event_tb) ) {
-					
-					#extract data
-					list($eventID, $title, $date, $serviceHours) = $event_data;
-					
-          #updates service hours and removes 1 event b/c it is counted as service
-					$numService = $numService + $serviceHours;
-          if ($serviceHours != 0) {
-            $numEvents = $numEvents - 1;
-          }
-                    
-				}
-			}
-		}
-		else {
-			$numEvents = "-";
-			$numService = "-";
-		}
+		$eventData = mysql_fetch_row($event_query);
+		list($numEvents) = $eventData;
+		$servData = mysql_fetch_row($serv_query);
+		list($numService) = $servData;
+
     #fix to avoid having 0 service hours
     if ($numService == 0) {
       $numService = "-";
+    }
+
+    if ($numEvents == 0) {
+      $numEvents = "-";
     }
 		
 		#printing info into table
