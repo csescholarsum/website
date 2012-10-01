@@ -38,21 +38,23 @@ ORDER BY a.uniqname
 ");
 
 $serv_query = mysql_query("
-SELECT SUM( e.SerHours )
-FROM attendies a,
-EVENTS e
-WHERE a.deleted =0
-AND e.eventID = a.eventID
-AND e.deleted =0
-AND (
-a.Uniqname
-) NOT
-IN (
-
-SELECT uniqname
-FROM members
-WHERE deleted =0
-)
+SELECT 
+    SUM( e.SerHours )
+FROM 
+    attendies a,
+    events e
+WHERE 
+    a.deleted =0
+    AND e.eventID = a.eventID
+    AND e.deleted =0
+    AND (
+        a.Uniqname
+    ) NOT
+    IN (
+        SELECT uniqname
+        FROM members
+        WHERE deleted =0
+    )
 GROUP BY a.uniqname
 ORDER BY a.uniqname
 ");
