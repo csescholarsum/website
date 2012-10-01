@@ -77,12 +77,12 @@ else
 		}
 		
 		#this grabs the event table and updates events and service hours
-		$event_query = die("
+		$event_query = mysql_query("
 			SELECT
 				COUNT( * ) 
 			FROM 
 				attendies a,
-				EVENTS e
+				events e
 			WHERE 
 				a.deleted = 0 
 				AND a.uniqname = '$uniqname'
@@ -107,7 +107,7 @@ else
 			SELECT 
 				SUM( e.SerHours )
 			FROM 
-				EVENTS e,
+				events e,
 				attendies a
 			WHERE 
 				a.deleted = 0 

@@ -13,22 +13,26 @@
 	<th>Service Hours</th>
 <?php
 $query = mysql_query("
-SELECT a.name, a.uniqname, COUNT( * )
-FROM attendies a,
-EVENTS e
-WHERE a.deleted =0
-AND e.eventID = a.eventID
-AND e.SerHours = 0
-AND e.deleted =0
-AND (
-a.uniqname
-) NOT
-IN (
-
-SELECT uniqname
-FROM members
-WHERE deleted =0
-)
+SELECT 
+    a.name, 
+    a.uniqname, 
+    COUNT( * )
+FROM 
+    attendies a,
+    events e
+WHERE 
+    a.deleted =0
+    AND e.eventID = a.eventID
+    AND e.SerHours = 0
+    AND e.deleted =0
+    AND (
+        a.uniqname
+    ) NOT
+    IN (
+        SELECT uniqname
+        FROM members
+        WHERE deleted =0
+    )
 GROUP BY a.uniqname
 ORDER BY a.uniqname
 ");
