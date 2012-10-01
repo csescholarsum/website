@@ -94,7 +94,7 @@ else
 		");
 
 	    #fix to avoid having 0 events
-		if (mysql_num_rows($event_query) == 0) {
+		if (mysql_num_rows($event_query)) {
 
 			$eventData = mysql_fetch_row($event_query);
 			list($numEvents) = $eventData;
@@ -119,7 +119,7 @@ else
 		");
 
 	    #fix to avoid having 0 service hours
-		if (mysql_num_rows($serv_query) == 0) {
+		if (mysql_num_rows($serv_query)) {
 
 			$servData = mysql_fetch_row($serv_query);
 			list($numService) = $servData;
