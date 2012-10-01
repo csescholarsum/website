@@ -628,3 +628,8 @@ git checkout master
 git commit -a -m "bash_history"
 git checkout new_website
 git checkout master
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
