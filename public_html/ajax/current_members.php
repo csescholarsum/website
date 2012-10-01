@@ -77,7 +77,7 @@ else
 		}
 		
 		#this grabs the event table and updates events and service hours
-		$event_query = mysql_query("
+		$event_query = die("
 			SELECT
 				COUNT( * ) 
 			FROM 
