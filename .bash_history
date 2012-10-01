@@ -633,3 +633,10 @@ git checkout new_website
 git checkout master
 git checkout new_website
 git checkout master
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+git log
+git checkout -- a5e5cd181dfa32
+git checkout --a5e5cd181dfa32
+git checkout a5e5cd181dfa32
