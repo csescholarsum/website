@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
+				"ev",
+				"eventData"
+			],
+			[
+				"nu",
+				"numEvents"
+			],
+			[
+				"even",
+				"event_query"
+			],
+			[
+				"s",
+				"servData"
+			],
+			[
+				"se",
+				"serv_query"
+			],
+			[
+				"gr",
+				"gradMonth"
+			],
+			[
 				"Ser",
 				"SerHours"
 			],
 			[
 				"serv",
 				"servData"
-			],
-			[
-				"nu",
-				"numService"
 			],
 			[
 				"Se",
@@ -44,10 +64,6 @@
 				"title"
 			],
 			[
-				"even",
-				"eventID"
-			],
-			[
 				"event",
 				"event_serhours"
 			],
@@ -66,10 +82,6 @@
 			[
 				"att",
 				"attend_uniqname"
-			],
-			[
-				"ev",
-				"event_id"
 			],
 			[
 				"eve",
@@ -116,10 +128,6 @@
 				"uniqname"
 			],
 			[
-				"s",
-				"select_html"
-			],
-			[
 				"my",
 				"my_vote"
 			],
@@ -150,10 +158,6 @@
 			[
 				"g",
 				"gpa"
-			],
-			[
-				"gr",
-				"gradYear"
 			],
 			[
 				"show",
@@ -245,10 +249,6 @@
 			],
 			[
 				"sele",
-				"selected"
-			],
-			[
-				"se",
 				"selected"
 			],
 			[
@@ -531,7 +531,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3306,
+				"buffer_size": 3302,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +555,23 @@
 			"file": "public_html/ajax/current_members.php",
 			"settings":
 			{
-				"buffer_size": 3005,
+				"buffer_size": 2837,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/prospective_members.php",
+			"settings":
+			{
+				"buffer_size": 1793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/action/add_attendance.php",
+			"settings":
+			{
+				"buffer_size": 833,
 				"line_ending": "Windows"
 			}
 		}
@@ -993,15 +1009,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3306,
+						"buffer_size": 3302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								805,
-								670
+								210,
+								210
 							]
 						],
 						"settings":
@@ -1010,7 +1026,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 501.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1074,15 +1090,15 @@
 					"file": "public_html/ajax/current_members.php",
 					"settings":
 					{
-						"buffer_size": 3005,
+						"buffer_size": 2837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								600,
+								600
 							]
 						],
 						"settings":
@@ -1090,7 +1106,61 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 439.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public_html/ajax/prospective_members.php",
+					"settings":
+					{
+						"buffer_size": 1793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public_html/ajax/action/add_attendance.php",
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

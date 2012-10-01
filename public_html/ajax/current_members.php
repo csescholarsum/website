@@ -57,8 +57,9 @@
 	$serv_query = mysql_query("
 		SELECT SUM( e.SerHours )
 		FROM 
+			EVENTS e,
 			attendies a,
-			EVENTS e
+			members m
 		WHERE 
 			m.deleted = 0 
 			AND a.deleted = 0 
