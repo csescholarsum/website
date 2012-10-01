@@ -36,39 +36,10 @@
 		ORDER BY m.uniqname
 	");
 
-	$event_query = mysql_query("
-		SELECT
-			COUNT( * ) 
-		FROM 
-			attendies a,
-			EVENTS e,
-			members m
-		WHERE 
-			m.deleted = 0 
-			AND a.deleted = 0 
-			AND e.eventID = a.eventID
-			AND e.SerHours = 0
-			AND e.deleted = 0
-			AND a.uniqname = m.uniqname
-		GROUP BY a.uniqname
-		ORDER BY m.uniqname
-	");
-
-	$serv_query = mysql_query("
-		SELECT SUM( e.SerHours )
-		FROM 
-			EVENTS e,
-			attendies a,
-			members m
-		WHERE 
-			m.deleted = 0 
-			AND a.deleted = 0 
-			AND e.eventID = a.eventID
-			AND e.deleted =0
-			AND m.uniqname = a.uniqname
-		GROUP BY a.uniqname
-		ORDER BY m.uniqname
-	");
+	//jsallans
+	//10-1-12
+	//Sorry I can't optimize this query
+	// better but time is limited
 
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
@@ -106,19 +77,56 @@ else
 		}
 		
 		#this grabs the event table and updates events and service hours
-		$eventData = mysql_fetch_row($event_query);
-		list($numEvents) = $eventData;
-		$servData = mysql_fetch_row($serv_query);
-		list($numService) = $servData;
+		$event_query = mysql_query("
+			SELECT
+				COUNT( * ) 
+			FROM 
+				attendies a,
+				EVENTS e
+			WHERE 
+				a.deleted = 0 
+				AND a.uniqname = '$uniqname'
+				AND e.eventID = a.eventID
+				AND e.SerHours = 0
+				AND e.deleted = 0
+			GROUP BY a.uniqname
+			LIMIT 1
+		");
 
-    #fix to avoid having 0 service hours
-    if ($numService == 0) {
-      $numService = "-";
-    }
+	    #fix to avoid having 0 events
+		if ($event_query) {
 
-    if ($numEvents == 0) {
-      $numEvents = "-";
-    }
+			$eventData = mysql_fetch_row($event_query);
+			list($numEvents) = $eventData;
+		}
+		else {
+    		$numEvents = "-";
+    	}
+
+		$serv_query = mysql_query("
+			SELECT 
+				SUM( e.SerHours )
+			FROM 
+				EVENTS e,
+				attendies a
+			WHERE 
+				a.deleted = 0 
+				AND a.uniqname = '$uniqname'
+				AND e.eventID = a.eventID
+				AND e.deleted = 0
+			GROUP BY a.uniqname
+			LIMIT 1
+		");
+
+	    #fix to avoid having 0 service hours
+		if ($serv_query) {
+
+			$servData = mysql_fetch_row($serv_query);
+			list($numService) = $servData;
+		}
+    	else {
+    		$numService = "-";
+    	}
 		
 		#printing info into table
 		echo "\t<tr>\n";

@@ -555,7 +555,7 @@
 			"file": "public_html/ajax/current_members.php",
 			"settings":
 			{
-				"buffer_size": 2837,
+				"buffer_size": 2851,
 				"line_ending": "Windows"
 			}
 		},
@@ -1090,23 +1090,24 @@
 					"file": "public_html/ajax/current_members.php",
 					"settings":
 					{
-						"buffer_size": 2837,
+						"buffer_size": 2851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								482,
+								482
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 439.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
