@@ -93,7 +93,7 @@ else
 			LIMIT 1
 		");
 
-	    #fix to avoid having 0 events
+	    #fix to avoid having no event rows
 		if (mysql_num_rows($event_query)) {
 
 			$eventData = mysql_fetch_row($event_query);
@@ -118,7 +118,7 @@ else
 			LIMIT 1
 		");
 
-	    #fix to avoid having 0 service hours
+	    #fix to avoid having no rows for service hours
 		if (mysql_num_rows($serv_query)) {
 
 			$servData = mysql_fetch_row($serv_query);
@@ -129,6 +129,15 @@ else
     		$numService = "-";
     	}
 		
+        #fix to avoid having 0 service hours
+        if ($numService == 0) {
+          $numService = "-";
+        }
+
+        if ($numEvents == 0) {
+          $numEvents = "-";
+        }
+
 		#printing info into table
 		echo "\t<tr>\n";
 		echo "\t\t<td>$name</td>\n";
