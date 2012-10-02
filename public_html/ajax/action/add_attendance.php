@@ -1,8 +1,5 @@
 <?php
 
-//NOTE THERE IS STILL A BUG WITH THE SCRIPTS 
-//RUNNING MULTIPLE TIMES BUT THIS IS A TEMP FIX
-
 include("../../tools/functions.php");
 
 connect_to_db();

@@ -82,7 +82,6 @@ else
         list($name, $uniqname, $numEvents) = $userData;
         list($numService) = $servData;
 		
-    
         #fix to avoid having 0 service hours
         if ($numService == 0) {
           $numService = "-";

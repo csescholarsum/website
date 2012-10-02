@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
 				"ev",
-				"eventData"
+				"event_query"
+			],
+			[
+				"ser",
+				"serv_query"
 			],
 			[
 				"nu",
@@ -50,10 +58,6 @@
 			[
 				"su",
 				"submit"
-			],
-			[
-				"ser",
-				"serviceHours"
 			],
 			[
 				"mysql_n",
@@ -510,10 +514,6 @@
 			[
 				"user_",
 				"user_id"
-			],
-			[
-				"pri",
-				"priority"
 			]
 		]
 	},
@@ -531,7 +531,7 @@
 			"file": "public_html/index.php",
 			"settings":
 			{
-				"buffer_size": 3302,
+				"buffer_size": 3306,
 				"line_ending": "Windows"
 			}
 		},
@@ -555,7 +555,7 @@
 			"file": "public_html/ajax/current_members.php",
 			"settings":
 			{
-				"buffer_size": 2851,
+				"buffer_size": 3178,
 				"line_ending": "Windows"
 			}
 		},
@@ -563,7 +563,7 @@
 			"file": "public_html/ajax/prospective_members.php",
 			"settings":
 			{
-				"buffer_size": 1793,
+				"buffer_size": 1950,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "public_html/ajax/action/add_attendance.php",
 			"settings":
 			{
-				"buffer_size": 833,
+				"buffer_size": 738,
 				"line_ending": "Windows"
 			}
 		}
@@ -974,7 +974,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -999,7 +999,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1009,15 +1009,15 @@
 					"file": "public_html/index.php",
 					"settings":
 					{
-						"buffer_size": 3302,
+						"buffer_size": 3306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								69,
+								69
 							]
 						],
 						"settings":
@@ -1026,7 +1026,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 501.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1090,15 +1090,15 @@
 					"file": "public_html/ajax/current_members.php",
 					"settings":
 					{
-						"buffer_size": 2851,
+						"buffer_size": 3178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								482,
-								482
+								1800,
+								1800
 							]
 						],
 						"settings":
@@ -1107,7 +1107,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1692.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1117,15 +1117,15 @@
 					"file": "public_html/ajax/prospective_members.php",
 					"settings":
 					{
-						"buffer_size": 1793,
+						"buffer_size": 1950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								329,
-								329
+								1401,
+								1401
 							]
 						],
 						"settings":
@@ -1135,7 +1135,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1145,15 +1145,15 @@
 					"file": "public_html/ajax/action/add_attendance.php",
 					"settings":
 					{
-						"buffer_size": 833,
+						"buffer_size": 738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								720,
-								720
+								206,
+								206
 							]
 						],
 						"settings":
@@ -1161,7 +1161,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
