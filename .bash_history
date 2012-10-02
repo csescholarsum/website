@@ -640,3 +640,23 @@ git log
 git checkout -- a5e5cd181dfa32
 git checkout --a5e5cd181dfa32
 git checkout a5e5cd181dfa32
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout master
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+ls
+cd ~/public_html/
+ls
