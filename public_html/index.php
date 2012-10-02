@@ -114,7 +114,7 @@ PURPOSE: website main page
 
 	if (isset($_SESSION['type'])) {
 		
-		echo "Welcome, " . $_SESSION['USER_UNIQ'] . " <a href='https://web.eecs.umich.edu/~cseschol/login/logout.php'>Logout</a>\n";
+		echo "Welcome, " . $_SESSION['USER_UNIQ'] . "\n";
 	}
 	else {
 ?>			
