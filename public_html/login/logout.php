@@ -5,9 +5,7 @@
 //CHANGE: new
 //PURPOSE: logged out user
 
-unset($_SESSION['USER_UNIQ']);
-
-unset($_SESSION['type']);
+session_unset();
 
 //redirect to main page
 header("Location: https://web.eecs.umich.edu/~cseschol/index.php");
