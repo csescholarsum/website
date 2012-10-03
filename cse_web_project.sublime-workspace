@@ -574,6 +574,14 @@
 				"buffer_size": 738,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "public_html/login/logout.php",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -974,7 +982,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1016,8 +1024,8 @@
 						"selection":
 						[
 							[
-								69,
-								69
+								2260,
+								2260
 							]
 						],
 						"settings":
@@ -1026,7 +1034,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1124,8 +1132,8 @@
 						"selection":
 						[
 							[
-								1401,
-								1401
+								1594,
+								1594
 							]
 						],
 						"settings":
@@ -1158,6 +1166,33 @@
 						],
 						"settings":
 						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public_html/login/logout.php",
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,

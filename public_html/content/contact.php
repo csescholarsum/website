@@ -132,7 +132,7 @@
 
   <div class="officer">
     <div class="position">AP Computer Science Chair</div>
-    <div class="name">David Adrian</div>
+    <div class="name">Patrick Korth</div>
     <div class="email">
       <a href="mailto:cseschol-apcompsci@umich.edu">cseschol-apcompsci@umich.edu</a>
     </div>
