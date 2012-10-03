@@ -660,3 +660,11 @@ git checkout master
 ls
 cd ~/public_html/
 ls
+git checkout new_website
+git commit -a -m "bash_history"
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
+git checkout new_website
+git checkout master
