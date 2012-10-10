@@ -582,6 +582,14 @@
 				"buffer_size": 200,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "public_html/content/contact.php",
+			"settings":
+			{
+				"buffer_size": 3587,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -982,7 +990,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1197,6 +1205,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public_html/content/contact.php",
+					"settings":
+					{
+						"buffer_size": 3587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3393,
+								3393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2134.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
