@@ -568,26 +568,10 @@
 			}
 		},
 		{
-			"file": "public_html/ajax/action/add_attendance.php",
-			"settings":
-			{
-				"buffer_size": 738,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "public_html/login/logout.php",
 			"settings":
 			{
 				"buffer_size": 200,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public_html/content/contact.php",
-			"settings":
-			{
-				"buffer_size": 3587,
 				"line_ending": "Windows"
 			}
 		}
@@ -616,6 +600,12 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/cse_scholars_test/public_html/apscholars_website/README.txt",
+		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_attendance.php",
+		"/C/wamp/www/cse_scholars_test/public_html/content/contact.php",
+		"/C/wamp/www/cse_scholars_test/public_html/apscholars_website/.htaccess",
+		"/C/wamp/www/cse_scholars_test/.git/info/exclude",
+		"/C/wamp/www/CSE Scholars Website/F12 CSE Scholars/public_html/apscholars_website/design/inital_plan.txt",
 		"/C/wamp/www/_templates/slider (website template)/index.php",
 		"/C/wamp/www/_templates/slider (website template)/js/tabbedContent.js",
 		"/C/wamp/www/_templates/slider (website template)/README.txt",
@@ -642,7 +632,6 @@
 		"/C/wamp/www/cse_scholars_test/public_html/content/my_admin_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/delete_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/make_events.php",
-		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_attendance.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/about_us.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_event.php",
 		"/C/wamp/www/cse_scholars backup (9-4-12)/public_html/admin/Event Logger/add_to_attend.php",
@@ -659,7 +648,6 @@
 		"/C/wamp/www/cse_scholars_test/public_html/content/my_profile.php",
 		"/C/wamp/www/cse_scholars_test/public_html/resume_book/prospective.php",
 		"/C/wamp/www/cse_scholars_test/public_html/includes/config.php",
-		"/C/wamp/www/cse_scholars_test/public_html/content/contact.php",
 		"/C/wamp/www/cse_scholars_test/public_html/login/.htaccess",
 		"/C/wamp/www/cse_scholars_test/public_html/login/index.php",
 		"/C/wamp/www/cse_scholars_test/public_html/content/members.php",
@@ -739,11 +727,7 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/resume_book.php",
 		"/C/wamp/www/AssociationDues/onyx/lawsuit-detail.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/db_init.php",
-		"/C/wamp/www/cse_scholars_test/public_html/resumes/jsallans.pdf",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/resume_book.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/prospective.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/blog_old.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/resume_book/index.php"
+		"/C/wamp/www/cse_scholars_test/public_html/resumes/jsallans.pdf"
 	],
 	"find":
 	{
@@ -990,7 +974,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1140,8 +1124,8 @@
 						"selection":
 						[
 							[
-								1594,
-								1594
+								1950,
+								1950
 							]
 						],
 						"settings":
@@ -1158,32 +1142,6 @@
 				},
 				{
 					"buffer": 6,
-					"file": "public_html/ajax/action/add_attendance.php",
-					"settings":
-					{
-						"buffer_size": 738,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "public_html/login/logout.php",
 					"settings":
 					{
@@ -1205,34 +1163,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "public_html/content/contact.php",
-					"settings":
-					{
-						"buffer_size": 3587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3393,
-								3393
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2134.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
