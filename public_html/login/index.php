@@ -22,7 +22,7 @@ $connection = connect_to_db_with_sqli();
 
 $query = "SELECT type FROM members WHERE uniqname = '$user' AND deleted=0";
 
-$statement = $connection->prepare($query) or die("<p> Database admin validation failed. </p>");
+$statement = $connection->prepare($query) or die("<p> Database login validation failed. </p>");
 
 $statement->execute();
 $statement->bind_result($type);
@@ -30,6 +30,10 @@ $statement->bind_result($type);
 if ($statement->fetch()) {
 
 	$_SESSION['type'] = $type;
+}
+else {
+
+	$_SESSION['type'] = "Other";
 }
 
 $statement->close();

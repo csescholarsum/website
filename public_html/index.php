@@ -7,8 +7,8 @@ PURPOSE: website main page
 */
 
 //Uncomment to test login on localhost
-//$_SESSION['USER_UNIQ'] = "jsallans";
-//$_SESSION['type'] = "Admin";
+$_SESSION['USER_UNIQ'] = "jsallans";
+$_SESSION['type'] = "Other";
 
 
 	include('init.php');
@@ -150,6 +150,11 @@ else if ($_SESSION['type'] == "Admin")
 {
 	include("tabbed_content/admin.php");
 }
+else if ($_SESSION['type'] == "Other")
+{
+	include("tabbed_content/non_member.php");
+}
+
 
 ?>
 
