@@ -1,4 +1,13 @@
 <p>
+  Nature Preserve Community Service:
+  <br />
+  &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_BLANK" href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dGVQUjIyX044bUpQdnMwcHZpUGhtcHc6MQ">
+    Sign up here
+  </a>
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Community service Saturday, October 27th! (Football game is away) The event runs 9:30am to 1:30pm and is about fifteen minutes from campus. Transportation will be arranged. Please sign up if you plan on attending!
+</p>
+<p>
   Brightmoor Service Day:
   <br />
   &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_BLANK" href="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dF9nWVNHbjJEQVpMaXk0dmtrbF8xeWc6MQ">
