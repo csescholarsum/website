@@ -671,3 +671,16 @@ git checkout master
 git commit -a -m "bash_history"
 git checkout new_website
 git checkout master
+ls
+cd public_html/
+ls
+rm -r apscholars_website/
+rm -r -f apscholars_website/
+ls
+git commit -a -m "remove apscholars"
+git checkout new_website
+git checkout master
+ls
+cd apscholars_website/
+ls
+ls -a
