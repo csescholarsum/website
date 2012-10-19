@@ -25,7 +25,7 @@
 				Not sure what we do?
 			</h3>
 			<p>
-				<img class='home_image' src="images/Intel winners.jpg" />
+				<img class='home_image cushycms' src="images/Intel winners.jpg" />
 				<br />
 				<a href='http://csescholars.blogspot.com/'>Click here</a> to visit our blog which highlights a few of our recent events.
 			</p>
@@ -42,7 +42,7 @@
 			<h3>
 				Track your membership process
 			</h3>
-			<p>
+			<p class='cushycms'>
 				<a href='index.php?slide_page=members'>Click here</a> to view the number of events you attended and service hours recorded.
 			</p>
 		</div>
