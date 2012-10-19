@@ -684,3 +684,17 @@ ls
 cd apscholars_website/
 ls
 ls -a
+git status
+git branch rm new_website
+git branch
+git branch -rm new_website
+git branch
+git branch -d new_website
+git branch
+git branch -d rm
+git branch
+git checkout -b temp
+git checkout master
+git checkout new_website
+git add .
+git commit -a -m "bash history"
