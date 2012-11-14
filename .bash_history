@@ -698,3 +698,10 @@ git checkout master
 git checkout new_website
 git add .
 git commit -a -m "bash history"
+git log
+git checkout temp
+git commit -a -m "changes to home.php"
+exit
+git branch
+git checkout temp
+git checkout master
