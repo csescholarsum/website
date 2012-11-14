@@ -547,7 +547,15 @@
 			"file": "public_html/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2091,
+				"buffer_size": 2747,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/ajax/prospective_members.php",
+			"settings":
+			{
+				"buffer_size": 2025,
 				"line_ending": "Windows"
 			}
 		}
@@ -576,6 +584,8 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/_repos/Kenya_Proj_Website/apply.php",
+		"/C/wamp/www/_repos/Kenya_Proj_Website/headerstyle.css",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/action/add_event.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/make_events.php",
 		"/C/wamp/www/cse_scholars_test/public_html/ajax/current_members.php",
@@ -701,9 +711,7 @@
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/includes/db_init.php",
 		"/C/wamp/www/AssociationDues/onyx/model/AModelBase.php",
 		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/about_us.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/admin/Event Logger/_READ_ME.txt",
-		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/ajax/resume_book.php"
+		"/C/wamp/www/cse_scholars_test/public_html/_jefftest/content/calendar.php"
 	],
 	"find":
 	{
@@ -950,7 +958,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -975,7 +983,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2111.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -992,8 +1000,8 @@
 						"selection":
 						[
 							[
-								177,
-								177
+								214,
+								214
 							]
 						],
 						"settings":
@@ -1002,7 +1010,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2698.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1039,21 +1047,49 @@
 					"file": "public_html/css/style.css",
 					"settings":
 					{
-						"buffer_size": 2091,
+						"buffer_size": 2747,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								378,
-								378
+								1475,
+								1475
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1426.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public_html/ajax/prospective_members.php",
+					"settings":
+					{
+						"buffer_size": 2025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1382,
+								1382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
