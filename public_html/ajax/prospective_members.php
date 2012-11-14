@@ -37,28 +37,6 @@ GROUP BY a.uniqname
 ORDER BY a.uniqname
 ");
 
-$serv_query = mysql_query("
-SELECT 
-    SUM( e.SerHours )
-FROM 
-    attendies a,
-    events e
-WHERE 
-    a.deleted =0
-    AND e.eventID = a.eventID
-    AND e.deleted =0
-    AND (
-        a.Uniqname
-    ) NOT
-    IN (
-        SELECT uniqname
-        FROM members
-        WHERE deleted =0
-    )
-GROUP BY a.uniqname
-ORDER BY a.uniqname
-");
-
 #checks if db doesn't open
 if (mysql_num_rows($query) == 0)
 {
@@ -78,8 +56,23 @@ else
 	$old_uniqname = "";
 	while ($userData = mysql_fetch_row($query))
 	{
-        $servData = mysql_fetch_row($serv_query);
+
         list($name, $uniqname, $numEvents) = $userData;
+        $serv_query = mysql_query("
+            SELECT 
+                SUM( e.SerHours )
+            FROM 
+                attendies a,
+                events e
+            WHERE 
+                a.deleted =0
+                AND a.uniqname = '". $uniqname ."'
+                AND e.eventID = a.eventID
+                AND e.deleted =0
+            GROUP BY a.uniqname
+            ORDER BY a.uniqname
+        ");
+        $servData = mysql_fetch_row($serv_query);
         list($numService) = $servData;
 		
         #fix to avoid having 0 service hours

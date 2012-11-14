@@ -539,7 +539,7 @@
 			"file": "public_html/content/home.php",
 			"settings":
 			{
-				"buffer_size": 1300,
+				"buffer_size": 1326,
 				"line_ending": "Windows"
 			}
 		},
@@ -950,7 +950,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -975,7 +975,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1012,15 +1012,15 @@
 					"file": "public_html/content/home.php",
 					"settings":
 					{
-						"buffer_size": 1300,
+						"buffer_size": 1326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1090,
-								1090
+								1164,
+								1164
 							]
 						],
 						"settings":
@@ -1029,7 +1029,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 456.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
