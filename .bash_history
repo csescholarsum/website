@@ -705,3 +705,8 @@ exit
 git branch
 git checkout temp
 git checkout master
+git status
+git add .
+git commit -a -m "katies resume"
+git checkout temp
+git checkout master
