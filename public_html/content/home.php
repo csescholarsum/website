@@ -12,7 +12,7 @@
 
 	<div style='float: right; width: 550px;'>
 		<h2>Welcome to the new CSE Scholars website.</h2>
-		<div class='shell'>
+		<div class='shell cushycms'>
 			<h3>
 				Recuiters
 			</h3>

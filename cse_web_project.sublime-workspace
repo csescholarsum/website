@@ -539,7 +539,7 @@
 			"file": "public_html/content/home.php",
 			"settings":
 			{
-				"buffer_size": 1326,
+				"buffer_size": 1317,
 				"line_ending": "Windows"
 			}
 		},
@@ -1000,8 +1000,8 @@
 						"selection":
 						[
 							[
-								214,
-								214
+								86,
+								86
 							]
 						],
 						"settings":
@@ -1020,15 +1020,15 @@
 					"file": "public_html/content/home.php",
 					"settings":
 					{
-						"buffer_size": 1326,
+						"buffer_size": 1317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1164,
-								1164
+								0,
+								0
 							]
 						],
 						"settings":
