@@ -710,3 +710,9 @@ git add .
 git commit -a -m "katies resume"
 git checkout temp
 git checkout master
+git checkout test
+git commit -a -m "bash history"
+git checkout test
+git checkout master
+git checkout test
+git checkout master
