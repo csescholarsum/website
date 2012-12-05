@@ -14,7 +14,7 @@
 		<h2>Welcome to the new CSE Scholars website.</h2>
 		<div class='shell cushycms'>
 			<h3>
-				Recuiters
+				Recruiters
 			</h3>
 			<p>
 				<a href='index.php?slide_page=members'>Click here</a> to view our resume book.  All of our resumes as one pdf document.  Just provide an email contact.
