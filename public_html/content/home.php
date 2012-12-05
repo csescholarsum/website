@@ -12,14 +12,11 @@
 
 	<div style='float: right; width: 550px;'>
 		<h2>Welcome to the new CSE Scholars website.</h2>
-		<div class='shell cushycms'>
-			<h3>
-				Recuiters
-			</h3>
-			<p>
-				<a href='index.php?slide_page=members'>Click here</a> to view our resume book.  All of our resumes as one pdf document.  Just provide an email contact.
-			</p>
-		</div>
+		<div class="shell cushycms"><h3>
+	Recruiters</h3>
+<p>
+	<a href="index.php?slide_page=members">Click here</a> to view our resume book. All of our resumes as one pdf document. Just provide an email contact.<span>&nbsp;</span></p>
+</div>
 		<div class='shell'>
 			<h3>
 				Not sure what we do?
