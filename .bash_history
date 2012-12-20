@@ -716,3 +716,10 @@ git checkout test
 git checkout master
 git checkout test
 git checkout master
+git status
+git commit -a -m "home changes"
+git checkout test
+git checkout master
+ls
+ls -a
+exit
