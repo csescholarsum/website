@@ -723,3 +723,44 @@ git checkout master
 ls
 ls -a
 exit
+git commit -a -m "Preparing to accept changes from Ben"
+git branch
+git branch master
+git checkout master
+git commit -a -m "Preparing for initial W13 changes"
+git checkout temp
+git checkout master
+exit
+ls
+cd public_html
+ls
+cd tabbed_content
+ls
+cd ..
+ls
+cd apscholars_website
+ls
+cd website
+ls
+cd ../..
+ls
+cd ajax
+ls
+vm prospective_members.php
+vim prospective_members.php
+vim current_members.php
+exit
+ls
+cd public_html
+ls
+cd content
+ls
+vim my_non_member_profile.php
+vim members.php
+ls
+cd ..
+ls
+cd ajax
+ls
+vim prospective_members.php 
+exit

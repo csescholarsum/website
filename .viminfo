@@ -145,18 +145,26 @@ $
 	i
 
 # File marks:
-'0  1  0  ~/.Xauthority
-'1  157  0  ~/public_html/index.php
-'2  1  0  ~/public_html/index.php
-'3  5  0  ~/public_html/_jaketest/index.php
-'4  7  0  ~/public_html/images
-'5  3  0  ~/.ssh/known_hosts
-'6  18  2  ~/public_html/admin/Event Logger/get_attend.php
-'7  10  14  ~/public_html/jdpriest/get_info.php
-'8  13  0  ~/public_html/jdpriest/get_info.php
-'9  10  51  ~/public_html/jdpriest/get_info.php
+'0  30  0  ~/public_html/ajax/prospective_members.php
+'1  99  0  ~/public_html/content/members.php
+'2  41  5  ~/public_html/content/my_non_member_profile.php
+'3  42  0  ~/public_html/ajax/current_members.php
+'4  1  0  ~/public_html/ajax/prospective_members.php
+'5  1  0  ~/.Xauthority
+'6  157  0  ~/public_html/index.php
+'7  1  0  ~/public_html/index.php
+'8  5  0  ~/public_html/_jaketest/index.php
+'9  7  0  ~/public_html/images
 
 # Jumplist (newest first):
+-'  30  0  ~/public_html/ajax/prospective_members.php
+-'  1  0  ~/public_html/ajax/prospective_members.php
+-'  99  0  ~/public_html/content/members.php
+-'  1  0  ~/public_html/content/members.php
+-'  41  5  ~/public_html/content/my_non_member_profile.php
+-'  1  0  ~/public_html/content/my_non_member_profile.php
+-'  42  0  ~/public_html/ajax/current_members.php
+-'  1  0  ~/public_html/ajax/current_members.php
 -'  1  0  ~/.Xauthority
 -'  157  0  ~/public_html/index.php
 -'  1  0  ~/public_html/index.php
@@ -247,16 +255,20 @@ $
 -'  5  0  ~/public_html/hchheda/index.php
 -'  48  55  ~/public_html/admin/editwiki.php
 -'  35  1  ~/public_html/admin/editwiki.php
--'  1  0  ~/public_html/admin/wiki/webmaster/source.php
--'  23  111  ~/public_html/admin/index.php
--'  22  1  ~/public_html/admin/index.php
--'  1  0  ~/public_html/admin/index.php
--'  35  60  ~/public_html/functions.php
--'  1  0  ~/public_html/functions.php
--'  164  46  ~/public_html/members/viewpoll.php
--'  129  6  ~/public_html/members/viewpoll.php
 
 # History of marks within files (newest to oldest):
+
+> ~/public_html/ajax/prospective_members.php
+	"	30	0
+
+> ~/public_html/content/members.php
+	"	99	0
+
+> ~/public_html/content/my_non_member_profile.php
+	"	41	5
+
+> ~/public_html/ajax/current_members.php
+	"	42	0
 
 > ~/.Xauthority
 	"	1	0
@@ -392,19 +404,3 @@ $
 	+	55	0
 	+	10	7
 	+	45	47
-
-> ~/public_html/style.css
-	"	294	0
-	^	295	11
-	.	295	10
-	+	296	0
-	+	295	10
-
-> ~/public_html/members.php
-	"	36	0
-
-> ~/public_html/admin/config.php
-	"	1	0
-
-> ~/public_html/admin/stats.php
-	"	1	0
