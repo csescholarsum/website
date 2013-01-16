@@ -59,10 +59,9 @@
 </p>
 <br />
 
-<!--
 <div align="center">
-  <img src="images/CSE scholars officers.jpg" class="officer_pic" />
-</div>-->
+  <img src="images/OfficersW13.jpg" class="officer_pic" />
+</div>
 
 <div id="officers_table">
 	<div class="officer">
