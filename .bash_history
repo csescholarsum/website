@@ -764,3 +764,7 @@ cd ajax
 ls
 vim prospective_members.php 
 exit
+git commit -a -m "Preparing for photo"
+git checkout temp
+git checkout master
+exit
