@@ -19,14 +19,8 @@ PURPOSE: to keep different types of users separate
         <span id='about' class='tab_item'>
             About Us
         </span>
-        <span id='blog' class='tab_item'>
-            Blog
-        </span>
-        <span id='calendar' class='tab_item'>
-        	Calendar
-        </span>
         <span id='members' class='tab_item'>
-        	Members
+            Members
         </span>
         <span id='resources' class='tab_item'>
         	Resources
@@ -53,18 +47,6 @@ PURPOSE: to keep different types of users separate
 <?php
 					include('content/about_us.php');
 ?>			    
-			</ul>
-			<ul class='blog' id='blog_tab_content'>
-				<br />
-				<img src="images/ajax-loader.gif" class='loader'> Loading...
-<?php
-					//include('content/blog.php');
-?>		
-			</ul>
-			<ul class='calendar'>
-<?php
-					include('content/calendar.php');
-?>	
 			</ul>
 			<ul class='members' id='members'>
 <?php
