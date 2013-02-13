@@ -97,39 +97,17 @@ PURPOSE: website main page
 <div class='container'>
 
 <div class='header'>
-
+	<div class='image'>
+		<img src="images/CSEScholarsLogo.png">
+	</div>
 	<div class='title'>
 		<h1>
 			CSE Scholars
 		</h1>
-		<h4>
-			University of Michigan
-		</h4>
-		<h5>
-			Organization for computer science and computer engineering.
-		</h5>
-		<h5>
-
-<?php
-
-	if (isset($_SESSION['type'])) {
-		
-		echo "Welcome, " . $_SESSION['USER_UNIQ'] . "\n";
-	}
-	else {
-?>			
-			<a href="https://web.eecs.umich.edu/~cseschol/login/index.php">
-				Login
-			</a>
-<?php
-	}
-?>
-
-		</h5>
 	</div>
-	<div class='image'>
-		<img src="images/header.jpg">
-	</div>
+	<div class='title_description'>
+		 University of Michigan honor society for computer science and computer engineers.
+	</div> 
 </div>
 
 <div class='tabbed_content'>

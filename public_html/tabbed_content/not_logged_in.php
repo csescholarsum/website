@@ -20,7 +20,7 @@ PURPOSE: to keep different types of users separate
             About Us
         </span>
         <span id='members' class='tab_item'>
-            Members
+        	Members
         </span>
         <span id='resources' class='tab_item'>
         	Resources
@@ -28,7 +28,27 @@ PURPOSE: to keep different types of users separate
         <span id='officers' class='tab_item'>
         	Officers
         </span>
+        <span class='login_button'>
+<?php
 
+    if (isset($_SESSION['type'])) {
+        
+        echo "Welcome, " . $_SESSION['USER_UNIQ'] . "\n";
+    }
+    else {
+?>          
+            Login
+            <script type="text/javascript">
+                $(function() {
+                    $('.login_button').click(function() {
+                        window.location.href = 'https://web.eecs.umich.edu/~cseschol/login/index.php';
+                    });
+                });
+            </script>
+<?php
+    }
+?>
+        </span>
     </div>
     <br />
     <!--<hr style='width: 960px' />-->

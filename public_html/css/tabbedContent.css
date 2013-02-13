@@ -1,31 +1,26 @@
 .tabbed_content {
 	background-color: #FFFFFF;
-	width: 920px;	
+	overflow: hidden;
+	position: relative;
+	top: -8px;
+	width: 960px;
+	margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .tabs {
-	height: 25px;
+	background-color: #00A8D9;
+	height: 50px;
 	position: relative;
+	margin-left: -20px;
+	margin-right: -20px;
 }
 
-.tabs .moving_bg {
+.moving_bg {
 	padding: 15px;
-	/*background-color:#CCDDEE;*/
-	background-color: #FFFF00;
-
-	border: 1px solid #37414F;
-	border-top: 0px;
-
-	margin-top: -1px;
-
-	-webkit-border-bottom-right-radius: 7px;
-	-webkit-border-bottom-left-radius: 7px;
-	-moz-border-radius-bottomright: 7px;
-	-moz-border-radius-bottomleft: 7px;
-	border-bottom-right-radius: 7px;
-	border-bottom-left-radius: 7px;
-
-	/*background-image:url(../images/arrow_down_green.gif);*/
+	background-color: #222222;
 	position: absolute;
 	width: 80px;
 	z-index: 190;
@@ -34,19 +29,24 @@
 	background-repeat: no-repeat;
 }
 
-.tabs .tab_item {
+.tab_item {
 	display: block;
 	float: left;
 	padding: 15px;
 	width: 80px;
-	color: #000000;
+	color: #FFFFFF;
+	font-size: 16px;
 	text-align: center;
 	z-index: 200;
 	position: relative;
 	cursor: pointer;
 }
 
-.tabbed_content .slide_content {
+.tab_item:hover {
+	color: #DDDDDD;
+}
+
+.slide_content {
 	overflow: hidden;
 	background-color: #FFFFFF;
 	padding: 20px 0px 20px 20px;
@@ -74,3 +74,17 @@
 	text-decoration: none;
 }
 
+.login_button {
+	float: right;
+	display: block;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.login_button:hover {
+	color: #DDDDDD;
+}
