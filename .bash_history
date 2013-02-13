@@ -768,3 +768,18 @@ git commit -a -m "Preparing for photo"
 git checkout temp
 git checkout master
 exit
+ls
+cd public_html/
+ls
+git commit -a -m "Updating website 2/11/13"
+git checkout temp
+git checkout master
+git checkout temp
+git checkout master
+exit
+ls
+git branch
+exit
+ls
+cd public_html
+ls
