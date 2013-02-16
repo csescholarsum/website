@@ -2,7 +2,7 @@
 	background-color: #FFFFFF;
 	overflow: hidden;
 	position: relative;
-	top: -8px;
+	top: -10px;
 	width: 960px;
 	margin-left: -20px;
     margin-right: -20px;
@@ -24,7 +24,9 @@
 	position: absolute;
 	width: 80px;
 	z-index: 190;
-	left: 0;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
 	background-position: bottom left;
 	background-repeat: no-repeat;
 }
