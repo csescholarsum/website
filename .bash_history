@@ -783,3 +783,15 @@ exit
 ls
 cd public_html
 ls
+git log
+git branch
+git checkout tmep
+git checkout temp
+git commit -a -m "bash history"
+git checkout temp
+git checkout master
+ls
+cd public_html/
+ls
+git branch
+exit
