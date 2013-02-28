@@ -71,6 +71,8 @@ body {
 
 	padding-bottom: 10px;
 
+	background-color: #222222;
+
 	/* IE10 Consumer Preview */ 
 	background-image: -ms-linear-gradient(top, #666666 0%, #222222 100%);
 
