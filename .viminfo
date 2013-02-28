@@ -145,22 +145,24 @@ $
 	i
 
 # File marks:
-'0  30  0  ~/public_html/ajax/prospective_members.php
-'1  99  0  ~/public_html/content/members.php
-'2  41  5  ~/public_html/content/my_non_member_profile.php
-'3  42  0  ~/public_html/ajax/current_members.php
-'4  1  0  ~/public_html/ajax/prospective_members.php
-'5  1  0  ~/.Xauthority
-'6  157  0  ~/public_html/index.php
-'7  1  0  ~/public_html/index.php
-'8  5  0  ~/public_html/_jaketest/index.php
-'9  7  0  ~/public_html/images
+'0  1  0  ~/public_html/content/members.php
+'1  96  0  ~/public_html/_READ_ME.txt
+'2  30  0  ~/public_html/ajax/prospective_members.php
+'3  99  0  ~/public_html/content/members.php
+'4  41  5  ~/public_html/content/my_non_member_profile.php
+'5  42  0  ~/public_html/ajax/current_members.php
+'6  1  0  ~/public_html/ajax/prospective_members.php
+'7  1  0  ~/.Xauthority
+'8  157  0  ~/public_html/index.php
+'9  1  0  ~/public_html/index.php
 
 # Jumplist (newest first):
+-'  1  0  ~/public_html/content/members.php
+-'  96  0  ~/public_html/_READ_ME.txt
+-'  1  0  ~/public_html/_READ_ME.txt
 -'  30  0  ~/public_html/ajax/prospective_members.php
 -'  1  0  ~/public_html/ajax/prospective_members.php
 -'  99  0  ~/public_html/content/members.php
--'  1  0  ~/public_html/content/members.php
 -'  41  5  ~/public_html/content/my_non_member_profile.php
 -'  1  0  ~/public_html/content/my_non_member_profile.php
 -'  42  0  ~/public_html/ajax/current_members.php
@@ -253,22 +255,35 @@ $
 -'  1  0  ~/public_html/hchheda/style.css
 -'  24  0  ~/public_html/hchheda/style.css
 -'  5  0  ~/public_html/hchheda/index.php
--'  48  55  ~/public_html/admin/editwiki.php
--'  35  1  ~/public_html/admin/editwiki.php
 
 # History of marks within files (newest to oldest):
+
+> ~/public_html/includes/config.php
+	"	49	0
+
+> ~/public_html/tools/dbConnect.php
+	"	15	1
+
+> ~/public_html/init.php
+	"	42	0
+
+> ~/public_html/config
+	"	1	0
+
+> ~/public_html/ajax/current_members.php
+	"	1	0
+
+> ~/public_html/content/members.php
+	"	44	0
+
+> ~/public_html/_READ_ME.txt
+	"	96	0
 
 > ~/public_html/ajax/prospective_members.php
 	"	30	0
 
-> ~/public_html/content/members.php
-	"	99	0
-
 > ~/public_html/content/my_non_member_profile.php
 	"	41	5
-
-> ~/public_html/ajax/current_members.php
-	"	42	0
 
 > ~/.Xauthority
 	"	1	0
@@ -370,37 +385,3 @@ $
 > ~/public_html/admin/t.txt
 	"	77	4
 	^	77	5
-
-> ~/public_html/admin/t
-	"	1	0
-
-> ~/public_html/admin/statHelper.php
-	"	35	0
-
-> ~/public_html/admin/viewvotes.php
-	"	55	0
-	^	55	84
-	.	55	0
-	+	80	16
-	+	70	0
-	+	55	1
-	+	80	17
-	+	79	15
-	+	55	83
-	+	55	0
-
-> ~/public_html/members/viewpoll.php
-	"	90	3
-
-> ~/public_html/contact.php
-	"	45	47
-	^	45	48
-	.	45	47
-	+	9	29
-	+	15	31
-	+	21	52
-	+	39	33
-	+	45	49
-	+	55	0
-	+	10	7
-	+	45	47

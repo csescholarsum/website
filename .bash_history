@@ -795,3 +795,72 @@ cd public_html/
 ls
 git branch
 exit
+git status
+git add .
+git commit -a -m "lots of resumes added"
+git checkout temp
+git checkout master
+ls
+ls -al
+cd public_html/
+ls
+vim _READ_ME.txt 
+cd connections/
+ls
+cd ..
+ls
+cd _dataTables/
+ls
+cd ..
+ls
+cd content/
+ls
+cd ..
+cd content
+vim members.php &
+ls
+vim members.php
+cd ..
+ls
+cd ajax
+ls
+vim current_members.php 
+cd ..
+ls
+cd tools
+ls
+vim dbConnect.php 
+cd ../config
+cd ..
+ls
+vim config
+ls
+git status
+vim init.php
+cd tools
+ls
+vim dbConnect.php 
+cd ..
+ls
+cd ..
+ls
+cd public_html/
+ls
+cd ap_scholars_website
+cd apscholars_website/
+ls
+cd website/
+ls
+cd ../design
+ls
+cd ../assests
+cd ../assets
+ls
+cd ../..
+ls
+cd includes
+ls
+vim config.php
+ls
+exit
+logout
