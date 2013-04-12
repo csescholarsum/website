@@ -864,3 +864,28 @@ vim config.php
 ls
 exit
 logout
+ls
+cd public_html/
+ls
+cd ..
+git status
+git branch
+git branch -d temp
+git checkout -b temp
+git branch
+git pull
+checkout master
+git checkout master
+git commit -a -m "Storing history, viminfo for update"
+git checkout temp
+git pull
+git checkout master
+git branch -d temp
+ls
+exit
+ls
+phpinfo() ;
+phpinfo() ;
+man phpinfo
+php -m
+exit
