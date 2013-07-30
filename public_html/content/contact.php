@@ -81,7 +81,7 @@
             <div class="description"></div>	
 	</div>
     <div class="officer">
-			<div class="position">Secretary </div>
+			<div class="position">Secretary/Treasurer</div>
 			<div class="name">Ting Chen</div>					
 			<div class="email">
         <a href="mailto:cseschol-secretary@umich.edu">cseschol-secretary@umich.edu</a>
@@ -89,8 +89,8 @@
             <div class="description"></div>	
 	</div>
     <div class="officer">
-			<div class="position">Corporate Relations</div>
-			<div class="name">Jill Bender</div>					
+			<div class="position">Corporate Relations Chair</div>
+			<div class="name">Jaya Joseph</div>					
 			<div class="email">
         <a href="mailto:cseschol-corporaterelations@umich.edu">cseschol-corporaterelations@umich.edu</a>
       </div>	
@@ -98,7 +98,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Social Chair</div>
-			<div class="name">Jaya Joseph</div>					
+			<div class="name">Andrew Trumbo</div>					
 			<div class="email">
         <a href="mailto:cseschol-social@umich.edu">cseschol-social@umich.edu</a>
       </div>	
@@ -106,7 +106,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Community Service Chair</div>
-			<div class="name">John Stickney</div>					
+			<div class="name">Matt Stafford</div>					
 			<div class="email">
         <a href="mailto:cseschol-communityservice@umich.edu">cseschol-communityservice@umich.edu</a>
       </div>	
@@ -122,19 +122,19 @@
 	</div>
 
   <div class="officer">
-    <div class="position">Social Media Chair</div>
+    <div class="position">Marketing Chair</div>
     <div class="name">Alex Stephen</div>
     <div class="email">
-      <a href="mailto:cseschol-socialmedia@umich.edu">cseschol-socialmedia@umich.edu</a>
+      <a href="mailto:cseschol-marketing@umich.edu">cseschol-marketing@umich.edu</a>
     </div>
     <div class="description"></div>
   </div>
 
   <div class="officer">
-    <div class="position">AP Computer Science Chair</div>
+    <div class="position">Public Education Chair</div>
     <div class="name">Patrick Korth</div>
     <div class="email">
-      <a href="mailto:cseschol-apcompsci@umich.edu">cseschol-apcompsci@umich.edu</a>
+      <a href="mailto:cseschol-publiceducation@umich.edu">cseschol-publiceducation@umich.edu</a>
     </div>
     <div class="description"></div>
   </div>

@@ -31,7 +31,15 @@ if (!isset($_SESSION['path'])) {
 		$rcpath = $_SERVER['DOCUMENT_ROOT'] . "cse_scholars_test/public_html/";
 		$_SESSION['base_url'] = "http://localhost/cse_scholars_test/public_html/";
 	}
-
+	else if ( file_exists($_SERVER['DOCUMENT_ROOT'] . "/cseschol/public_html/index.php")) {
+	
+		$rcpath = $_SERVER['DOCUMENT_ROOT'] . "cseschol/public_html/";
+		$_SESSION['base_url'] = "http://localhost/cseschol/public_html/";	
+	}
+	//Add your localhost here if you are getting a null rcpath
+	//var_dump your document root, then complete the path to your index.php
+	//set the base url as what you see in your test browsing window on the home page	
+	
 	$_SESSION['path'] = $rcpath;
 }
 
