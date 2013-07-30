@@ -889,3 +889,8 @@ phpinfo() ;
 man phpinfo
 php -m
 exit
+git branch
+git checkout BackupW13
+git commit -a -m "bash_history"
+git checkout BackupW13
+git checkout master
