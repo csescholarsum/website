@@ -26,7 +26,7 @@
 		<p>
 			Students who are interested in computer science or computer engineering can join CSE Scholars at any time. Please check out our calendar for the next scheduled meeting time.
 			<br /><br />
-			To become an official member of the CSE Scholars and get in our resume book, students are required to attend at least 3 meetings/social events, 6 hours of community service, and the election meeting at the end of the semester.
+			To become an official member of the CSE Scholars and get in our resume book, students are required to attend at least 4 meetings/social events, 5 hours of community service, and the election meeting at the end of the semester.
 			<br /><br />
 			Active members must complete these requirements if they wish to stay active members in the following semester.
 		</p>
