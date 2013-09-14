@@ -1,10 +1,33 @@
+###########
+##Backups
+###########
+
+*.tgz
+DBBackup
+old_resumes/
+resumes/
+
+#########
+##Vim
+#########
+
+.vim/
+
+##########
+##Bash
+##########
+
+.bash_history
+.cshrc
+.login
+.Xauthority
+
 #######
-#bash
+##IFS
 #######
 
-.history
-.viminfo
-.Xauthority
+IFS\ Folder.lnk
+My\ IFS\ Space.lnk
 
 #################
 ## Eclipse
