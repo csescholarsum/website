@@ -1,3 +1,11 @@
+#######
+#bash
+#######
+
+.history
+.viminfo
+.Xauthority
+
 #################
 ## Eclipse
 #################
