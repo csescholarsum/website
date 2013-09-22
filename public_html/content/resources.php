@@ -19,6 +19,11 @@
 </p>
 
 <p>
+	Brightmoor Signup Form for Fall 2013:
+	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/forms/d/1-b5oJYfwhisvecd8jxC198-zBp1N_8ftmDv4F-i6wTw/viewform">Google Form</a><br />
+</p>
+
+<p>
   Resume Tips from Glenn Galler at IBM (Novemeber 18th):<br />
   &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="resources/IBM/Univ%20of%20Michigan%20CS%20Recruiting%20Advice%20Nov%202010.pdf">Resume Tips</a><br />
 </p>
