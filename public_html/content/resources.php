@@ -14,6 +14,11 @@
 </p>
 
 <p>
+	Intel's Resume and Career Fair Tips:<br />
+	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="resources/Intel/intel_slides.pptx">Resume & Career Fair Tips Fall 2013</a><br />
+</p>
+
+<p>
   Resume Tips from Glenn Galler at IBM (Novemeber 18th):<br />
   &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="resources/IBM/Univ%20of%20Michigan%20CS%20Recruiting%20Advice%20Nov%202010.pdf">Resume Tips</a><br />
 </p>
