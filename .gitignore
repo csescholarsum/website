@@ -1,11 +1,12 @@
-###########
-##Backups
-###########
+###################
+##Backups/Resources
+###################
 
 *.tgz
 DBBackup
 old_resumes/
 resumes/
+public_html/resources/
 
 #########
 ##Vim
