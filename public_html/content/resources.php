@@ -19,7 +19,7 @@
 </p>
 
 <p>
-	Brightmoor Signup Form for Fall 2013:
+	Brightmoor Signup Form for Fall 2013:<br />
 	&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://docs.google.com/forms/d/1-b5oJYfwhisvecd8jxC198-zBp1N_8ftmDv4F-i6wTw/viewform">Google Form</a><br />
 </p>
 
