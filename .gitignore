@@ -13,6 +13,7 @@ public_html/resources/
 #########
 
 .vim/
+.viminfo
 
 ##########
 ##Bash
