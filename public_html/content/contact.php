@@ -66,7 +66,7 @@
 <div id="officers_table">
 	<div class="officer">
 			<div class="position">President</div>
-			<div class="name">Jeff Sallans</div>					
+			<div class="name">Patrick Korth</div>					
 			<div class="email">
         <a href="mailto:cseschol-pres@umich.edu">cseschol-pres@umich.edu</a>  
       </div>	
