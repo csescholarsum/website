@@ -74,7 +74,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Vice President</div>
-			<div class="name">Matt Ripari</div>					
+			<div class="name">Jaya Joseph</div>					
 			<div class="email">
         <a href="mailto:cseschol-vicepres@umich.edu">cseschol-vicepres@umich.edu</a>
       </div>	
@@ -82,7 +82,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Secretary/Treasurer</div>
-			<div class="name">Ting Chen</div>					
+			<div class="name">Olivia Nordquist</div>					
 			<div class="email">
         <a href="mailto:cseschol-secretary@umich.edu">cseschol-secretary@umich.edu</a>
       </div>	
@@ -90,7 +90,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Corporate Relations Chair</div>
-			<div class="name">Jaya Joseph</div>					
+			<div class="name">Alex Stephen</div>					
 			<div class="email">
         <a href="mailto:cseschol-corporaterelations@umich.edu">cseschol-corporaterelations@umich.edu</a>
       </div>	
@@ -98,7 +98,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Social Chair</div>
-			<div class="name">Andrew Trumbo</div>					
+			<div class="name">Preeti Mohan</div>					
 			<div class="email">
         <a href="mailto:cseschol-social@umich.edu">cseschol-social@umich.edu</a>
       </div>	
@@ -106,7 +106,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Community Service Chair</div>
-			<div class="name">Matt Stafford</div>					
+			<div class="name">Alison Christiansen</div>					
 			<div class="email">
         <a href="mailto:cseschol-communityservice@umich.edu">cseschol-communityservice@umich.edu</a>
       </div>	
@@ -114,7 +114,7 @@
 	</div>
     <div class="officer">
 			<div class="position">Webmaster</div>
-			<div class="name">Ben Magee</div>					
+			<div class="name">Kris McAtee</div>					
 			<div class="email">
         <a href="mailto:cseschol-webdesign@umich.edu">cseschol-webdesign@umich.edu</a>
       </div>	
@@ -123,7 +123,7 @@
 
   <div class="officer">
     <div class="position">Marketing Chair</div>
-    <div class="name">Alex Stephen</div>
+    <div class="name">Addison Parker</div>
     <div class="email">
       <a href="mailto:cseschol-marketing@umich.edu">cseschol-marketing@umich.edu</a>
     </div>
@@ -132,7 +132,7 @@
 
   <div class="officer">
     <div class="position">Public Education Chair</div>
-    <div class="name">Patrick Korth</div>
+    <div class="name">Yossef Rosenstein</div>
     <div class="email">
       <a href="mailto:cseschol-publiceducation@umich.edu">cseschol-publiceducation@umich.edu</a>
     </div>
