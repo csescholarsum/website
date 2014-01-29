@@ -17,7 +17,7 @@
 				Recruiters
 			</h3>
 			<p>
-				<a href='index.php?slide_page=members'>Click here</a> to view our resume book.  All of our resumes as one pdf document.  Just provide an email contact.
+				<a href='resume_book/cseresumesw14.pdf'>Click here</a> to view our resume book.  All of our resumes as one pdf document.  Just provide an email contact.
 			</p>
 		</div>
 		<div class='shell'>
