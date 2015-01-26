@@ -10,12 +10,13 @@ PURPOSE: website main page
 //$_SESSION['USER_UNIQ'] = "jsallans";
 //$_SESSION['type'] = "Admin";
 
+header("Location: https://www.facebook.com/pages/CSE-Scholars/238284829559154");
+exit;
 
 	include('init.php');
 
 ?>
 <head>
-
 	<script>
 
 		//jQuery script to run on DOM load
