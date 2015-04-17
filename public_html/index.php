@@ -9,7 +9,9 @@ PURPOSE: website main page
 //Uncomment to test login on localhost
 //$_SESSION['USER_UNIQ'] = "jsallans";
 //$_SESSION['type'] = "Admin";
+ header("Location: https://www.facebook.com/pages/CSE-Scholars/238284829559154?ref=eyJzaWQiOiIwLjE0NjQ1NDIxOTI0MDY5NTI0IiwicXMiOiJKVFZDSlRJeVExTkZKVEl3VTJOb2IyeGhjbk1sTWpJbE5VUSIsImd2IjoiOTRhZDBhNTUxNmQ3YThkN2E4YWVmYjJmODNhYWYyZThlNDI0YjI1NiJ9 ");
 
+ exit;
 
 	include('init.php');
 
