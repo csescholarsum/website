@@ -1,0 +1,29 @@
+.navbar-default{
+    background-color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #13AEFF;
+    font-weight: bold;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: none;
+    padding-top: 15px;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-default:hover{
+    background-color: #2ECC40;
+}
+
