@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Protected Area"
-AuthUserFile /net/www/u/c/cseschol/public_html/phpmyadmin/.htpasswd
-Require valid-user
