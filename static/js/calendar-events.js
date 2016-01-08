@@ -6,7 +6,7 @@ var update_calendar = function() {
   var month = d.getUTCMonth() + 1;
   var day = d.getUTCDate();
   var dateString = year + "-" + month+"-"+day+"T0:00:00Z";
-  var cal_URL = "https://www.googleapis.com/calendar/v3/calendars/csescholarsum@gmail.com/events?maxResults=15&timeMin="+dateString+"&key=AIzaSyAMdAKe1QdTiRUpW8oLZAfkLTGzz3NhUfM";
+  var cal_URL = "https://www.googleapis.com/calendar/v3/calendars/csescholarsum@gmail.com/events?orderBy=startTime&singleEvents=true&maxResults=15&timeMin="+dateString+"&key=AIzaSyAMdAKe1QdTiRUpW8oLZAfkLTGzz3NhUfM";
 
   console.log(cal_URL);
 
