@@ -10,7 +10,7 @@ CREATE TABLE WINTER_2016(
 INSERT INTO WINTER_2016 (uniqname, bitpoints)
 VALUES
 	('asripu',1),
-  ('mechinzou',1),
+  	('mechinzou',1),
 	('junwong',1),
 	('achiwha',3),
 	('ydtak',3),
@@ -33,7 +33,7 @@ VALUES
 	('yijunhou',1),
 	('sbdesai',2),
 	('joncv',2),
-	('rositawo',)1,
+	('rositawo',1),
 	('junhuai',2),
 	('aafonso',1),
 	('parthms',1),
@@ -132,4 +132,4 @@ VALUES
 	('smacpher',1),
 	('minht',1),
  	('sevencxy',1)
-)
+;
