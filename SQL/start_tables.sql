@@ -7,7 +7,7 @@ CREATE TABLE WINTER_2016(
 	PRIMARY KEY(uniqname)
 );
 
-INSERT INTO WINTER_2016 ()
+INSERT INTO WINTER_2016 (uniqname, bitpoints)
 VALUES (
 	'asripu',1,
 	'mechinzou',1,
