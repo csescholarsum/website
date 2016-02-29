@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<section id="calendar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Calendar</h2>
+                <hr class="light">
+                <div id="cal">
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our calendar Javascript -->
+<script src="static/js/calendar-events.js"></script>
+
+{% endblock %}

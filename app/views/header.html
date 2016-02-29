@@ -1,0 +1,51 @@
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="../" class="navbar-brand"> CSE SCHOLARS [LOGO] </a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+      <ul class="nav navbar-nav">
+        <li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+
+        {% if page == 'home' %}
+        <li class="active" ><a href="/" >Home</a></li>
+        {% else %}
+        <li><a href="/" >Home</a></li>
+        {% endif %}
+
+        {% if page == 'cal' %}
+        <li class="active" ><a href="/calendar" >Calendar</a></li>
+        {% else %}
+        <li><a href="/calendar" >Calendar</a></li>
+        {% endif %}
+
+        {% if page == 'tut' %}
+        <li class="active" ><a href="/tutoring" >Tutoring</a></li>
+        {% else %}
+        <li><a href="/tutoring" >Tutoring</a></li>
+        {% endif %}
+
+        {% if page == 'proj' %}
+        <li class="active" ><a href="/projects" >Projects</a></li>
+        {% else %}
+        <li><a href="/projects" >Projects</a></li>
+        {% endif %}
+
+        {% if page == 'mem' %}
+        <li class="active" ><a href="/members" >Members</a></li>
+        {% else %}
+        <li><a href="/members" >Members</a></li>
+        {% endif %}
+      </ul>
+
+    </div>
+  </div>
+</div>
